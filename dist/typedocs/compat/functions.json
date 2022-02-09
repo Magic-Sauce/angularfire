@@ -1,0 +1,969 @@
+{
+	"id": 0,
+	"name": "undefined",
+	"kind": 0,
+	"flags": {},
+	"originalName": "",
+	"children": [
+		{
+			"id": 1,
+			"name": "\"base\"",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/Users/nicholasgerard/Documents/GitHub/angularfire/src/compat/functions/base.ts",
+			"children": [
+				{
+					"id": 2,
+					"name": "proxyPolyfillCompat",
+					"kind": 2097152,
+					"kindString": "Object literal",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"children": [
+						{
+							"id": 5,
+							"name": "httpsCallable",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "base.ts",
+									"line": 6,
+									"character": 15
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "null"
+							},
+							"defaultValue": "null"
+						},
+						{
+							"id": 3,
+							"name": "useEmulator",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "base.ts",
+									"line": 4,
+									"character": 13
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "null"
+							},
+							"defaultValue": "null"
+						},
+						{
+							"id": 4,
+							"name": "useFunctionsEmulator",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "base.ts",
+									"line": 5,
+									"character": 22
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "null"
+							},
+							"defaultValue": "null"
+						}
+					],
+					"groups": [
+						{
+							"title": "Variables",
+							"kind": 32,
+							"children": [
+								5,
+								3,
+								4
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "base.ts",
+							"line": 3,
+							"character": 32
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "object"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Object literals",
+					"kind": 2097152,
+					"children": [
+						2
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "base.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 6,
+			"name": "\"functions\"",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/Users/nicholasgerard/Documents/GitHub/angularfire/src/compat/functions/functions.ts",
+			"children": [
+				{
+					"id": 7,
+					"name": "AngularFireFunctions",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {
+						"isExported": true
+					},
+					"decorators": [
+						{
+							"name": "Injectable",
+							"type": {
+								"type": "reference",
+								"name": "Injectable"
+							},
+							"arguments": {
+								"options": "{\n  providedIn: 'any'\n}"
+							}
+						}
+					],
+					"children": [
+						{
+							"id": 19,
+							"name": "constructor",
+							"kind": 512,
+							"kindString": "Constructor",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 20,
+									"name": "new AngularFireFunctions",
+									"kind": 16384,
+									"kindString": "Constructor signature",
+									"flags": {
+										"isExported": true
+									},
+									"parameters": [
+										{
+											"id": 21,
+											"name": "options",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"decorators": [
+												{
+													"name": "Inject",
+													"type": {
+														"type": "reference",
+														"name": "Inject"
+													},
+													"arguments": {
+														"token": "FIREBASE_OPTIONS"
+													}
+												}
+											],
+											"type": {
+												"type": "reference",
+												"name": "FirebaseOptions"
+											}
+										},
+										{
+											"id": 22,
+											"name": "name",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"decorators": [
+												{
+													"name": "Optional",
+													"type": {
+														"type": "reference",
+														"name": "Optional"
+													},
+													"arguments": {}
+												},
+												{
+													"name": "Inject",
+													"type": {
+														"type": "reference",
+														"name": "Inject"
+													},
+													"arguments": {
+														"token": "FIREBASE_APP_NAME"
+													}
+												}
+											],
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "string"
+													},
+													{
+														"type": "intrinsic",
+														"name": "null"
+													},
+													{
+														"type": "intrinsic",
+														"name": "undefined"
+													}
+												]
+											}
+										},
+										{
+											"id": 23,
+											"name": "zone",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "NgZone"
+											}
+										},
+										{
+											"id": 24,
+											"name": "schedulers",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "ɵAngularFireSchedulers"
+											}
+										},
+										{
+											"id": 25,
+											"name": "region",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"decorators": [
+												{
+													"name": "Optional",
+													"type": {
+														"type": "reference",
+														"name": "Optional"
+													},
+													"arguments": {}
+												},
+												{
+													"name": "Inject",
+													"type": {
+														"type": "reference",
+														"name": "Inject"
+													},
+													"arguments": {
+														"token": "REGION"
+													}
+												}
+											],
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "string"
+													},
+													{
+														"type": "intrinsic",
+														"name": "null"
+													}
+												]
+											}
+										},
+										{
+											"id": 26,
+											"name": "origin",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"decorators": [
+												{
+													"name": "Optional",
+													"type": {
+														"type": "reference",
+														"name": "Optional"
+													},
+													"arguments": {}
+												},
+												{
+													"name": "Inject",
+													"type": {
+														"type": "reference",
+														"name": "Inject"
+													},
+													"arguments": {
+														"token": "ORIGIN"
+													}
+												}
+											],
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "string"
+													},
+													{
+														"type": "intrinsic",
+														"name": "null"
+													}
+												]
+											}
+										},
+										{
+											"id": 27,
+											"name": "_useEmulator",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"decorators": [
+												{
+													"name": "Optional",
+													"type": {
+														"type": "reference",
+														"name": "Optional"
+													},
+													"arguments": {}
+												},
+												{
+													"name": "Inject",
+													"type": {
+														"type": "reference",
+														"name": "Inject"
+													},
+													"arguments": {
+														"token": "USE_EMULATOR"
+													}
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										},
+										{
+											"id": 28,
+											"name": "_appCheckInstances",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"decorators": [
+												{
+													"name": "Optional",
+													"type": {
+														"type": "reference",
+														"name": "Optional"
+													},
+													"arguments": {}
+												}
+											],
+											"type": {
+												"type": "reference",
+												"name": "AppCheckInstances"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"id": 7,
+										"name": "AngularFireFunctions"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "functions.ts",
+									"line": 28,
+									"character": 128
+								}
+							]
+						},
+						{
+							"id": 9,
+							"name": "httpsCallable",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isPublic": true,
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "functions.ts",
+									"line": 28,
+									"character": 31
+								}
+							],
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 10,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {
+										"isExported": true
+									},
+									"signatures": [
+										{
+											"id": 11,
+											"name": "__call",
+											"kind": 4096,
+											"kindString": "Call signature",
+											"flags": {
+												"isExported": true
+											},
+											"typeParameter": [
+												{
+													"id": 12,
+													"name": "T",
+													"kind": 131072,
+													"kindString": "Type parameter",
+													"flags": {
+														"isExported": true
+													}
+												},
+												{
+													"id": 13,
+													"name": "R",
+													"kind": 131072,
+													"kindString": "Type parameter",
+													"flags": {
+														"isExported": true
+													}
+												}
+											],
+											"parameters": [
+												{
+													"id": 14,
+													"name": "name",
+													"kind": 32768,
+													"kindString": "Parameter",
+													"flags": {
+														"isExported": true
+													},
+													"type": {
+														"type": "intrinsic",
+														"name": "string"
+													}
+												},
+												{
+													"id": 15,
+													"name": "options",
+													"kind": 32768,
+													"kindString": "Parameter",
+													"flags": {
+														"isExported": true,
+														"isOptional": true
+													},
+													"type": {
+														"type": "reference",
+														"name": "HttpsCallableOptions"
+													}
+												}
+											],
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 16,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"signatures": [
+														{
+															"id": 17,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"isExported": true
+															},
+															"parameters": [
+																{
+																	"id": 18,
+																	"name": "data",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "typeParameter",
+																		"name": "T"
+																	}
+																}
+															],
+															"type": {
+																"type": "reference",
+																"typeArguments": [
+																	{
+																		"type": "typeParameter",
+																		"name": "R"
+																	}
+																],
+																"name": "Observable"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "functions.ts",
+															"line": 28,
+															"character": 100
+														}
+													]
+												}
+											}
+										}
+									],
+									"sources": [
+										{
+											"fileName": "functions.ts",
+											"line": 28,
+											"character": 32
+										}
+									]
+								}
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"kind": 512,
+							"children": [
+								19
+							]
+						},
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								9
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "functions.ts",
+							"line": 20,
+							"character": 37
+						},
+						{
+							"fileName": "functions.ts",
+							"line": 26,
+							"character": 33
+						}
+					],
+					"extendedTypes": [
+						{
+							"type": "reflection",
+							"declaration": {
+								"id": 8,
+								"name": "__type",
+								"kind": 65536,
+								"kindString": "Type literal",
+								"flags": {
+									"isExported": true
+								},
+								"sources": [
+									{
+										"fileName": "functions.ts",
+										"line": 20,
+										"character": 45
+									}
+								]
+							}
+						}
+					]
+				},
+				{
+					"id": 29,
+					"name": "ORIGIN",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "functions.ts",
+							"line": 13,
+							"character": 19
+						}
+					],
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "string"
+							}
+						],
+						"name": "InjectionToken"
+					},
+					"defaultValue": "new InjectionToken<string>('angularfire2.functions.origin')"
+				},
+				{
+					"id": 30,
+					"name": "REGION",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "functions.ts",
+							"line": 14,
+							"character": 19
+						}
+					],
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "string"
+							}
+						],
+						"name": "InjectionToken"
+					},
+					"defaultValue": "new InjectionToken<string>('angularfire2.functions.region')"
+				},
+				{
+					"id": 31,
+					"name": "USE_EMULATOR",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "functions.ts",
+							"line": 17,
+							"character": 25
+						}
+					],
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "tuple",
+								"elements": [
+									{
+										"type": "intrinsic",
+										"name": "string"
+									},
+									{
+										"type": "intrinsic",
+										"name": "number"
+									}
+								]
+							}
+						],
+						"name": "InjectionToken"
+					},
+					"defaultValue": "new InjectionToken<UseEmulatorArguments>('angularfire2.functions.use-emulator')"
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"kind": 128,
+					"children": [
+						7
+					]
+				},
+				{
+					"title": "Variables",
+					"kind": 32,
+					"children": [
+						29,
+						30,
+						31
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "functions.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 32,
+			"name": "\"functions.module\"",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/Users/nicholasgerard/Documents/GitHub/angularfire/src/compat/functions/functions.module.ts",
+			"children": [
+				{
+					"id": 33,
+					"name": "AngularFireFunctionsModule",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {
+						"isExported": true
+					},
+					"decorators": [
+						{
+							"name": "NgModule",
+							"type": {
+								"type": "reference",
+								"name": "NgModule"
+							},
+							"arguments": {
+								"obj": "{\n  providers: [ AngularFireFunctions ]\n}"
+							}
+						}
+					],
+					"children": [
+						{
+							"id": 34,
+							"name": "constructor",
+							"kind": 512,
+							"kindString": "Constructor",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 35,
+									"name": "new AngularFireFunctionsModule",
+									"kind": 16384,
+									"kindString": "Constructor signature",
+									"flags": {
+										"isExported": true
+									},
+									"type": {
+										"type": "reference",
+										"id": 33,
+										"name": "AngularFireFunctionsModule"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "functions.module.ts",
+									"line": 9,
+									"character": 41
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"kind": 512,
+							"children": [
+								34
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "functions.module.ts",
+							"line": 9,
+							"character": 39
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"kind": 128,
+					"children": [
+						33
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "functions.module.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 36,
+			"name": "\"functions.spec\"",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/Users/nicholasgerard/Documents/GitHub/angularfire/src/compat/functions/functions.spec.ts",
+			"sources": [
+				{
+					"fileName": "functions.spec.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 37,
+			"name": "\"public_api\"",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/Users/nicholasgerard/Documents/GitHub/angularfire/src/compat/functions/public_api.ts",
+			"children": [
+				{
+					"id": 41,
+					"name": "AngularFireFunctions",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 7
+				},
+				{
+					"id": 42,
+					"name": "AngularFireFunctionsModule",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 33
+				},
+				{
+					"id": 38,
+					"name": "ORIGIN",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 29
+				},
+				{
+					"id": 39,
+					"name": "REGION",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 30
+				},
+				{
+					"id": 40,
+					"name": "USE_EMULATOR",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 31
+				}
+			],
+			"groups": [
+				{
+					"title": "References",
+					"kind": 16777216,
+					"children": [
+						41,
+						42,
+						38,
+						39,
+						40
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "public_api.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		}
+	],
+	"groups": [
+		{
+			"title": "External modules",
+			"kind": 1,
+			"children": [
+				1,
+				6,
+				32,
+				36,
+				37
+			]
+		}
+	]
+}

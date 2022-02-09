@@ -1,0 +1,6617 @@
+{
+	"id": 0,
+	"name": "undefined",
+	"kind": 0,
+	"flags": {},
+	"originalName": "",
+	"children": [
+		{
+			"id": 1,
+			"name": "\"firebase\"",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/Users/nicholasgerard/Documents/GitHub/angularfire/src/firestore/lite/firebase.ts",
+			"children": [
+				{
+					"id": 2,
+					"name": "addDoc",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/firestore/lite/firebase.ts",
+							"line": 41,
+							"character": 19
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "ɵzoneWrap(_addDoc, true)"
+				},
+				{
+					"id": 3,
+					"name": "arrayRemove",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/firestore/lite/firebase.ts",
+							"line": 42,
+							"character": 24
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "ɵzoneWrap(_arrayRemove, true)"
+				},
+				{
+					"id": 4,
+					"name": "arrayUnion",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/firestore/lite/firebase.ts",
+							"line": 43,
+							"character": 23
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "ɵzoneWrap(_arrayUnion, true)"
+				},
+				{
+					"id": 5,
+					"name": "collection",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/firestore/lite/firebase.ts",
+							"line": 44,
+							"character": 23
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "ɵzoneWrap(_collection, true)"
+				},
+				{
+					"id": 6,
+					"name": "collectionGroup",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/firestore/lite/firebase.ts",
+							"line": 45,
+							"character": 28
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "ɵzoneWrap(_collectionGroup, true)"
+				},
+				{
+					"id": 7,
+					"name": "connectFirestoreEmulator",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/firestore/lite/firebase.ts",
+							"line": 46,
+							"character": 37
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "ɵzoneWrap(_connectFirestoreEmulator, true)"
+				},
+				{
+					"id": 8,
+					"name": "deleteDoc",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/firestore/lite/firebase.ts",
+							"line": 47,
+							"character": 22
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "ɵzoneWrap(_deleteDoc, true)"
+				},
+				{
+					"id": 9,
+					"name": "deleteField",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/firestore/lite/firebase.ts",
+							"line": 48,
+							"character": 24
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "ɵzoneWrap(_deleteField, true)"
+				},
+				{
+					"id": 10,
+					"name": "doc",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/firestore/lite/firebase.ts",
+							"line": 49,
+							"character": 16
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "ɵzoneWrap(_doc, true)"
+				},
+				{
+					"id": 11,
+					"name": "documentId",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/firestore/lite/firebase.ts",
+							"line": 50,
+							"character": 23
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "ɵzoneWrap(_documentId, true)"
+				},
+				{
+					"id": 12,
+					"name": "endAt",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/firestore/lite/firebase.ts",
+							"line": 51,
+							"character": 18
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "ɵzoneWrap(_endAt, true)"
+				},
+				{
+					"id": 13,
+					"name": "endBefore",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/firestore/lite/firebase.ts",
+							"line": 52,
+							"character": 22
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "ɵzoneWrap(_endBefore, true)"
+				},
+				{
+					"id": 14,
+					"name": "getDoc",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/firestore/lite/firebase.ts",
+							"line": 53,
+							"character": 19
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "ɵzoneWrap(_getDoc, true)"
+				},
+				{
+					"id": 15,
+					"name": "getDocs",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/firestore/lite/firebase.ts",
+							"line": 54,
+							"character": 20
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "ɵzoneWrap(_getDocs, true)"
+				},
+				{
+					"id": 16,
+					"name": "getFirestore",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/firestore/lite/firebase.ts",
+							"line": 55,
+							"character": 25
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "ɵzoneWrap(_getFirestore, true)"
+				},
+				{
+					"id": 17,
+					"name": "increment",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/firestore/lite/firebase.ts",
+							"line": 56,
+							"character": 22
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "ɵzoneWrap(_increment, true)"
+				},
+				{
+					"id": 18,
+					"name": "initializeFirestore",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/firestore/lite/firebase.ts",
+							"line": 57,
+							"character": 32
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "ɵzoneWrap(_initializeFirestore, true)"
+				},
+				{
+					"id": 19,
+					"name": "limit",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/firestore/lite/firebase.ts",
+							"line": 58,
+							"character": 18
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "ɵzoneWrap(_limit, true)"
+				},
+				{
+					"id": 20,
+					"name": "limitToLast",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/firestore/lite/firebase.ts",
+							"line": 59,
+							"character": 24
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "ɵzoneWrap(_limitToLast, true)"
+				},
+				{
+					"id": 21,
+					"name": "orderBy",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/firestore/lite/firebase.ts",
+							"line": 60,
+							"character": 20
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "ɵzoneWrap(_orderBy, true)"
+				},
+				{
+					"id": 22,
+					"name": "query",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/firestore/lite/firebase.ts",
+							"line": 61,
+							"character": 18
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "ɵzoneWrap(_query, true)"
+				},
+				{
+					"id": 23,
+					"name": "queryEqual",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/firestore/lite/firebase.ts",
+							"line": 62,
+							"character": 23
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "ɵzoneWrap(_queryEqual, true)"
+				},
+				{
+					"id": 24,
+					"name": "refEqual",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/firestore/lite/firebase.ts",
+							"line": 63,
+							"character": 21
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "ɵzoneWrap(_refEqual, true)"
+				},
+				{
+					"id": 25,
+					"name": "runTransaction",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/firestore/lite/firebase.ts",
+							"line": 64,
+							"character": 27
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "ɵzoneWrap(_runTransaction, true)"
+				},
+				{
+					"id": 26,
+					"name": "serverTimestamp",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/firestore/lite/firebase.ts",
+							"line": 65,
+							"character": 28
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "ɵzoneWrap(_serverTimestamp, true)"
+				},
+				{
+					"id": 27,
+					"name": "setDoc",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/firestore/lite/firebase.ts",
+							"line": 66,
+							"character": 19
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "ɵzoneWrap(_setDoc, true)"
+				},
+				{
+					"id": 28,
+					"name": "setLogLevel",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/firestore/lite/firebase.ts",
+							"line": 67,
+							"character": 24
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "ɵzoneWrap(_setLogLevel, true)"
+				},
+				{
+					"id": 29,
+					"name": "snapshotEqual",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/firestore/lite/firebase.ts",
+							"line": 68,
+							"character": 26
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "ɵzoneWrap(_snapshotEqual, true)"
+				},
+				{
+					"id": 30,
+					"name": "startAfter",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/firestore/lite/firebase.ts",
+							"line": 69,
+							"character": 23
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "ɵzoneWrap(_startAfter, true)"
+				},
+				{
+					"id": 31,
+					"name": "startAt",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/firestore/lite/firebase.ts",
+							"line": 70,
+							"character": 20
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "ɵzoneWrap(_startAt, true)"
+				},
+				{
+					"id": 32,
+					"name": "terminate",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/firestore/lite/firebase.ts",
+							"line": 71,
+							"character": 22
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "ɵzoneWrap(_terminate, true)"
+				},
+				{
+					"id": 33,
+					"name": "updateDoc",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/firestore/lite/firebase.ts",
+							"line": 72,
+							"character": 22
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "ɵzoneWrap(_updateDoc, true)"
+				},
+				{
+					"id": 34,
+					"name": "where",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/firestore/lite/firebase.ts",
+							"line": 73,
+							"character": 18
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "ɵzoneWrap(_where, true)"
+				},
+				{
+					"id": 35,
+					"name": "writeBatch",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/firestore/lite/firebase.ts",
+							"line": 74,
+							"character": 23
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "ɵzoneWrap(_writeBatch, true)"
+				}
+			],
+			"groups": [
+				{
+					"title": "Variables",
+					"kind": 32,
+					"children": [
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "src/firestore/lite/firebase.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 36,
+			"name": "\"lite\"",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/Users/nicholasgerard/Documents/GitHub/angularfire/src/firestore/lite/lite.ts",
+			"children": [
+				{
+					"id": 37,
+					"name": "Firestore",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {
+						"isExported": true
+					},
+					"children": [
+						{
+							"id": 43,
+							"name": "constructor",
+							"kind": 512,
+							"kindString": "Constructor",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 44,
+									"name": "new Firestore",
+									"kind": 16384,
+									"kindString": "Constructor signature",
+									"flags": {
+										"isExported": true
+									},
+									"parameters": [
+										{
+											"id": 45,
+											"name": "firestore",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "FirebaseFirestore"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"id": 37,
+										"name": "Firestore"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "src/firestore/lite/lite.ts",
+									"line": 10,
+									"character": 24
+								}
+							]
+						},
+						{
+							"id": 38,
+							"name": "type",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "Whether it's a Firestore or Firestore Lite instance."
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/@firebase/firestore/dist/lite/index.d.ts",
+									"line": 475,
+									"character": 8
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "stringLiteral",
+										"value": "firestore-lite"
+									},
+									{
+										"type": "stringLiteral",
+										"value": "firestore"
+									}
+								]
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 38,
+								"name": "Firestore.type"
+							}
+						},
+						{
+							"id": 39,
+							"name": "app",
+							"kind": 262144,
+							"kindString": "Accessor",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "The {@link @firebase/app#FirebaseApp} associated with this `Firestore` service\ninstance."
+							},
+							"getSignature": [
+								{
+									"id": 40,
+									"name": "__get",
+									"kind": 524288,
+									"kindString": "Get signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "The {@link @firebase/app#FirebaseApp} associated with this `Firestore` service\ninstance."
+									},
+									"type": {
+										"type": "reference",
+										"name": "FirebaseApp"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 39,
+										"name": "Firestore.app"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/@firebase/firestore/dist/lite/index.d.ts",
+									"line": 481,
+									"character": 11
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 39,
+								"name": "Firestore.app"
+							}
+						},
+						{
+							"id": 41,
+							"name": "toJSON",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 42,
+									"name": "toJSON",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Returns a JSON-serializable representation of this `Firestore` instance."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "object"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 41,
+										"name": "Firestore.toJSON"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/@firebase/firestore/dist/lite/index.d.ts",
+									"line": 483,
+									"character": 10
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 41,
+								"name": "Firestore.toJSON"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"kind": 512,
+							"children": [
+								43
+							]
+						},
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								38
+							]
+						},
+						{
+							"title": "Accessors",
+							"kind": 262144,
+							"children": [
+								39
+							]
+						},
+						{
+							"title": "Methods",
+							"kind": 2048,
+							"children": [
+								41
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "src/firestore/lite/lite.ts",
+							"line": 8,
+							"character": 26
+						},
+						{
+							"fileName": "src/firestore/lite/lite.ts",
+							"line": 10,
+							"character": 22
+						}
+					],
+					"extendedTypes": [
+						{
+							"type": "reference",
+							"name": "Firestore"
+						}
+					]
+				},
+				{
+					"id": 46,
+					"name": "FirestoreInstances",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {
+						"isExported": true
+					},
+					"indexSignature": [
+						{
+							"id": 210,
+							"name": "__index",
+							"kind": 8192,
+							"kindString": "Index signature",
+							"flags": {
+								"isExported": true
+							},
+							"parameters": [
+								{
+									"id": 211,
+									"name": "n",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "FirebaseFirestore"
+							}
+						}
+					],
+					"children": [
+						{
+							"id": 273,
+							"name": "constructor",
+							"kind": 512,
+							"kindString": "Constructor",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 274,
+									"name": "new FirestoreInstances",
+									"kind": 16384,
+									"kindString": "Constructor signature",
+									"flags": {
+										"isExported": true
+									},
+									"type": {
+										"type": "reference",
+										"id": 46,
+										"name": "FirestoreInstances"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "src/firestore/lite/lite.ts",
+									"line": 21,
+									"character": 33
+								}
+							]
+						},
+						{
+							"id": 212,
+							"name": "Array",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1385,
+									"character": 17
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "ArrayConstructor"
+							},
+							"extendedBy": [
+								{
+									"type": "reference",
+									"id": 46,
+									"name": "FirestoreInstances"
+								}
+							]
+						},
+						{
+							"id": 47,
+							"name": "length",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "Gets or sets the length of the array. This is a number one higher than the highest element defined in an array."
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1215,
+									"character": 10
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 47,
+								"name": "Array.length"
+							}
+						},
+						{
+							"id": 251,
+							"name": "[Symbol.iterator]",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 252,
+									"name": "[Symbol.iterator]",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Iterator"
+									},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "FirebaseFirestore"
+											}
+										],
+										"name": "IterableIterator"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 251,
+										"name": "Array.[Symbol.iterator]"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+									"line": 60,
+									"character": 21
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 251,
+								"name": "Array.[Symbol.iterator]"
+							}
+						},
+						{
+							"id": 259,
+							"name": "[Symbol.unscopables]",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 260,
+									"name": "[Symbol.unscopables]",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Returns an object whose properties have the value 'true'\nwhen they will be absent when used in a 'with' statement."
+									},
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 261,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {
+												"isExported": true
+											},
+											"children": [
+												{
+													"id": 262,
+													"name": "copyWithin",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"isExported": true
+													},
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+															"line": 95,
+															"character": 18
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "boolean"
+													}
+												},
+												{
+													"id": 263,
+													"name": "entries",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"isExported": true
+													},
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+															"line": 96,
+															"character": 15
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "boolean"
+													}
+												},
+												{
+													"id": 264,
+													"name": "fill",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"isExported": true
+													},
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+															"line": 97,
+															"character": 12
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "boolean"
+													}
+												},
+												{
+													"id": 265,
+													"name": "find",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"isExported": true
+													},
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+															"line": 98,
+															"character": 12
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "boolean"
+													}
+												},
+												{
+													"id": 266,
+													"name": "findIndex",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"isExported": true
+													},
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+															"line": 99,
+															"character": 17
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "boolean"
+													}
+												},
+												{
+													"id": 267,
+													"name": "keys",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"isExported": true
+													},
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+															"line": 100,
+															"character": 12
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "boolean"
+													}
+												},
+												{
+													"id": 268,
+													"name": "values",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"isExported": true
+													},
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+															"line": 101,
+															"character": 14
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "boolean"
+													}
+												}
+											],
+											"groups": [
+												{
+													"title": "Variables",
+													"kind": 32,
+													"children": [
+														262,
+														263,
+														264,
+														265,
+														266,
+														267,
+														268
+													]
+												}
+											],
+											"sources": [
+												{
+													"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+													"line": 94,
+													"character": 27
+												}
+											]
+										}
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 259,
+										"name": "Array.[Symbol.unscopables]"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+									"line": 94,
+									"character": 24
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 259,
+								"name": "Array.[Symbol.unscopables]"
+							}
+						},
+						{
+							"id": 57,
+							"name": "concat",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 58,
+									"name": "concat",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Combines two or more arrays."
+									},
+									"parameters": [
+										{
+											"id": 59,
+											"name": "items",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isRest": true
+											},
+											"comment": {
+												"text": "Additional items to add to the end of array1.\n"
+											},
+											"type": {
+												"type": "array",
+												"elementType": {
+													"type": "reference",
+													"typeArguments": [
+														{
+															"type": "reference",
+															"name": "FirebaseFirestore"
+														}
+													],
+													"name": "ConcatArray"
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "reference",
+											"name": "FirebaseFirestore"
+										}
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 57,
+										"name": "Array.concat"
+									}
+								},
+								{
+									"id": 60,
+									"name": "concat",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Combines two or more arrays."
+									},
+									"parameters": [
+										{
+											"id": 61,
+											"name": "items",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isRest": true
+											},
+											"comment": {
+												"text": "Additional items to add to the end of array1.\n"
+											},
+											"type": {
+												"type": "array",
+												"elementType": {
+													"type": "union",
+													"types": [
+														{
+															"type": "unknown",
+															"name": "T"
+														},
+														{
+															"type": "reference",
+															"typeArguments": [
+																{
+																	"type": "unknown",
+																	"name": "T"
+																}
+															],
+															"name": "ConcatArray"
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "reference",
+											"name": "FirebaseFirestore"
+										}
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 57,
+										"name": "Array.concat"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1237,
+									"character": 10
+								},
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1242,
+									"character": 10
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 57,
+								"name": "Array.concat"
+							}
+						},
+						{
+							"id": 246,
+							"name": "copyWithin",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 247,
+									"name": "copyWithin",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Returns the this object after copying a section of the array identified by start and end\nto the same array starting at position target"
+									},
+									"parameters": [
+										{
+											"id": 248,
+											"name": "target",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "If target is negative, it is treated as length+target where length is the\nlength of the array."
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										},
+										{
+											"id": 249,
+											"name": "start",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "If start is negative, it is treated as length+start. If end is negative, it\nis treated as length+end."
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										},
+										{
+											"id": 250,
+											"name": "end",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "If not specified, length of the this object is used as its default value.\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 246,
+										"name": "Array.copyWithin"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.core.d.ts",
+									"line": 64,
+									"character": 14
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 246,
+								"name": "Array.copyWithin"
+							}
+						},
+						{
+							"id": 253,
+							"name": "entries",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 254,
+									"name": "entries",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Returns an iterable of key, value pairs for every entry in the array"
+									},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "tuple",
+												"elements": [
+													{
+														"type": "intrinsic",
+														"name": "number"
+													},
+													{
+														"type": "reference",
+														"name": "FirebaseFirestore"
+													}
+												]
+											}
+										],
+										"name": "IterableIterator"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 253,
+										"name": "Array.entries"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+									"line": 65,
+									"character": 11
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 253,
+								"name": "Array.entries"
+							}
+						},
+						{
+							"id": 99,
+							"name": "every",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 100,
+									"name": "every",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Determines whether all the members of an array satisfy the specified test."
+									},
+									"parameters": [
+										{
+											"id": 101,
+											"name": "callbackfn",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "A function that accepts up to three arguments. The every method calls\nthe callbackfn function for each element in the array until the callbackfn returns a value\nwhich is coercible to the Boolean value false, or until the end of the array."
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 102,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"signatures": [
+														{
+															"id": 103,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"isExported": true
+															},
+															"parameters": [
+																{
+																	"id": 104,
+																	"name": "value",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseFirestore"
+																	}
+																},
+																{
+																	"id": 105,
+																	"name": "index",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "number"
+																	}
+																},
+																{
+																	"id": 106,
+																	"name": "array",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "reference",
+																			"name": "FirebaseFirestore"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "unknown"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+															"line": 1310,
+															"character": 21
+														}
+													]
+												}
+											}
+										},
+										{
+											"id": 107,
+											"name": "thisArg",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "An object to which the this keyword can refer in the callbackfn function.\nIf thisArg is omitted, undefined is used as the this value.\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 99,
+										"name": "Array.every"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1310,
+									"character": 9
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 99,
+								"name": "Array.every"
+							}
+						},
+						{
+							"id": 241,
+							"name": "fill",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 242,
+									"name": "fill",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Returns the this object after filling the section identified by start and end with value"
+									},
+									"parameters": [
+										{
+											"id": 243,
+											"name": "value",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "value to fill array section with"
+											},
+											"type": {
+												"type": "reference",
+												"name": "FirebaseFirestore"
+											}
+										},
+										{
+											"id": 244,
+											"name": "start",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "index to start filling the array at. If start is negative, it is treated as\nlength+start where length is the length of the array."
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										},
+										{
+											"id": 245,
+											"name": "end",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "index to stop filling the array at. If end is negative, it is treated as\nlength+end.\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 241,
+										"name": "Array.fill"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.core.d.ts",
+									"line": 53,
+									"character": 8
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 241,
+								"name": "Array.fill"
+							}
+						},
+						{
+							"id": 136,
+							"name": "filter",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 137,
+									"name": "filter",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Returns the elements of an array that meet the condition specified in a callback function."
+									},
+									"typeParameter": [
+										{
+											"id": 138,
+											"name": "S",
+											"kind": 131072,
+											"kindString": "Type parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "FirebaseFirestore"
+											}
+										}
+									],
+									"parameters": [
+										{
+											"id": 139,
+											"name": "callbackfn",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "A function that accepts up to three arguments. The filter method calls the callbackfn function one time for each element in the array."
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 140,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"signatures": [
+														{
+															"id": 141,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"isExported": true
+															},
+															"parameters": [
+																{
+																	"id": 142,
+																	"name": "value",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseFirestore"
+																	}
+																},
+																{
+																	"id": 143,
+																	"name": "index",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "number"
+																	}
+																},
+																{
+																	"id": 144,
+																	"name": "array",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "reference",
+																			"name": "FirebaseFirestore"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "predicate",
+																"name": "value",
+																"asserts": false,
+																"targetType": {
+																	"type": "typeParameter",
+																	"name": "S",
+																	"constraint": {
+																		"type": "reference",
+																		"name": "FirebaseFirestore"
+																	}
+																}
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+															"line": 1337,
+															"character": 35
+														}
+													]
+												}
+											}
+										},
+										{
+											"id": 145,
+											"name": "thisArg",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "An object to which the this keyword can refer in the callbackfn function. If thisArg is omitted, undefined is used as the this value.\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "typeParameter",
+											"name": "S",
+											"constraint": {
+												"type": "reference",
+												"name": "FirebaseFirestore"
+											}
+										}
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 136,
+										"name": "Array.filter"
+									}
+								},
+								{
+									"id": 146,
+									"name": "filter",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Returns the elements of an array that meet the condition specified in a callback function."
+									},
+									"parameters": [
+										{
+											"id": 147,
+											"name": "callbackfn",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "A function that accepts up to three arguments. The filter method calls the callbackfn function one time for each element in the array."
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 148,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"signatures": [
+														{
+															"id": 149,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"isExported": true
+															},
+															"parameters": [
+																{
+																	"id": 150,
+																	"name": "value",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseFirestore"
+																	}
+																},
+																{
+																	"id": 151,
+																	"name": "index",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "number"
+																	}
+																},
+																{
+																	"id": 152,
+																	"name": "array",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "reference",
+																			"name": "FirebaseFirestore"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "unknown"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+															"line": 1343,
+															"character": 22
+														}
+													]
+												}
+											}
+										},
+										{
+											"id": 153,
+											"name": "thisArg",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "An object to which the this keyword can refer in the callbackfn function. If thisArg is omitted, undefined is used as the this value.\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "reference",
+											"name": "FirebaseFirestore"
+										}
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 136,
+										"name": "Array.filter"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1337,
+									"character": 10
+								},
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1343,
+									"character": 10
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 136,
+								"name": "Array.filter"
+							}
+						},
+						{
+							"id": 213,
+							"name": "find",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 214,
+									"name": "find",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Returns the value of the first element in the array where predicate is true, and undefined\notherwise."
+									},
+									"typeParameter": [
+										{
+											"id": 215,
+											"name": "S",
+											"kind": 131072,
+											"kindString": "Type parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "FirebaseFirestore"
+											}
+										}
+									],
+									"parameters": [
+										{
+											"id": 216,
+											"name": "predicate",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "find calls predicate once for each element of the array, in ascending\norder, until it finds one where predicate returns true. If such an element is found, find\nimmediately returns that element value. Otherwise, find returns undefined."
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 217,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"signatures": [
+														{
+															"id": 218,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"isExported": true
+															},
+															"parameters": [
+																{
+																	"id": 219,
+																	"name": "this",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "void"
+																	}
+																},
+																{
+																	"id": 220,
+																	"name": "value",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseFirestore"
+																	}
+																},
+																{
+																	"id": 221,
+																	"name": "index",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "number"
+																	}
+																},
+																{
+																	"id": 222,
+																	"name": "obj",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "reference",
+																			"name": "FirebaseFirestore"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "predicate",
+																"name": "value",
+																"asserts": false,
+																"targetType": {
+																	"type": "typeParameter",
+																	"name": "S",
+																	"constraint": {
+																		"type": "reference",
+																		"name": "FirebaseFirestore"
+																	}
+																}
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.core.d.ts",
+															"line": 31,
+															"character": 32
+														}
+													]
+												}
+											}
+										},
+										{
+											"id": 223,
+											"name": "thisArg",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "If provided, it will be used as the this value for each invocation of\npredicate. If it is not provided, undefined is used instead.\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "typeParameter",
+												"name": "S",
+												"constraint": {
+													"type": "reference",
+													"name": "FirebaseFirestore"
+												}
+											},
+											{
+												"type": "intrinsic",
+												"name": "undefined"
+											}
+										]
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 213,
+										"name": "Array.find"
+									}
+								},
+								{
+									"id": 224,
+									"name": "find",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"parameters": [
+										{
+											"id": 225,
+											"name": "predicate",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 226,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"signatures": [
+														{
+															"id": 227,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"isExported": true
+															},
+															"parameters": [
+																{
+																	"id": 228,
+																	"name": "value",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseFirestore"
+																	}
+																},
+																{
+																	"id": 229,
+																	"name": "index",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "number"
+																	}
+																},
+																{
+																	"id": 230,
+																	"name": "obj",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "reference",
+																			"name": "FirebaseFirestore"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "unknown"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.core.d.ts",
+															"line": 32,
+															"character": 19
+														}
+													]
+												}
+											}
+										},
+										{
+											"id": 231,
+											"name": "thisArg",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "reference",
+												"name": "FirebaseFirestore"
+											},
+											{
+												"type": "intrinsic",
+												"name": "undefined"
+											}
+										]
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 213,
+										"name": "Array.find"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.core.d.ts",
+									"line": 31,
+									"character": 8
+								},
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.core.d.ts",
+									"line": 32,
+									"character": 8
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 213,
+								"name": "Array.find"
+							}
+						},
+						{
+							"id": 232,
+							"name": "findIndex",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 233,
+									"name": "findIndex",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Returns the index of the first element in the array where predicate is true, and -1\notherwise."
+									},
+									"parameters": [
+										{
+											"id": 234,
+											"name": "predicate",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "find calls predicate once for each element of the array, in ascending\norder, until it finds one where predicate returns true. If such an element is found,\nfindIndex immediately returns that element index. Otherwise, findIndex returns -1."
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 235,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"signatures": [
+														{
+															"id": 236,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"isExported": true
+															},
+															"parameters": [
+																{
+																	"id": 237,
+																	"name": "value",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseFirestore"
+																	}
+																},
+																{
+																	"id": 238,
+																	"name": "index",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "number"
+																	}
+																},
+																{
+																	"id": 239,
+																	"name": "obj",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "reference",
+																			"name": "FirebaseFirestore"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "unknown"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.core.d.ts",
+															"line": 43,
+															"character": 24
+														}
+													]
+												}
+											}
+										},
+										{
+											"id": 240,
+											"name": "thisArg",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "If provided, it will be used as the this value for each invocation of\npredicate. If it is not provided, undefined is used instead.\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 232,
+										"name": "Array.findIndex"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.core.d.ts",
+									"line": 43,
+									"character": 13
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 232,
+								"name": "Array.findIndex"
+							}
+						},
+						{
+							"id": 117,
+							"name": "forEach",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 118,
+									"name": "forEach",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Performs the specified action for each element in an array."
+									},
+									"parameters": [
+										{
+											"id": 119,
+											"name": "callbackfn",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "A function that accepts up to three arguments. forEach calls the callbackfn function one time for each element in the array."
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 120,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"signatures": [
+														{
+															"id": 121,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"isExported": true
+															},
+															"parameters": [
+																{
+																	"id": 122,
+																	"name": "value",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseFirestore"
+																	}
+																},
+																{
+																	"id": 123,
+																	"name": "index",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "number"
+																	}
+																},
+																{
+																	"id": 124,
+																	"name": "array",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "reference",
+																			"name": "FirebaseFirestore"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+															"line": 1325,
+															"character": 23
+														}
+													]
+												}
+											}
+										},
+										{
+											"id": 125,
+											"name": "thisArg",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "An object to which the this keyword can refer in the callbackfn function. If thisArg is omitted, undefined is used as the this value.\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 117,
+										"name": "Array.forEach"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1325,
+									"character": 11
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 117,
+								"name": "Array.forEach"
+							}
+						},
+						{
+							"id": 269,
+							"name": "includes",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 270,
+									"name": "includes",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Determines whether an array includes a certain element, returning true or false as appropriate."
+									},
+									"parameters": [
+										{
+											"id": 271,
+											"name": "searchElement",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "The element to search for."
+											},
+											"type": {
+												"type": "reference",
+												"name": "FirebaseFirestore"
+											}
+										},
+										{
+											"id": 272,
+											"name": "fromIndex",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "The position in this array at which to begin searching for searchElement.\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 269,
+										"name": "Array.includes"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2016.array.include.d.ts",
+									"line": 27,
+									"character": 12
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 269,
+								"name": "Array.includes"
+							}
+						},
+						{
+							"id": 91,
+							"name": "indexOf",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 92,
+									"name": "indexOf",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Returns the index of the first occurrence of a value in an array."
+									},
+									"parameters": [
+										{
+											"id": 93,
+											"name": "searchElement",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "The value to locate in the array."
+											},
+											"type": {
+												"type": "reference",
+												"name": "FirebaseFirestore"
+											}
+										},
+										{
+											"id": 94,
+											"name": "fromIndex",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "The array index at which to begin the search. If fromIndex is omitted, the search starts at index 0.\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 91,
+										"name": "Array.indexOf"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1295,
+									"character": 11
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 91,
+								"name": "Array.indexOf"
+							}
+						},
+						{
+							"id": 62,
+							"name": "join",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 63,
+									"name": "join",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Adds all the elements of an array separated by the specified separator string."
+									},
+									"parameters": [
+										{
+											"id": 64,
+											"name": "separator",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "A string used to separate one element of an array from the next in the resulting String. If omitted, the array elements are separated with a comma.\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 62,
+										"name": "Array.join"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1247,
+									"character": 8
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 62,
+								"name": "Array.join"
+							}
+						},
+						{
+							"id": 255,
+							"name": "keys",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 256,
+									"name": "keys",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Returns an iterable of keys in the array"
+									},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "number"
+											}
+										],
+										"name": "IterableIterator"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 255,
+										"name": "Array.keys"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+									"line": 70,
+									"character": 8
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 255,
+								"name": "Array.keys"
+							}
+						},
+						{
+							"id": 95,
+							"name": "lastIndexOf",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 96,
+									"name": "lastIndexOf",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Returns the index of the last occurrence of a specified value in an array."
+									},
+									"parameters": [
+										{
+											"id": 97,
+											"name": "searchElement",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "The value to locate in the array."
+											},
+											"type": {
+												"type": "reference",
+												"name": "FirebaseFirestore"
+											}
+										},
+										{
+											"id": 98,
+											"name": "fromIndex",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "The array index at which to begin the search. If fromIndex is omitted, the search starts at the last index in the array.\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 95,
+										"name": "Array.lastIndexOf"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1301,
+									"character": 15
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 95,
+								"name": "Array.lastIndexOf"
+							}
+						},
+						{
+							"id": 126,
+							"name": "map",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 127,
+									"name": "map",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Calls a defined callback function on each element of an array, and returns an array that contains the results."
+									},
+									"typeParameter": [
+										{
+											"id": 128,
+											"name": "U",
+											"kind": 131072,
+											"kindString": "Type parameter",
+											"flags": {
+												"isExported": true
+											}
+										}
+									],
+									"parameters": [
+										{
+											"id": 129,
+											"name": "callbackfn",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "A function that accepts up to three arguments. The map method calls the callbackfn function one time for each element in the array."
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 130,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"signatures": [
+														{
+															"id": 131,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"isExported": true
+															},
+															"parameters": [
+																{
+																	"id": 132,
+																	"name": "value",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseFirestore"
+																	}
+																},
+																{
+																	"id": 133,
+																	"name": "index",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "number"
+																	}
+																},
+																{
+																	"id": 134,
+																	"name": "array",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "reference",
+																			"name": "FirebaseFirestore"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "typeParameter",
+																"name": "U"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+															"line": 1331,
+															"character": 22
+														}
+													]
+												}
+											}
+										},
+										{
+											"id": 135,
+											"name": "thisArg",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "An object to which the this keyword can refer in the callbackfn function. If thisArg is omitted, undefined is used as the this value.\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "typeParameter",
+											"name": "U"
+										}
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 126,
+										"name": "Array.map"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1331,
+									"character": 7
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 126,
+								"name": "Array.map"
+							}
+						},
+						{
+							"id": 52,
+							"name": "pop",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 53,
+									"name": "pop",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Removes the last element from an array and returns it."
+									},
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "reference",
+												"name": "FirebaseFirestore"
+											},
+											{
+												"type": "intrinsic",
+												"name": "undefined"
+											}
+										]
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 52,
+										"name": "Array.pop"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1227,
+									"character": 7
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 52,
+								"name": "Array.pop"
+							}
+						},
+						{
+							"id": 54,
+							"name": "push",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 55,
+									"name": "push",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Appends new elements to an array, and returns the new length of the array."
+									},
+									"parameters": [
+										{
+											"id": 56,
+											"name": "items",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isRest": true
+											},
+											"comment": {
+												"text": "New elements of the Array.\n"
+											},
+											"type": {
+												"type": "array",
+												"elementType": {
+													"type": "reference",
+													"name": "FirebaseFirestore"
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 54,
+										"name": "Array.push"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1232,
+									"character": 8
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 54,
+								"name": "Array.push"
+							}
+						},
+						{
+							"id": 154,
+							"name": "reduce",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 155,
+									"name": "reduce",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Calls the specified callback function for all the elements in an array. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function."
+									},
+									"parameters": [
+										{
+											"id": 156,
+											"name": "callbackfn",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "A function that accepts up to four arguments. The reduce method calls the callbackfn function one time for each element in the array."
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 157,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"signatures": [
+														{
+															"id": 158,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"isExported": true
+															},
+															"parameters": [
+																{
+																	"id": 159,
+																	"name": "previousValue",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseFirestore"
+																	}
+																},
+																{
+																	"id": 160,
+																	"name": "currentValue",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseFirestore"
+																	}
+																},
+																{
+																	"id": 161,
+																	"name": "currentIndex",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "number"
+																	}
+																},
+																{
+																	"id": 162,
+																	"name": "array",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "reference",
+																			"name": "FirebaseFirestore"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "reference",
+																"name": "FirebaseFirestore"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+															"line": 1349,
+															"character": 22
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "FirebaseFirestore"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 154,
+										"name": "Array.reduce"
+									}
+								},
+								{
+									"id": 163,
+									"name": "reduce",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"parameters": [
+										{
+											"id": 164,
+											"name": "callbackfn",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 165,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"signatures": [
+														{
+															"id": 166,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"isExported": true
+															},
+															"parameters": [
+																{
+																	"id": 167,
+																	"name": "previousValue",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseFirestore"
+																	}
+																},
+																{
+																	"id": 168,
+																	"name": "currentValue",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseFirestore"
+																	}
+																},
+																{
+																	"id": 169,
+																	"name": "currentIndex",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "number"
+																	}
+																},
+																{
+																	"id": 170,
+																	"name": "array",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "reference",
+																			"name": "FirebaseFirestore"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "reference",
+																"name": "FirebaseFirestore"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+															"line": 1350,
+															"character": 22
+														}
+													]
+												}
+											}
+										},
+										{
+											"id": 171,
+											"name": "initialValue",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "FirebaseFirestore"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "FirebaseFirestore"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 154,
+										"name": "Array.reduce"
+									}
+								},
+								{
+									"id": 172,
+									"name": "reduce",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Calls the specified callback function for all the elements in an array. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function."
+									},
+									"typeParameter": [
+										{
+											"id": 173,
+											"name": "U",
+											"kind": 131072,
+											"kindString": "Type parameter",
+											"flags": {
+												"isExported": true
+											}
+										}
+									],
+									"parameters": [
+										{
+											"id": 174,
+											"name": "callbackfn",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "A function that accepts up to four arguments. The reduce method calls the callbackfn function one time for each element in the array."
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 175,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"signatures": [
+														{
+															"id": 176,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"isExported": true
+															},
+															"parameters": [
+																{
+																	"id": 177,
+																	"name": "previousValue",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "typeParameter",
+																		"name": "U"
+																	}
+																},
+																{
+																	"id": 178,
+																	"name": "currentValue",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseFirestore"
+																	}
+																},
+																{
+																	"id": 179,
+																	"name": "currentIndex",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "number"
+																	}
+																},
+																{
+																	"id": 180,
+																	"name": "array",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "reference",
+																			"name": "FirebaseFirestore"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "typeParameter",
+																"name": "U"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+															"line": 1356,
+															"character": 25
+														}
+													]
+												}
+											}
+										},
+										{
+											"id": 181,
+											"name": "initialValue",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "If initialValue is specified, it is used as the initial value to start the accumulation. The first call to the callbackfn function provides this value as an argument instead of an array value.\n"
+											},
+											"type": {
+												"type": "typeParameter",
+												"name": "U"
+											}
+										}
+									],
+									"type": {
+										"type": "typeParameter",
+										"name": "U"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 154,
+										"name": "Array.reduce"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1349,
+									"character": 10
+								},
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1350,
+									"character": 10
+								},
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1356,
+									"character": 10
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 154,
+								"name": "Array.reduce"
+							}
+						},
+						{
+							"id": 182,
+							"name": "reduceRight",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 183,
+									"name": "reduceRight",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Calls the specified callback function for all the elements in an array, in descending order. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function."
+									},
+									"parameters": [
+										{
+											"id": 184,
+											"name": "callbackfn",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "A function that accepts up to four arguments. The reduceRight method calls the callbackfn function one time for each element in the array."
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 185,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"signatures": [
+														{
+															"id": 186,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"isExported": true
+															},
+															"parameters": [
+																{
+																	"id": 187,
+																	"name": "previousValue",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseFirestore"
+																	}
+																},
+																{
+																	"id": 188,
+																	"name": "currentValue",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseFirestore"
+																	}
+																},
+																{
+																	"id": 189,
+																	"name": "currentIndex",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "number"
+																	}
+																},
+																{
+																	"id": 190,
+																	"name": "array",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "reference",
+																			"name": "FirebaseFirestore"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "reference",
+																"name": "FirebaseFirestore"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+															"line": 1362,
+															"character": 27
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "FirebaseFirestore"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 182,
+										"name": "Array.reduceRight"
+									}
+								},
+								{
+									"id": 191,
+									"name": "reduceRight",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"parameters": [
+										{
+											"id": 192,
+											"name": "callbackfn",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 193,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"signatures": [
+														{
+															"id": 194,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"isExported": true
+															},
+															"parameters": [
+																{
+																	"id": 195,
+																	"name": "previousValue",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseFirestore"
+																	}
+																},
+																{
+																	"id": 196,
+																	"name": "currentValue",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseFirestore"
+																	}
+																},
+																{
+																	"id": 197,
+																	"name": "currentIndex",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "number"
+																	}
+																},
+																{
+																	"id": 198,
+																	"name": "array",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "reference",
+																			"name": "FirebaseFirestore"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "reference",
+																"name": "FirebaseFirestore"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+															"line": 1363,
+															"character": 27
+														}
+													]
+												}
+											}
+										},
+										{
+											"id": 199,
+											"name": "initialValue",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "FirebaseFirestore"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "FirebaseFirestore"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 182,
+										"name": "Array.reduceRight"
+									}
+								},
+								{
+									"id": 200,
+									"name": "reduceRight",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Calls the specified callback function for all the elements in an array, in descending order. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function."
+									},
+									"typeParameter": [
+										{
+											"id": 201,
+											"name": "U",
+											"kind": 131072,
+											"kindString": "Type parameter",
+											"flags": {
+												"isExported": true
+											}
+										}
+									],
+									"parameters": [
+										{
+											"id": 202,
+											"name": "callbackfn",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "A function that accepts up to four arguments. The reduceRight method calls the callbackfn function one time for each element in the array."
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 203,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"signatures": [
+														{
+															"id": 204,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"isExported": true
+															},
+															"parameters": [
+																{
+																	"id": 205,
+																	"name": "previousValue",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "typeParameter",
+																		"name": "U"
+																	}
+																},
+																{
+																	"id": 206,
+																	"name": "currentValue",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseFirestore"
+																	}
+																},
+																{
+																	"id": 207,
+																	"name": "currentIndex",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "number"
+																	}
+																},
+																{
+																	"id": 208,
+																	"name": "array",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "reference",
+																			"name": "FirebaseFirestore"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "typeParameter",
+																"name": "U"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+															"line": 1369,
+															"character": 30
+														}
+													]
+												}
+											}
+										},
+										{
+											"id": 209,
+											"name": "initialValue",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "If initialValue is specified, it is used as the initial value to start the accumulation. The first call to the callbackfn function provides this value as an argument instead of an array value.\n"
+											},
+											"type": {
+												"type": "typeParameter",
+												"name": "U"
+											}
+										}
+									],
+									"type": {
+										"type": "typeParameter",
+										"name": "U"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 182,
+										"name": "Array.reduceRight"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1362,
+									"character": 15
+								},
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1363,
+									"character": 15
+								},
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1369,
+									"character": 15
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 182,
+								"name": "Array.reduceRight"
+							}
+						},
+						{
+							"id": 65,
+							"name": "reverse",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 66,
+									"name": "reverse",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Reverses the elements in an Array."
+									},
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "reference",
+											"name": "FirebaseFirestore"
+										}
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 65,
+										"name": "Array.reverse"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1251,
+									"character": 11
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 65,
+								"name": "Array.reverse"
+							}
+						},
+						{
+							"id": 67,
+							"name": "shift",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 68,
+									"name": "shift",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Removes the first element from an array and returns it."
+									},
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "reference",
+												"name": "FirebaseFirestore"
+											},
+											{
+												"type": "intrinsic",
+												"name": "undefined"
+											}
+										]
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 67,
+										"name": "Array.shift"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1255,
+									"character": 9
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 67,
+								"name": "Array.shift"
+							}
+						},
+						{
+							"id": 69,
+							"name": "slice",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 70,
+									"name": "slice",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Returns a section of an array."
+									},
+									"parameters": [
+										{
+											"id": 71,
+											"name": "start",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "The beginning of the specified portion of the array."
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										},
+										{
+											"id": 72,
+											"name": "end",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "The end of the specified portion of the array. This is exclusive of the element at the index 'end'.\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										}
+									],
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "reference",
+											"name": "FirebaseFirestore"
+										}
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 69,
+										"name": "Array.slice"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1261,
+									"character": 9
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 69,
+								"name": "Array.slice"
+							}
+						},
+						{
+							"id": 108,
+							"name": "some",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 109,
+									"name": "some",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Determines whether the specified callback function returns true for any element of an array."
+									},
+									"parameters": [
+										{
+											"id": 110,
+											"name": "callbackfn",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "A function that accepts up to three arguments. The some method calls\nthe callbackfn function for each element in the array until the callbackfn returns a value\nwhich is coercible to the Boolean value true, or until the end of the array."
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 111,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"signatures": [
+														{
+															"id": 112,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"isExported": true
+															},
+															"parameters": [
+																{
+																	"id": 113,
+																	"name": "value",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseFirestore"
+																	}
+																},
+																{
+																	"id": 114,
+																	"name": "index",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "number"
+																	}
+																},
+																{
+																	"id": 115,
+																	"name": "array",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "reference",
+																			"name": "FirebaseFirestore"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "unknown"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+															"line": 1319,
+															"character": 20
+														}
+													]
+												}
+											}
+										},
+										{
+											"id": 116,
+											"name": "thisArg",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "An object to which the this keyword can refer in the callbackfn function.\nIf thisArg is omitted, undefined is used as the this value.\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 108,
+										"name": "Array.some"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1319,
+									"character": 8
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 108,
+								"name": "Array.some"
+							}
+						},
+						{
+							"id": 73,
+							"name": "sort",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 74,
+									"name": "sort",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Sorts an array."
+									},
+									"parameters": [
+										{
+											"id": 75,
+											"name": "compareFn",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "Function used to determine the order of the elements. It is expected to return\na negative value if first argument is less than second argument, zero if they're equal and a positive\nvalue otherwise. If omitted, the elements are sorted in ascending, ASCII character order.\n```ts\n[11,2,22,1].sort((a, b) => a - b)\n```\n"
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 76,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"signatures": [
+														{
+															"id": 77,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"isExported": true
+															},
+															"parameters": [
+																{
+																	"id": 78,
+																	"name": "a",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseFirestore"
+																	}
+																},
+																{
+																	"id": 79,
+																	"name": "b",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseFirestore"
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "number"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+															"line": 1271,
+															"character": 20
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 73,
+										"name": "Array.sort"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1271,
+									"character": 8
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 73,
+								"name": "Array.sort"
+							}
+						},
+						{
+							"id": 80,
+							"name": "splice",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 81,
+									"name": "splice",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Removes elements from an array and, if necessary, inserts new elements in their place, returning the deleted elements."
+									},
+									"parameters": [
+										{
+											"id": 82,
+											"name": "start",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "The zero-based location in the array from which to start removing elements."
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										},
+										{
+											"id": 83,
+											"name": "deleteCount",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "The number of elements to remove.\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										}
+									],
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "reference",
+											"name": "FirebaseFirestore"
+										}
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 80,
+										"name": "Array.splice"
+									}
+								},
+								{
+									"id": 84,
+									"name": "splice",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Removes elements from an array and, if necessary, inserts new elements in their place, returning the deleted elements."
+									},
+									"parameters": [
+										{
+											"id": 85,
+											"name": "start",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "The zero-based location in the array from which to start removing elements."
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										},
+										{
+											"id": 86,
+											"name": "deleteCount",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "The number of elements to remove."
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										},
+										{
+											"id": 87,
+											"name": "items",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isRest": true
+											},
+											"comment": {
+												"text": "Elements to insert into the array in place of the deleted elements.\n"
+											},
+											"type": {
+												"type": "array",
+												"elementType": {
+													"type": "reference",
+													"name": "FirebaseFirestore"
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "reference",
+											"name": "FirebaseFirestore"
+										}
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 80,
+										"name": "Array.splice"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1277,
+									"character": 10
+								},
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1284,
+									"character": 10
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 80,
+								"name": "Array.splice"
+							}
+						},
+						{
+							"id": 50,
+							"name": "toLocaleString",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 51,
+									"name": "toLocaleString",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Returns a string representation of an array. The elements are converted to string using their toLocalString methods."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 50,
+										"name": "Array.toLocaleString"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1223,
+									"character": 18
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 50,
+								"name": "Array.toLocaleString"
+							}
+						},
+						{
+							"id": 48,
+							"name": "toString",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 49,
+									"name": "toString",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Returns a string representation of an array."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 48,
+										"name": "Array.toString"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1219,
+									"character": 12
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 48,
+								"name": "Array.toString"
+							}
+						},
+						{
+							"id": 88,
+							"name": "unshift",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 89,
+									"name": "unshift",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Inserts new elements at the start of an array."
+									},
+									"parameters": [
+										{
+											"id": 90,
+											"name": "items",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isRest": true
+											},
+											"comment": {
+												"text": "Elements to insert at the start of the Array.\n"
+											},
+											"type": {
+												"type": "array",
+												"elementType": {
+													"type": "reference",
+													"name": "FirebaseFirestore"
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 88,
+										"name": "Array.unshift"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1289,
+									"character": 11
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 88,
+								"name": "Array.unshift"
+							}
+						},
+						{
+							"id": 257,
+							"name": "values",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 258,
+									"name": "values",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Returns an iterable of values in the array"
+									},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "FirebaseFirestore"
+											}
+										],
+										"name": "IterableIterator"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 257,
+										"name": "Array.values"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+									"line": 75,
+									"character": 10
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 257,
+								"name": "Array.values"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"kind": 512,
+							"children": [
+								273
+							]
+						},
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								212,
+								47
+							]
+						},
+						{
+							"title": "Methods",
+							"kind": 2048,
+							"children": [
+								251,
+								259,
+								57,
+								246,
+								253,
+								99,
+								241,
+								136,
+								213,
+								232,
+								117,
+								269,
+								91,
+								62,
+								255,
+								95,
+								126,
+								52,
+								54,
+								154,
+								182,
+								65,
+								67,
+								69,
+								108,
+								73,
+								80,
+								50,
+								48,
+								88,
+								257
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "src/firestore/lite/lite.ts",
+							"line": 19,
+							"character": 35
+						},
+						{
+							"fileName": "src/firestore/lite/lite.ts",
+							"line": 21,
+							"character": 31
+						}
+					],
+					"extendedTypes": [
+						{
+							"type": "reference",
+							"id": 212,
+							"typeArguments": [
+								{
+									"type": "reference",
+									"name": "FirebaseFirestore"
+								}
+							],
+							"name": "Array"
+						}
+					]
+				},
+				{
+					"id": 275,
+					"name": "FIRESTORE_PROVIDER_NAME",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/firestore/lite/lite.ts",
+							"line": 16,
+							"character": 36
+						}
+					],
+					"type": {
+						"type": "stringLiteral",
+						"value": "firestore/lite"
+					},
+					"defaultValue": "\"firestore/lite\""
+				},
+				{
+					"id": 276,
+					"name": "firestoreInstance$",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/firestore/lite/lite.ts",
+							"line": 27,
+							"character": 31
+						}
+					],
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "unknown"
+							}
+						],
+						"name": "Observable"
+					},
+					"defaultValue": "timer(0, 300).pipe(\n  concatMap(() => from(ɵgetAllInstancesOf<FirebaseFirestore>(FIRESTORE_PROVIDER_NAME))),\n  distinct(),\n)"
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"kind": 128,
+					"children": [
+						37,
+						46
+					]
+				},
+				{
+					"title": "Variables",
+					"kind": 32,
+					"children": [
+						275,
+						276
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "src/firestore/lite/lite.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 277,
+			"name": "\"lite.module\"",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/Users/nicholasgerard/Documents/GitHub/angularfire/src/firestore/lite/lite.module.ts",
+			"children": [
+				{
+					"id": 278,
+					"name": "FirestoreModule",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {
+						"isExported": true
+					},
+					"decorators": [
+						{
+							"name": "NgModule",
+							"type": {
+								"type": "reference",
+								"name": "NgModule"
+							},
+							"arguments": {
+								"obj": "{\n  providers: [\n    DEFAULT_FIRESTORE_INSTANCE_PROVIDER,\n    FIRESTORE_INSTANCES_PROVIDER,\n  ]\n}"
+							}
+						}
+					],
+					"children": [
+						{
+							"id": 279,
+							"name": "constructor",
+							"kind": 512,
+							"kindString": "Constructor",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 280,
+									"name": "new FirestoreModule",
+									"kind": 16384,
+									"kindString": "Constructor signature",
+									"flags": {
+										"isExported": true
+									},
+									"type": {
+										"type": "reference",
+										"id": 278,
+										"name": "FirestoreModule"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "src/firestore/lite/lite.module.ts",
+									"line": 46,
+									"character": 30
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"kind": 512,
+							"children": [
+								279
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "src/firestore/lite/lite.module.ts",
+							"line": 46,
+							"character": 28
+						}
+					]
+				},
+				{
+					"id": 281,
+					"name": "PROVIDED_FIRESTORE_INSTANCES",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/firestore/lite/lite.module.ts",
+							"line": 10,
+							"character": 41
+						}
+					],
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "array",
+								"elementType": {
+									"type": "reference",
+									"id": 37,
+									"name": "Firestore"
+								}
+							}
+						],
+						"name": "InjectionToken"
+					},
+					"defaultValue": "new InjectionToken<Firestore[]>('angularfire2.firestore-lite-instances')"
+				},
+				{
+					"id": 282,
+					"name": "defaultFirestoreInstanceFactory",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 283,
+							"name": "defaultFirestoreInstanceFactory",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"isExported": true
+							},
+							"parameters": [
+								{
+									"id": 284,
+									"name": "provided",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "array",
+												"elementType": {
+													"type": "reference",
+													"name": "FirebaseFirestore"
+												}
+											},
+											{
+												"type": "intrinsic",
+												"name": "undefined"
+											}
+										]
+									}
+								},
+								{
+									"id": 285,
+									"name": "defaultApp",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"type": {
+										"type": "reference",
+										"name": "FirebaseApp"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"id": 37,
+								"name": "Firestore"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "src/firestore/lite/lite.module.ts",
+							"line": 12,
+							"character": 47
+						}
+					]
+				},
+				{
+					"id": 286,
+					"name": "firestoreInstanceFactory",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 287,
+							"name": "firestoreInstanceFactory",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"isExported": true
+							},
+							"parameters": [
+								{
+									"id": 288,
+									"name": "fn",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 289,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {
+												"isExported": true
+											},
+											"signatures": [
+												{
+													"id": 290,
+													"name": "__call",
+													"kind": 4096,
+													"kindString": "Call signature",
+													"flags": {
+														"isExported": true
+													},
+													"parameters": [
+														{
+															"id": 291,
+															"name": "injector",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {
+																"isExported": true
+															},
+															"type": {
+																"type": "reference",
+																"name": "Injector"
+															}
+														}
+													],
+													"type": {
+														"type": "reference",
+														"name": "FirebaseFirestore"
+													}
+												}
+											],
+											"sources": [
+												{
+													"fileName": "src/firestore/lite/lite.module.ts",
+													"line": 17,
+													"character": 44
+												}
+											]
+										}
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "(Anonymous function)"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "src/firestore/lite/lite.module.ts",
+							"line": 17,
+							"character": 40
+						}
+					]
+				},
+				{
+					"id": 292,
+					"name": "provideFirestore",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 293,
+							"name": "provideFirestore",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"isExported": true
+							},
+							"parameters": [
+								{
+									"id": 294,
+									"name": "fn",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 295,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {
+												"isExported": true
+											},
+											"signatures": [
+												{
+													"id": 296,
+													"name": "__call",
+													"kind": 4096,
+													"kindString": "Call signature",
+													"flags": {
+														"isExported": true
+													},
+													"parameters": [
+														{
+															"id": 297,
+															"name": "injector",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {
+																"isExported": true
+															},
+															"type": {
+																"type": "reference",
+																"name": "Injector"
+															}
+														}
+													],
+													"type": {
+														"type": "reference",
+														"name": "FirebaseFirestore"
+													}
+												}
+											],
+											"sources": [
+												{
+													"fileName": "src/firestore/lite/lite.module.ts",
+													"line": 52,
+													"character": 36
+												}
+											]
+										}
+									}
+								},
+								{
+									"id": 298,
+									"name": "deps",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true,
+										"isRest": true
+									},
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "intrinsic",
+											"name": "any"
+										}
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"typeArguments": [
+									{
+										"type": "reference",
+										"id": 278,
+										"name": "FirestoreModule"
+									}
+								],
+								"name": "ModuleWithProviders"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "src/firestore/lite/lite.module.ts",
+							"line": 52,
+							"character": 32
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"kind": 128,
+					"children": [
+						278
+					]
+				},
+				{
+					"title": "Variables",
+					"kind": 32,
+					"children": [
+						281
+					]
+				},
+				{
+					"title": "Functions",
+					"kind": 64,
+					"children": [
+						282,
+						286,
+						292
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "src/firestore/lite/lite.module.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 299,
+			"name": "\"lite.spec\"",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/Users/nicholasgerard/Documents/GitHub/angularfire/src/firestore/lite/lite.spec.ts",
+			"sources": [
+				{
+					"fileName": "src/firestore/lite/lite.spec.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 307,
+			"name": "\"public_api\"",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/Users/nicholasgerard/Documents/GitHub/angularfire/src/firestore/lite/public_api.ts",
+			"children": [
+				{
+					"id": 308,
+					"name": "Firestore",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 37
+				},
+				{
+					"id": 309,
+					"name": "FirestoreInstances",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 46
+				},
+				{
+					"id": 311,
+					"name": "FirestoreModule",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 278
+				},
+				{
+					"id": 319,
+					"name": "addDoc",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 2
+				},
+				{
+					"id": 320,
+					"name": "arrayRemove",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 3
+				},
+				{
+					"id": 321,
+					"name": "arrayUnion",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 4
+				},
+				{
+					"id": 322,
+					"name": "collection",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 5
+				},
+				{
+					"id": 314,
+					"name": "collectionData",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 302
+				},
+				{
+					"id": 323,
+					"name": "collectionGroup",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 6
+				},
+				{
+					"id": 313,
+					"name": "collectionSnapshots",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 301
+				},
+				{
+					"id": 324,
+					"name": "connectFirestoreEmulator",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 7
+				},
+				{
+					"id": 325,
+					"name": "deleteDoc",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 8
+				},
+				{
+					"id": 326,
+					"name": "deleteField",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 9
+				},
+				{
+					"id": 327,
+					"name": "doc",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 10
+				},
+				{
+					"id": 316,
+					"name": "docData",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 304
+				},
+				{
+					"id": 315,
+					"name": "docSnapshots",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 303
+				},
+				{
+					"id": 328,
+					"name": "documentId",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 11
+				},
+				{
+					"id": 329,
+					"name": "endAt",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 12
+				},
+				{
+					"id": 330,
+					"name": "endBefore",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 13
+				},
+				{
+					"id": 310,
+					"name": "firestoreInstance$",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 276
+				},
+				{
+					"id": 318,
+					"name": "fromRef",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 306
+				},
+				{
+					"id": 331,
+					"name": "getDoc",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 14
+				},
+				{
+					"id": 332,
+					"name": "getDocs",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 15
+				},
+				{
+					"id": 333,
+					"name": "getFirestore",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 16
+				},
+				{
+					"id": 334,
+					"name": "increment",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 17
+				},
+				{
+					"id": 335,
+					"name": "initializeFirestore",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 18
+				},
+				{
+					"id": 336,
+					"name": "limit",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 19
+				},
+				{
+					"id": 337,
+					"name": "limitToLast",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 20
+				},
+				{
+					"id": 338,
+					"name": "orderBy",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 21
+				},
+				{
+					"id": 312,
+					"name": "provideFirestore",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 292
+				},
+				{
+					"id": 339,
+					"name": "query",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 22
+				},
+				{
+					"id": 340,
+					"name": "queryEqual",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 23
+				},
+				{
+					"id": 341,
+					"name": "refEqual",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 24
+				},
+				{
+					"id": 342,
+					"name": "runTransaction",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 25
+				},
+				{
+					"id": 343,
+					"name": "serverTimestamp",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 26
+				},
+				{
+					"id": 344,
+					"name": "setDoc",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 27
+				},
+				{
+					"id": 345,
+					"name": "setLogLevel",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 28
+				},
+				{
+					"id": 317,
+					"name": "snapToData",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 305
+				},
+				{
+					"id": 346,
+					"name": "snapshotEqual",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 29
+				},
+				{
+					"id": 347,
+					"name": "startAfter",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 30
+				},
+				{
+					"id": 348,
+					"name": "startAt",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 31
+				},
+				{
+					"id": 349,
+					"name": "terminate",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 32
+				},
+				{
+					"id": 350,
+					"name": "updateDoc",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 33
+				},
+				{
+					"id": 351,
+					"name": "where",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 34
+				},
+				{
+					"id": 352,
+					"name": "writeBatch",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 35
+				}
+			],
+			"groups": [
+				{
+					"title": "References",
+					"kind": 16777216,
+					"children": [
+						308,
+						309,
+						311,
+						319,
+						320,
+						321,
+						322,
+						314,
+						323,
+						313,
+						324,
+						325,
+						326,
+						327,
+						316,
+						315,
+						328,
+						329,
+						330,
+						310,
+						318,
+						331,
+						332,
+						333,
+						334,
+						335,
+						336,
+						337,
+						338,
+						312,
+						339,
+						340,
+						341,
+						342,
+						343,
+						344,
+						345,
+						317,
+						346,
+						347,
+						348,
+						349,
+						350,
+						351,
+						352
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "src/firestore/lite/public_api.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 300,
+			"name": "\"rxfire\"",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/Users/nicholasgerard/Documents/GitHub/angularfire/src/firestore/lite/rxfire.ts",
+			"children": [
+				{
+					"id": 302,
+					"name": "collectionData",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/firestore/lite/rxfire.ts",
+							"line": 13,
+							"character": 27
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "ɵzoneWrap(_collectionData, true)"
+				},
+				{
+					"id": 301,
+					"name": "collectionSnapshots",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/firestore/lite/rxfire.ts",
+							"line": 12,
+							"character": 32
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "ɵzoneWrap(_collection, true)"
+				},
+				{
+					"id": 304,
+					"name": "docData",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/firestore/lite/rxfire.ts",
+							"line": 15,
+							"character": 20
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "ɵzoneWrap(_docData, true)"
+				},
+				{
+					"id": 303,
+					"name": "docSnapshots",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/firestore/lite/rxfire.ts",
+							"line": 14,
+							"character": 25
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "ɵzoneWrap(_doc, true)"
+				},
+				{
+					"id": 306,
+					"name": "fromRef",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/firestore/lite/rxfire.ts",
+							"line": 17,
+							"character": 20
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "ɵzoneWrap(_fromRef, true)"
+				},
+				{
+					"id": 305,
+					"name": "snapToData",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/firestore/lite/rxfire.ts",
+							"line": 16,
+							"character": 23
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "ɵzoneWrap(_snapToData, true)"
+				}
+			],
+			"groups": [
+				{
+					"title": "Variables",
+					"kind": 32,
+					"children": [
+						302,
+						301,
+						304,
+						303,
+						306,
+						305
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "src/firestore/lite/rxfire.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		}
+	],
+	"groups": [
+		{
+			"title": "External modules",
+			"kind": 1,
+			"children": [
+				1,
+				36,
+				277,
+				299,
+				307,
+				300
+			]
+		}
+	]
+}

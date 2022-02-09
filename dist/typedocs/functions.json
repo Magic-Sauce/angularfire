@@ -1,0 +1,5331 @@
+{
+	"id": 0,
+	"name": "undefined",
+	"kind": 0,
+	"flags": {},
+	"originalName": "",
+	"children": [
+		{
+			"id": 1,
+			"name": "\"firebase\"",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/Users/nicholasgerard/Documents/GitHub/angularfire/src/functions/firebase.ts",
+			"children": [
+				{
+					"id": 2,
+					"name": "connectFunctionsEmulator",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/functions/firebase.ts",
+							"line": 10,
+							"character": 37
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "ɵzoneWrap(_connectFunctionsEmulator, true)"
+				},
+				{
+					"id": 3,
+					"name": "getFunctions",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/functions/firebase.ts",
+							"line": 11,
+							"character": 25
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "ɵzoneWrap(_getFunctions, true)"
+				},
+				{
+					"id": 4,
+					"name": "httpsCallable",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/functions/firebase.ts",
+							"line": 12,
+							"character": 26
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "ɵzoneWrap(_httpsCallable, true)"
+				}
+			],
+			"groups": [
+				{
+					"title": "Variables",
+					"kind": 32,
+					"children": [
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "src/functions/firebase.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 5,
+			"name": "\"functions\"",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/Users/nicholasgerard/Documents/GitHub/angularfire/src/functions/functions.ts",
+			"children": [
+				{
+					"id": 6,
+					"name": "Functions",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {
+						"isExported": true
+					},
+					"children": [
+						{
+							"id": 10,
+							"name": "constructor",
+							"kind": 512,
+							"kindString": "Constructor",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 11,
+									"name": "new Functions",
+									"kind": 16384,
+									"kindString": "Constructor signature",
+									"flags": {
+										"isExported": true
+									},
+									"parameters": [
+										{
+											"id": 12,
+											"name": "functions",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "FirebaseFunctions"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"id": 6,
+										"name": "Functions"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "src/functions/functions.ts",
+									"line": 10,
+									"character": 24
+								}
+							]
+						},
+						{
+							"id": 7,
+							"name": "app",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "The {@link @firebase/app#FirebaseApp} this `Functions` instance is associated with."
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/@firebase/functions/dist/functions-public.d.ts",
+									"line": 29,
+									"character": 7
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "FirebaseApp"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 7,
+								"name": "Functions.app"
+							}
+						},
+						{
+							"id": 9,
+							"name": "customDomain",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "A custom domain hosting the callable Cloud Functions.\nex: https://mydomain.com"
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/@firebase/functions/dist/functions-public.d.ts",
+									"line": 39,
+									"character": 16
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "string"
+									},
+									{
+										"type": "intrinsic",
+										"name": "null"
+									}
+								]
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 9,
+								"name": "Functions.customDomain"
+							}
+						},
+						{
+							"id": 8,
+							"name": "region",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "The region the callable Cloud Functions are located in.\nDefault is `us-central-1`."
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/@firebase/functions/dist/functions-public.d.ts",
+									"line": 34,
+									"character": 10
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 8,
+								"name": "Functions.region"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"kind": 512,
+							"children": [
+								10
+							]
+						},
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								7,
+								9,
+								8
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "src/functions/functions.ts",
+							"line": 8,
+							"character": 26
+						},
+						{
+							"fileName": "src/functions/functions.ts",
+							"line": 10,
+							"character": 22
+						}
+					],
+					"extendedTypes": [
+						{
+							"type": "reference",
+							"name": "Functions"
+						}
+					]
+				},
+				{
+					"id": 13,
+					"name": "FunctionsInstances",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {
+						"isExported": true
+					},
+					"indexSignature": [
+						{
+							"id": 177,
+							"name": "__index",
+							"kind": 8192,
+							"kindString": "Index signature",
+							"flags": {
+								"isExported": true
+							},
+							"parameters": [
+								{
+									"id": 178,
+									"name": "n",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "FirebaseFunctions"
+							}
+						}
+					],
+					"children": [
+						{
+							"id": 240,
+							"name": "constructor",
+							"kind": 512,
+							"kindString": "Constructor",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 241,
+									"name": "new FunctionsInstances",
+									"kind": 16384,
+									"kindString": "Constructor signature",
+									"flags": {
+										"isExported": true
+									},
+									"type": {
+										"type": "reference",
+										"id": 13,
+										"name": "FunctionsInstances"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "src/functions/functions.ts",
+									"line": 21,
+									"character": 33
+								}
+							]
+						},
+						{
+							"id": 179,
+							"name": "Array",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1385,
+									"character": 17
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "ArrayConstructor"
+							},
+							"extendedBy": [
+								{
+									"type": "reference",
+									"id": 13,
+									"name": "FunctionsInstances"
+								}
+							]
+						},
+						{
+							"id": 14,
+							"name": "length",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "Gets or sets the length of the array. This is a number one higher than the highest element defined in an array."
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1215,
+									"character": 10
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 14,
+								"name": "Array.length"
+							}
+						},
+						{
+							"id": 218,
+							"name": "[Symbol.iterator]",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 219,
+									"name": "[Symbol.iterator]",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Iterator"
+									},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "FirebaseFunctions"
+											}
+										],
+										"name": "IterableIterator"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 218,
+										"name": "Array.[Symbol.iterator]"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+									"line": 60,
+									"character": 21
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 218,
+								"name": "Array.[Symbol.iterator]"
+							}
+						},
+						{
+							"id": 226,
+							"name": "[Symbol.unscopables]",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 227,
+									"name": "[Symbol.unscopables]",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Returns an object whose properties have the value 'true'\nwhen they will be absent when used in a 'with' statement."
+									},
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 228,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {
+												"isExported": true
+											},
+											"children": [
+												{
+													"id": 229,
+													"name": "copyWithin",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"isExported": true
+													},
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+															"line": 95,
+															"character": 18
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "boolean"
+													}
+												},
+												{
+													"id": 230,
+													"name": "entries",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"isExported": true
+													},
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+															"line": 96,
+															"character": 15
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "boolean"
+													}
+												},
+												{
+													"id": 231,
+													"name": "fill",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"isExported": true
+													},
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+															"line": 97,
+															"character": 12
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "boolean"
+													}
+												},
+												{
+													"id": 232,
+													"name": "find",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"isExported": true
+													},
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+															"line": 98,
+															"character": 12
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "boolean"
+													}
+												},
+												{
+													"id": 233,
+													"name": "findIndex",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"isExported": true
+													},
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+															"line": 99,
+															"character": 17
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "boolean"
+													}
+												},
+												{
+													"id": 234,
+													"name": "keys",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"isExported": true
+													},
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+															"line": 100,
+															"character": 12
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "boolean"
+													}
+												},
+												{
+													"id": 235,
+													"name": "values",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"isExported": true
+													},
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+															"line": 101,
+															"character": 14
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "boolean"
+													}
+												}
+											],
+											"groups": [
+												{
+													"title": "Variables",
+													"kind": 32,
+													"children": [
+														229,
+														230,
+														231,
+														232,
+														233,
+														234,
+														235
+													]
+												}
+											],
+											"sources": [
+												{
+													"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+													"line": 94,
+													"character": 27
+												}
+											]
+										}
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 226,
+										"name": "Array.[Symbol.unscopables]"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+									"line": 94,
+									"character": 24
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 226,
+								"name": "Array.[Symbol.unscopables]"
+							}
+						},
+						{
+							"id": 24,
+							"name": "concat",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 25,
+									"name": "concat",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Combines two or more arrays."
+									},
+									"parameters": [
+										{
+											"id": 26,
+											"name": "items",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isRest": true
+											},
+											"comment": {
+												"text": "Additional items to add to the end of array1.\n"
+											},
+											"type": {
+												"type": "array",
+												"elementType": {
+													"type": "reference",
+													"typeArguments": [
+														{
+															"type": "reference",
+															"name": "FirebaseFunctions"
+														}
+													],
+													"name": "ConcatArray"
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "reference",
+											"name": "FirebaseFunctions"
+										}
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 24,
+										"name": "Array.concat"
+									}
+								},
+								{
+									"id": 27,
+									"name": "concat",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Combines two or more arrays."
+									},
+									"parameters": [
+										{
+											"id": 28,
+											"name": "items",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isRest": true
+											},
+											"comment": {
+												"text": "Additional items to add to the end of array1.\n"
+											},
+											"type": {
+												"type": "array",
+												"elementType": {
+													"type": "union",
+													"types": [
+														{
+															"type": "unknown",
+															"name": "T"
+														},
+														{
+															"type": "reference",
+															"typeArguments": [
+																{
+																	"type": "unknown",
+																	"name": "T"
+																}
+															],
+															"name": "ConcatArray"
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "reference",
+											"name": "FirebaseFunctions"
+										}
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 24,
+										"name": "Array.concat"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1237,
+									"character": 10
+								},
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1242,
+									"character": 10
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 24,
+								"name": "Array.concat"
+							}
+						},
+						{
+							"id": 213,
+							"name": "copyWithin",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 214,
+									"name": "copyWithin",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Returns the this object after copying a section of the array identified by start and end\nto the same array starting at position target"
+									},
+									"parameters": [
+										{
+											"id": 215,
+											"name": "target",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "If target is negative, it is treated as length+target where length is the\nlength of the array."
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										},
+										{
+											"id": 216,
+											"name": "start",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "If start is negative, it is treated as length+start. If end is negative, it\nis treated as length+end."
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										},
+										{
+											"id": 217,
+											"name": "end",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "If not specified, length of the this object is used as its default value.\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 213,
+										"name": "Array.copyWithin"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.core.d.ts",
+									"line": 64,
+									"character": 14
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 213,
+								"name": "Array.copyWithin"
+							}
+						},
+						{
+							"id": 220,
+							"name": "entries",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 221,
+									"name": "entries",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Returns an iterable of key, value pairs for every entry in the array"
+									},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "tuple",
+												"elements": [
+													{
+														"type": "intrinsic",
+														"name": "number"
+													},
+													{
+														"type": "reference",
+														"name": "FirebaseFunctions"
+													}
+												]
+											}
+										],
+										"name": "IterableIterator"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 220,
+										"name": "Array.entries"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+									"line": 65,
+									"character": 11
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 220,
+								"name": "Array.entries"
+							}
+						},
+						{
+							"id": 66,
+							"name": "every",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 67,
+									"name": "every",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Determines whether all the members of an array satisfy the specified test."
+									},
+									"parameters": [
+										{
+											"id": 68,
+											"name": "callbackfn",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "A function that accepts up to three arguments. The every method calls\nthe callbackfn function for each element in the array until the callbackfn returns a value\nwhich is coercible to the Boolean value false, or until the end of the array."
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 69,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"signatures": [
+														{
+															"id": 70,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"isExported": true
+															},
+															"parameters": [
+																{
+																	"id": 71,
+																	"name": "value",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseFunctions"
+																	}
+																},
+																{
+																	"id": 72,
+																	"name": "index",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "number"
+																	}
+																},
+																{
+																	"id": 73,
+																	"name": "array",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "reference",
+																			"name": "FirebaseFunctions"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "unknown"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+															"line": 1310,
+															"character": 21
+														}
+													]
+												}
+											}
+										},
+										{
+											"id": 74,
+											"name": "thisArg",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "An object to which the this keyword can refer in the callbackfn function.\nIf thisArg is omitted, undefined is used as the this value.\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 66,
+										"name": "Array.every"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1310,
+									"character": 9
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 66,
+								"name": "Array.every"
+							}
+						},
+						{
+							"id": 208,
+							"name": "fill",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 209,
+									"name": "fill",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Returns the this object after filling the section identified by start and end with value"
+									},
+									"parameters": [
+										{
+											"id": 210,
+											"name": "value",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "value to fill array section with"
+											},
+											"type": {
+												"type": "reference",
+												"name": "FirebaseFunctions"
+											}
+										},
+										{
+											"id": 211,
+											"name": "start",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "index to start filling the array at. If start is negative, it is treated as\nlength+start where length is the length of the array."
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										},
+										{
+											"id": 212,
+											"name": "end",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "index to stop filling the array at. If end is negative, it is treated as\nlength+end.\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 208,
+										"name": "Array.fill"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.core.d.ts",
+									"line": 53,
+									"character": 8
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 208,
+								"name": "Array.fill"
+							}
+						},
+						{
+							"id": 103,
+							"name": "filter",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 104,
+									"name": "filter",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Returns the elements of an array that meet the condition specified in a callback function."
+									},
+									"typeParameter": [
+										{
+											"id": 105,
+											"name": "S",
+											"kind": 131072,
+											"kindString": "Type parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "FirebaseFunctions"
+											}
+										}
+									],
+									"parameters": [
+										{
+											"id": 106,
+											"name": "callbackfn",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "A function that accepts up to three arguments. The filter method calls the callbackfn function one time for each element in the array."
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 107,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"signatures": [
+														{
+															"id": 108,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"isExported": true
+															},
+															"parameters": [
+																{
+																	"id": 109,
+																	"name": "value",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseFunctions"
+																	}
+																},
+																{
+																	"id": 110,
+																	"name": "index",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "number"
+																	}
+																},
+																{
+																	"id": 111,
+																	"name": "array",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "reference",
+																			"name": "FirebaseFunctions"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "predicate",
+																"name": "value",
+																"asserts": false,
+																"targetType": {
+																	"type": "typeParameter",
+																	"name": "S",
+																	"constraint": {
+																		"type": "reference",
+																		"name": "FirebaseFunctions"
+																	}
+																}
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+															"line": 1337,
+															"character": 35
+														}
+													]
+												}
+											}
+										},
+										{
+											"id": 112,
+											"name": "thisArg",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "An object to which the this keyword can refer in the callbackfn function. If thisArg is omitted, undefined is used as the this value.\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "typeParameter",
+											"name": "S",
+											"constraint": {
+												"type": "reference",
+												"name": "FirebaseFunctions"
+											}
+										}
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 103,
+										"name": "Array.filter"
+									}
+								},
+								{
+									"id": 113,
+									"name": "filter",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Returns the elements of an array that meet the condition specified in a callback function."
+									},
+									"parameters": [
+										{
+											"id": 114,
+											"name": "callbackfn",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "A function that accepts up to three arguments. The filter method calls the callbackfn function one time for each element in the array."
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 115,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"signatures": [
+														{
+															"id": 116,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"isExported": true
+															},
+															"parameters": [
+																{
+																	"id": 117,
+																	"name": "value",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseFunctions"
+																	}
+																},
+																{
+																	"id": 118,
+																	"name": "index",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "number"
+																	}
+																},
+																{
+																	"id": 119,
+																	"name": "array",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "reference",
+																			"name": "FirebaseFunctions"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "unknown"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+															"line": 1343,
+															"character": 22
+														}
+													]
+												}
+											}
+										},
+										{
+											"id": 120,
+											"name": "thisArg",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "An object to which the this keyword can refer in the callbackfn function. If thisArg is omitted, undefined is used as the this value.\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "reference",
+											"name": "FirebaseFunctions"
+										}
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 103,
+										"name": "Array.filter"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1337,
+									"character": 10
+								},
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1343,
+									"character": 10
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 103,
+								"name": "Array.filter"
+							}
+						},
+						{
+							"id": 180,
+							"name": "find",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 181,
+									"name": "find",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Returns the value of the first element in the array where predicate is true, and undefined\notherwise."
+									},
+									"typeParameter": [
+										{
+											"id": 182,
+											"name": "S",
+											"kind": 131072,
+											"kindString": "Type parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "FirebaseFunctions"
+											}
+										}
+									],
+									"parameters": [
+										{
+											"id": 183,
+											"name": "predicate",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "find calls predicate once for each element of the array, in ascending\norder, until it finds one where predicate returns true. If such an element is found, find\nimmediately returns that element value. Otherwise, find returns undefined."
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 184,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"signatures": [
+														{
+															"id": 185,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"isExported": true
+															},
+															"parameters": [
+																{
+																	"id": 186,
+																	"name": "this",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "void"
+																	}
+																},
+																{
+																	"id": 187,
+																	"name": "value",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseFunctions"
+																	}
+																},
+																{
+																	"id": 188,
+																	"name": "index",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "number"
+																	}
+																},
+																{
+																	"id": 189,
+																	"name": "obj",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "reference",
+																			"name": "FirebaseFunctions"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "predicate",
+																"name": "value",
+																"asserts": false,
+																"targetType": {
+																	"type": "typeParameter",
+																	"name": "S",
+																	"constraint": {
+																		"type": "reference",
+																		"name": "FirebaseFunctions"
+																	}
+																}
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.core.d.ts",
+															"line": 31,
+															"character": 32
+														}
+													]
+												}
+											}
+										},
+										{
+											"id": 190,
+											"name": "thisArg",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "If provided, it will be used as the this value for each invocation of\npredicate. If it is not provided, undefined is used instead.\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "typeParameter",
+												"name": "S",
+												"constraint": {
+													"type": "reference",
+													"name": "FirebaseFunctions"
+												}
+											},
+											{
+												"type": "intrinsic",
+												"name": "undefined"
+											}
+										]
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 180,
+										"name": "Array.find"
+									}
+								},
+								{
+									"id": 191,
+									"name": "find",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"parameters": [
+										{
+											"id": 192,
+											"name": "predicate",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 193,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"signatures": [
+														{
+															"id": 194,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"isExported": true
+															},
+															"parameters": [
+																{
+																	"id": 195,
+																	"name": "value",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseFunctions"
+																	}
+																},
+																{
+																	"id": 196,
+																	"name": "index",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "number"
+																	}
+																},
+																{
+																	"id": 197,
+																	"name": "obj",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "reference",
+																			"name": "FirebaseFunctions"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "unknown"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.core.d.ts",
+															"line": 32,
+															"character": 19
+														}
+													]
+												}
+											}
+										},
+										{
+											"id": 198,
+											"name": "thisArg",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "reference",
+												"name": "FirebaseFunctions"
+											},
+											{
+												"type": "intrinsic",
+												"name": "undefined"
+											}
+										]
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 180,
+										"name": "Array.find"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.core.d.ts",
+									"line": 31,
+									"character": 8
+								},
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.core.d.ts",
+									"line": 32,
+									"character": 8
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 180,
+								"name": "Array.find"
+							}
+						},
+						{
+							"id": 199,
+							"name": "findIndex",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 200,
+									"name": "findIndex",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Returns the index of the first element in the array where predicate is true, and -1\notherwise."
+									},
+									"parameters": [
+										{
+											"id": 201,
+											"name": "predicate",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "find calls predicate once for each element of the array, in ascending\norder, until it finds one where predicate returns true. If such an element is found,\nfindIndex immediately returns that element index. Otherwise, findIndex returns -1."
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 202,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"signatures": [
+														{
+															"id": 203,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"isExported": true
+															},
+															"parameters": [
+																{
+																	"id": 204,
+																	"name": "value",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseFunctions"
+																	}
+																},
+																{
+																	"id": 205,
+																	"name": "index",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "number"
+																	}
+																},
+																{
+																	"id": 206,
+																	"name": "obj",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "reference",
+																			"name": "FirebaseFunctions"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "unknown"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.core.d.ts",
+															"line": 43,
+															"character": 24
+														}
+													]
+												}
+											}
+										},
+										{
+											"id": 207,
+											"name": "thisArg",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "If provided, it will be used as the this value for each invocation of\npredicate. If it is not provided, undefined is used instead.\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 199,
+										"name": "Array.findIndex"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.core.d.ts",
+									"line": 43,
+									"character": 13
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 199,
+								"name": "Array.findIndex"
+							}
+						},
+						{
+							"id": 84,
+							"name": "forEach",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 85,
+									"name": "forEach",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Performs the specified action for each element in an array."
+									},
+									"parameters": [
+										{
+											"id": 86,
+											"name": "callbackfn",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "A function that accepts up to three arguments. forEach calls the callbackfn function one time for each element in the array."
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 87,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"signatures": [
+														{
+															"id": 88,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"isExported": true
+															},
+															"parameters": [
+																{
+																	"id": 89,
+																	"name": "value",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseFunctions"
+																	}
+																},
+																{
+																	"id": 90,
+																	"name": "index",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "number"
+																	}
+																},
+																{
+																	"id": 91,
+																	"name": "array",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "reference",
+																			"name": "FirebaseFunctions"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+															"line": 1325,
+															"character": 23
+														}
+													]
+												}
+											}
+										},
+										{
+											"id": 92,
+											"name": "thisArg",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "An object to which the this keyword can refer in the callbackfn function. If thisArg is omitted, undefined is used as the this value.\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 84,
+										"name": "Array.forEach"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1325,
+									"character": 11
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 84,
+								"name": "Array.forEach"
+							}
+						},
+						{
+							"id": 236,
+							"name": "includes",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 237,
+									"name": "includes",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Determines whether an array includes a certain element, returning true or false as appropriate."
+									},
+									"parameters": [
+										{
+											"id": 238,
+											"name": "searchElement",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "The element to search for."
+											},
+											"type": {
+												"type": "reference",
+												"name": "FirebaseFunctions"
+											}
+										},
+										{
+											"id": 239,
+											"name": "fromIndex",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "The position in this array at which to begin searching for searchElement.\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 236,
+										"name": "Array.includes"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2016.array.include.d.ts",
+									"line": 27,
+									"character": 12
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 236,
+								"name": "Array.includes"
+							}
+						},
+						{
+							"id": 58,
+							"name": "indexOf",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 59,
+									"name": "indexOf",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Returns the index of the first occurrence of a value in an array."
+									},
+									"parameters": [
+										{
+											"id": 60,
+											"name": "searchElement",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "The value to locate in the array."
+											},
+											"type": {
+												"type": "reference",
+												"name": "FirebaseFunctions"
+											}
+										},
+										{
+											"id": 61,
+											"name": "fromIndex",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "The array index at which to begin the search. If fromIndex is omitted, the search starts at index 0.\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 58,
+										"name": "Array.indexOf"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1295,
+									"character": 11
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 58,
+								"name": "Array.indexOf"
+							}
+						},
+						{
+							"id": 29,
+							"name": "join",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 30,
+									"name": "join",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Adds all the elements of an array separated by the specified separator string."
+									},
+									"parameters": [
+										{
+											"id": 31,
+											"name": "separator",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "A string used to separate one element of an array from the next in the resulting String. If omitted, the array elements are separated with a comma.\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 29,
+										"name": "Array.join"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1247,
+									"character": 8
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 29,
+								"name": "Array.join"
+							}
+						},
+						{
+							"id": 222,
+							"name": "keys",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 223,
+									"name": "keys",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Returns an iterable of keys in the array"
+									},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "number"
+											}
+										],
+										"name": "IterableIterator"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 222,
+										"name": "Array.keys"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+									"line": 70,
+									"character": 8
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 222,
+								"name": "Array.keys"
+							}
+						},
+						{
+							"id": 62,
+							"name": "lastIndexOf",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 63,
+									"name": "lastIndexOf",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Returns the index of the last occurrence of a specified value in an array."
+									},
+									"parameters": [
+										{
+											"id": 64,
+											"name": "searchElement",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "The value to locate in the array."
+											},
+											"type": {
+												"type": "reference",
+												"name": "FirebaseFunctions"
+											}
+										},
+										{
+											"id": 65,
+											"name": "fromIndex",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "The array index at which to begin the search. If fromIndex is omitted, the search starts at the last index in the array.\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 62,
+										"name": "Array.lastIndexOf"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1301,
+									"character": 15
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 62,
+								"name": "Array.lastIndexOf"
+							}
+						},
+						{
+							"id": 93,
+							"name": "map",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 94,
+									"name": "map",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Calls a defined callback function on each element of an array, and returns an array that contains the results."
+									},
+									"typeParameter": [
+										{
+											"id": 95,
+											"name": "U",
+											"kind": 131072,
+											"kindString": "Type parameter",
+											"flags": {
+												"isExported": true
+											}
+										}
+									],
+									"parameters": [
+										{
+											"id": 96,
+											"name": "callbackfn",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "A function that accepts up to three arguments. The map method calls the callbackfn function one time for each element in the array."
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 97,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"signatures": [
+														{
+															"id": 98,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"isExported": true
+															},
+															"parameters": [
+																{
+																	"id": 99,
+																	"name": "value",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseFunctions"
+																	}
+																},
+																{
+																	"id": 100,
+																	"name": "index",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "number"
+																	}
+																},
+																{
+																	"id": 101,
+																	"name": "array",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "reference",
+																			"name": "FirebaseFunctions"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "typeParameter",
+																"name": "U"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+															"line": 1331,
+															"character": 22
+														}
+													]
+												}
+											}
+										},
+										{
+											"id": 102,
+											"name": "thisArg",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "An object to which the this keyword can refer in the callbackfn function. If thisArg is omitted, undefined is used as the this value.\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "typeParameter",
+											"name": "U"
+										}
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 93,
+										"name": "Array.map"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1331,
+									"character": 7
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 93,
+								"name": "Array.map"
+							}
+						},
+						{
+							"id": 19,
+							"name": "pop",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 20,
+									"name": "pop",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Removes the last element from an array and returns it."
+									},
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "reference",
+												"name": "FirebaseFunctions"
+											},
+											{
+												"type": "intrinsic",
+												"name": "undefined"
+											}
+										]
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 19,
+										"name": "Array.pop"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1227,
+									"character": 7
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 19,
+								"name": "Array.pop"
+							}
+						},
+						{
+							"id": 21,
+							"name": "push",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 22,
+									"name": "push",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Appends new elements to an array, and returns the new length of the array."
+									},
+									"parameters": [
+										{
+											"id": 23,
+											"name": "items",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isRest": true
+											},
+											"comment": {
+												"text": "New elements of the Array.\n"
+											},
+											"type": {
+												"type": "array",
+												"elementType": {
+													"type": "reference",
+													"name": "FirebaseFunctions"
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 21,
+										"name": "Array.push"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1232,
+									"character": 8
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 21,
+								"name": "Array.push"
+							}
+						},
+						{
+							"id": 121,
+							"name": "reduce",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 122,
+									"name": "reduce",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Calls the specified callback function for all the elements in an array. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function."
+									},
+									"parameters": [
+										{
+											"id": 123,
+											"name": "callbackfn",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "A function that accepts up to four arguments. The reduce method calls the callbackfn function one time for each element in the array."
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 124,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"signatures": [
+														{
+															"id": 125,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"isExported": true
+															},
+															"parameters": [
+																{
+																	"id": 126,
+																	"name": "previousValue",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseFunctions"
+																	}
+																},
+																{
+																	"id": 127,
+																	"name": "currentValue",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseFunctions"
+																	}
+																},
+																{
+																	"id": 128,
+																	"name": "currentIndex",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "number"
+																	}
+																},
+																{
+																	"id": 129,
+																	"name": "array",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "reference",
+																			"name": "FirebaseFunctions"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "reference",
+																"name": "FirebaseFunctions"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+															"line": 1349,
+															"character": 22
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "FirebaseFunctions"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 121,
+										"name": "Array.reduce"
+									}
+								},
+								{
+									"id": 130,
+									"name": "reduce",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"parameters": [
+										{
+											"id": 131,
+											"name": "callbackfn",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 132,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"signatures": [
+														{
+															"id": 133,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"isExported": true
+															},
+															"parameters": [
+																{
+																	"id": 134,
+																	"name": "previousValue",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseFunctions"
+																	}
+																},
+																{
+																	"id": 135,
+																	"name": "currentValue",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseFunctions"
+																	}
+																},
+																{
+																	"id": 136,
+																	"name": "currentIndex",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "number"
+																	}
+																},
+																{
+																	"id": 137,
+																	"name": "array",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "reference",
+																			"name": "FirebaseFunctions"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "reference",
+																"name": "FirebaseFunctions"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+															"line": 1350,
+															"character": 22
+														}
+													]
+												}
+											}
+										},
+										{
+											"id": 138,
+											"name": "initialValue",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "FirebaseFunctions"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "FirebaseFunctions"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 121,
+										"name": "Array.reduce"
+									}
+								},
+								{
+									"id": 139,
+									"name": "reduce",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Calls the specified callback function for all the elements in an array. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function."
+									},
+									"typeParameter": [
+										{
+											"id": 140,
+											"name": "U",
+											"kind": 131072,
+											"kindString": "Type parameter",
+											"flags": {
+												"isExported": true
+											}
+										}
+									],
+									"parameters": [
+										{
+											"id": 141,
+											"name": "callbackfn",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "A function that accepts up to four arguments. The reduce method calls the callbackfn function one time for each element in the array."
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 142,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"signatures": [
+														{
+															"id": 143,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"isExported": true
+															},
+															"parameters": [
+																{
+																	"id": 144,
+																	"name": "previousValue",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "typeParameter",
+																		"name": "U"
+																	}
+																},
+																{
+																	"id": 145,
+																	"name": "currentValue",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseFunctions"
+																	}
+																},
+																{
+																	"id": 146,
+																	"name": "currentIndex",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "number"
+																	}
+																},
+																{
+																	"id": 147,
+																	"name": "array",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "reference",
+																			"name": "FirebaseFunctions"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "typeParameter",
+																"name": "U"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+															"line": 1356,
+															"character": 25
+														}
+													]
+												}
+											}
+										},
+										{
+											"id": 148,
+											"name": "initialValue",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "If initialValue is specified, it is used as the initial value to start the accumulation. The first call to the callbackfn function provides this value as an argument instead of an array value.\n"
+											},
+											"type": {
+												"type": "typeParameter",
+												"name": "U"
+											}
+										}
+									],
+									"type": {
+										"type": "typeParameter",
+										"name": "U"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 121,
+										"name": "Array.reduce"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1349,
+									"character": 10
+								},
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1350,
+									"character": 10
+								},
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1356,
+									"character": 10
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 121,
+								"name": "Array.reduce"
+							}
+						},
+						{
+							"id": 149,
+							"name": "reduceRight",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 150,
+									"name": "reduceRight",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Calls the specified callback function for all the elements in an array, in descending order. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function."
+									},
+									"parameters": [
+										{
+											"id": 151,
+											"name": "callbackfn",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "A function that accepts up to four arguments. The reduceRight method calls the callbackfn function one time for each element in the array."
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 152,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"signatures": [
+														{
+															"id": 153,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"isExported": true
+															},
+															"parameters": [
+																{
+																	"id": 154,
+																	"name": "previousValue",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseFunctions"
+																	}
+																},
+																{
+																	"id": 155,
+																	"name": "currentValue",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseFunctions"
+																	}
+																},
+																{
+																	"id": 156,
+																	"name": "currentIndex",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "number"
+																	}
+																},
+																{
+																	"id": 157,
+																	"name": "array",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "reference",
+																			"name": "FirebaseFunctions"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "reference",
+																"name": "FirebaseFunctions"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+															"line": 1362,
+															"character": 27
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "FirebaseFunctions"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 149,
+										"name": "Array.reduceRight"
+									}
+								},
+								{
+									"id": 158,
+									"name": "reduceRight",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"parameters": [
+										{
+											"id": 159,
+											"name": "callbackfn",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 160,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"signatures": [
+														{
+															"id": 161,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"isExported": true
+															},
+															"parameters": [
+																{
+																	"id": 162,
+																	"name": "previousValue",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseFunctions"
+																	}
+																},
+																{
+																	"id": 163,
+																	"name": "currentValue",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseFunctions"
+																	}
+																},
+																{
+																	"id": 164,
+																	"name": "currentIndex",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "number"
+																	}
+																},
+																{
+																	"id": 165,
+																	"name": "array",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "reference",
+																			"name": "FirebaseFunctions"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "reference",
+																"name": "FirebaseFunctions"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+															"line": 1363,
+															"character": 27
+														}
+													]
+												}
+											}
+										},
+										{
+											"id": 166,
+											"name": "initialValue",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "FirebaseFunctions"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "FirebaseFunctions"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 149,
+										"name": "Array.reduceRight"
+									}
+								},
+								{
+									"id": 167,
+									"name": "reduceRight",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Calls the specified callback function for all the elements in an array, in descending order. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function."
+									},
+									"typeParameter": [
+										{
+											"id": 168,
+											"name": "U",
+											"kind": 131072,
+											"kindString": "Type parameter",
+											"flags": {
+												"isExported": true
+											}
+										}
+									],
+									"parameters": [
+										{
+											"id": 169,
+											"name": "callbackfn",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "A function that accepts up to four arguments. The reduceRight method calls the callbackfn function one time for each element in the array."
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 170,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"signatures": [
+														{
+															"id": 171,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"isExported": true
+															},
+															"parameters": [
+																{
+																	"id": 172,
+																	"name": "previousValue",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "typeParameter",
+																		"name": "U"
+																	}
+																},
+																{
+																	"id": 173,
+																	"name": "currentValue",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseFunctions"
+																	}
+																},
+																{
+																	"id": 174,
+																	"name": "currentIndex",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "number"
+																	}
+																},
+																{
+																	"id": 175,
+																	"name": "array",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "reference",
+																			"name": "FirebaseFunctions"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "typeParameter",
+																"name": "U"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+															"line": 1369,
+															"character": 30
+														}
+													]
+												}
+											}
+										},
+										{
+											"id": 176,
+											"name": "initialValue",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "If initialValue is specified, it is used as the initial value to start the accumulation. The first call to the callbackfn function provides this value as an argument instead of an array value.\n"
+											},
+											"type": {
+												"type": "typeParameter",
+												"name": "U"
+											}
+										}
+									],
+									"type": {
+										"type": "typeParameter",
+										"name": "U"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 149,
+										"name": "Array.reduceRight"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1362,
+									"character": 15
+								},
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1363,
+									"character": 15
+								},
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1369,
+									"character": 15
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 149,
+								"name": "Array.reduceRight"
+							}
+						},
+						{
+							"id": 32,
+							"name": "reverse",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 33,
+									"name": "reverse",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Reverses the elements in an Array."
+									},
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "reference",
+											"name": "FirebaseFunctions"
+										}
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 32,
+										"name": "Array.reverse"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1251,
+									"character": 11
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 32,
+								"name": "Array.reverse"
+							}
+						},
+						{
+							"id": 34,
+							"name": "shift",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 35,
+									"name": "shift",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Removes the first element from an array and returns it."
+									},
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "reference",
+												"name": "FirebaseFunctions"
+											},
+											{
+												"type": "intrinsic",
+												"name": "undefined"
+											}
+										]
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 34,
+										"name": "Array.shift"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1255,
+									"character": 9
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 34,
+								"name": "Array.shift"
+							}
+						},
+						{
+							"id": 36,
+							"name": "slice",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 37,
+									"name": "slice",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Returns a section of an array."
+									},
+									"parameters": [
+										{
+											"id": 38,
+											"name": "start",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "The beginning of the specified portion of the array."
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										},
+										{
+											"id": 39,
+											"name": "end",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "The end of the specified portion of the array. This is exclusive of the element at the index 'end'.\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										}
+									],
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "reference",
+											"name": "FirebaseFunctions"
+										}
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 36,
+										"name": "Array.slice"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1261,
+									"character": 9
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 36,
+								"name": "Array.slice"
+							}
+						},
+						{
+							"id": 75,
+							"name": "some",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 76,
+									"name": "some",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Determines whether the specified callback function returns true for any element of an array."
+									},
+									"parameters": [
+										{
+											"id": 77,
+											"name": "callbackfn",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "A function that accepts up to three arguments. The some method calls\nthe callbackfn function for each element in the array until the callbackfn returns a value\nwhich is coercible to the Boolean value true, or until the end of the array."
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 78,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"signatures": [
+														{
+															"id": 79,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"isExported": true
+															},
+															"parameters": [
+																{
+																	"id": 80,
+																	"name": "value",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseFunctions"
+																	}
+																},
+																{
+																	"id": 81,
+																	"name": "index",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "number"
+																	}
+																},
+																{
+																	"id": 82,
+																	"name": "array",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "reference",
+																			"name": "FirebaseFunctions"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "unknown"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+															"line": 1319,
+															"character": 20
+														}
+													]
+												}
+											}
+										},
+										{
+											"id": 83,
+											"name": "thisArg",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "An object to which the this keyword can refer in the callbackfn function.\nIf thisArg is omitted, undefined is used as the this value.\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 75,
+										"name": "Array.some"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1319,
+									"character": 8
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 75,
+								"name": "Array.some"
+							}
+						},
+						{
+							"id": 40,
+							"name": "sort",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 41,
+									"name": "sort",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Sorts an array."
+									},
+									"parameters": [
+										{
+											"id": 42,
+											"name": "compareFn",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "Function used to determine the order of the elements. It is expected to return\na negative value if first argument is less than second argument, zero if they're equal and a positive\nvalue otherwise. If omitted, the elements are sorted in ascending, ASCII character order.\n```ts\n[11,2,22,1].sort((a, b) => a - b)\n```\n"
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 43,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"signatures": [
+														{
+															"id": 44,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"isExported": true
+															},
+															"parameters": [
+																{
+																	"id": 45,
+																	"name": "a",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseFunctions"
+																	}
+																},
+																{
+																	"id": 46,
+																	"name": "b",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseFunctions"
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "number"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+															"line": 1271,
+															"character": 20
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 40,
+										"name": "Array.sort"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1271,
+									"character": 8
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 40,
+								"name": "Array.sort"
+							}
+						},
+						{
+							"id": 47,
+							"name": "splice",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 48,
+									"name": "splice",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Removes elements from an array and, if necessary, inserts new elements in their place, returning the deleted elements."
+									},
+									"parameters": [
+										{
+											"id": 49,
+											"name": "start",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "The zero-based location in the array from which to start removing elements."
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										},
+										{
+											"id": 50,
+											"name": "deleteCount",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "The number of elements to remove.\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										}
+									],
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "reference",
+											"name": "FirebaseFunctions"
+										}
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 47,
+										"name": "Array.splice"
+									}
+								},
+								{
+									"id": 51,
+									"name": "splice",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Removes elements from an array and, if necessary, inserts new elements in their place, returning the deleted elements."
+									},
+									"parameters": [
+										{
+											"id": 52,
+											"name": "start",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "The zero-based location in the array from which to start removing elements."
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										},
+										{
+											"id": 53,
+											"name": "deleteCount",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "The number of elements to remove."
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										},
+										{
+											"id": 54,
+											"name": "items",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isRest": true
+											},
+											"comment": {
+												"text": "Elements to insert into the array in place of the deleted elements.\n"
+											},
+											"type": {
+												"type": "array",
+												"elementType": {
+													"type": "reference",
+													"name": "FirebaseFunctions"
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "reference",
+											"name": "FirebaseFunctions"
+										}
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 47,
+										"name": "Array.splice"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1277,
+									"character": 10
+								},
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1284,
+									"character": 10
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 47,
+								"name": "Array.splice"
+							}
+						},
+						{
+							"id": 17,
+							"name": "toLocaleString",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 18,
+									"name": "toLocaleString",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Returns a string representation of an array. The elements are converted to string using their toLocalString methods."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 17,
+										"name": "Array.toLocaleString"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1223,
+									"character": 18
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 17,
+								"name": "Array.toLocaleString"
+							}
+						},
+						{
+							"id": 15,
+							"name": "toString",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 16,
+									"name": "toString",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Returns a string representation of an array."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 15,
+										"name": "Array.toString"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1219,
+									"character": 12
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 15,
+								"name": "Array.toString"
+							}
+						},
+						{
+							"id": 55,
+							"name": "unshift",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 56,
+									"name": "unshift",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Inserts new elements at the start of an array."
+									},
+									"parameters": [
+										{
+											"id": 57,
+											"name": "items",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isRest": true
+											},
+											"comment": {
+												"text": "Elements to insert at the start of the Array.\n"
+											},
+											"type": {
+												"type": "array",
+												"elementType": {
+													"type": "reference",
+													"name": "FirebaseFunctions"
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 55,
+										"name": "Array.unshift"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1289,
+									"character": 11
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 55,
+								"name": "Array.unshift"
+							}
+						},
+						{
+							"id": 224,
+							"name": "values",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 225,
+									"name": "values",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Returns an iterable of values in the array"
+									},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "FirebaseFunctions"
+											}
+										],
+										"name": "IterableIterator"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 224,
+										"name": "Array.values"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+									"line": 75,
+									"character": 10
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 224,
+								"name": "Array.values"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"kind": 512,
+							"children": [
+								240
+							]
+						},
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								179,
+								14
+							]
+						},
+						{
+							"title": "Methods",
+							"kind": 2048,
+							"children": [
+								218,
+								226,
+								24,
+								213,
+								220,
+								66,
+								208,
+								103,
+								180,
+								199,
+								84,
+								236,
+								58,
+								29,
+								222,
+								62,
+								93,
+								19,
+								21,
+								121,
+								149,
+								32,
+								34,
+								36,
+								75,
+								40,
+								47,
+								17,
+								15,
+								55,
+								224
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "src/functions/functions.ts",
+							"line": 19,
+							"character": 35
+						},
+						{
+							"fileName": "src/functions/functions.ts",
+							"line": 21,
+							"character": 31
+						}
+					],
+					"extendedTypes": [
+						{
+							"type": "reference",
+							"id": 179,
+							"typeArguments": [
+								{
+									"type": "reference",
+									"name": "FirebaseFunctions"
+								}
+							],
+							"name": "Array"
+						}
+					]
+				},
+				{
+					"id": 242,
+					"name": "FUNCTIONS_PROVIDER_NAME",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/functions/functions.ts",
+							"line": 16,
+							"character": 36
+						}
+					],
+					"type": {
+						"type": "stringLiteral",
+						"value": "functions"
+					},
+					"defaultValue": "\"functions\""
+				},
+				{
+					"id": 243,
+					"name": "functionInstance$",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/functions/functions.ts",
+							"line": 27,
+							"character": 30
+						}
+					],
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "unknown"
+							}
+						],
+						"name": "Observable"
+					},
+					"defaultValue": "timer(0, 300).pipe(\n  concatMap(() => from(ɵgetAllInstancesOf<FirebaseFunctions>(FUNCTIONS_PROVIDER_NAME))),\n  distinct(),\n)"
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"kind": 128,
+					"children": [
+						6,
+						13
+					]
+				},
+				{
+					"title": "Variables",
+					"kind": 32,
+					"children": [
+						242,
+						243
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "src/functions/functions.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 244,
+			"name": "\"functions.module\"",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/Users/nicholasgerard/Documents/GitHub/angularfire/src/functions/functions.module.ts",
+			"children": [
+				{
+					"id": 245,
+					"name": "FunctionsModule",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {
+						"isExported": true
+					},
+					"decorators": [
+						{
+							"name": "NgModule",
+							"type": {
+								"type": "reference",
+								"name": "NgModule"
+							},
+							"arguments": {
+								"obj": "{\n  providers: [\n    DEFAULT_FUNCTIONS_INSTANCE_PROVIDER,\n    FUNCTIONS_INSTANCES_PROVIDER,\n  ]\n}"
+							}
+						}
+					],
+					"children": [
+						{
+							"id": 246,
+							"name": "constructor",
+							"kind": 512,
+							"kindString": "Constructor",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 247,
+									"name": "new FunctionsModule",
+									"kind": 16384,
+									"kindString": "Constructor signature",
+									"flags": {
+										"isExported": true
+									},
+									"type": {
+										"type": "reference",
+										"id": 245,
+										"name": "FunctionsModule"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "src/functions/functions.module.ts",
+									"line": 46,
+									"character": 30
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"kind": 512,
+							"children": [
+								246
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "src/functions/functions.module.ts",
+							"line": 46,
+							"character": 28
+						}
+					]
+				},
+				{
+					"id": 248,
+					"name": "PROVIDED_FUNCTIONS_INSTANCES",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/functions/functions.module.ts",
+							"line": 10,
+							"character": 41
+						}
+					],
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "array",
+								"elementType": {
+									"type": "reference",
+									"id": 6,
+									"name": "Functions"
+								}
+							}
+						],
+						"name": "InjectionToken"
+					},
+					"defaultValue": "new InjectionToken<Functions[]>('angularfire2.functions-instances')"
+				},
+				{
+					"id": 249,
+					"name": "defaultFunctionsInstanceFactory",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 250,
+							"name": "defaultFunctionsInstanceFactory",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"isExported": true
+							},
+							"parameters": [
+								{
+									"id": 251,
+									"name": "provided",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "array",
+												"elementType": {
+													"type": "reference",
+													"name": "FirebaseFunctions"
+												}
+											},
+											{
+												"type": "intrinsic",
+												"name": "undefined"
+											}
+										]
+									}
+								},
+								{
+									"id": 252,
+									"name": "defaultApp",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"type": {
+										"type": "reference",
+										"name": "FirebaseApp"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"id": 6,
+								"name": "Functions"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "src/functions/functions.module.ts",
+							"line": 12,
+							"character": 47
+						}
+					]
+				},
+				{
+					"id": 253,
+					"name": "functionsInstanceFactory",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 254,
+							"name": "functionsInstanceFactory",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"isExported": true
+							},
+							"parameters": [
+								{
+									"id": 255,
+									"name": "fn",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 256,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {
+												"isExported": true
+											},
+											"signatures": [
+												{
+													"id": 257,
+													"name": "__call",
+													"kind": 4096,
+													"kindString": "Call signature",
+													"flags": {
+														"isExported": true
+													},
+													"parameters": [
+														{
+															"id": 258,
+															"name": "injector",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {
+																"isExported": true
+															},
+															"type": {
+																"type": "reference",
+																"name": "Injector"
+															}
+														}
+													],
+													"type": {
+														"type": "reference",
+														"name": "FirebaseFunctions"
+													}
+												}
+											],
+											"sources": [
+												{
+													"fileName": "src/functions/functions.module.ts",
+													"line": 17,
+													"character": 44
+												}
+											]
+										}
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "(Anonymous function)"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "src/functions/functions.module.ts",
+							"line": 17,
+							"character": 40
+						}
+					]
+				},
+				{
+					"id": 259,
+					"name": "provideFunctions",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 260,
+							"name": "provideFunctions",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"isExported": true
+							},
+							"parameters": [
+								{
+									"id": 261,
+									"name": "fn",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 262,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {
+												"isExported": true
+											},
+											"signatures": [
+												{
+													"id": 263,
+													"name": "__call",
+													"kind": 4096,
+													"kindString": "Call signature",
+													"flags": {
+														"isExported": true
+													},
+													"type": {
+														"type": "reference",
+														"name": "FirebaseFunctions"
+													}
+												}
+											],
+											"sources": [
+												{
+													"fileName": "src/functions/functions.module.ts",
+													"line": 52,
+													"character": 36
+												}
+											]
+										}
+									}
+								},
+								{
+									"id": 264,
+									"name": "deps",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true,
+										"isRest": true
+									},
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "intrinsic",
+											"name": "any"
+										}
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"typeArguments": [
+									{
+										"type": "reference",
+										"id": 245,
+										"name": "FunctionsModule"
+									}
+								],
+								"name": "ModuleWithProviders"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "src/functions/functions.module.ts",
+							"line": 52,
+							"character": 32
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"kind": 128,
+					"children": [
+						245
+					]
+				},
+				{
+					"title": "Variables",
+					"kind": 32,
+					"children": [
+						248
+					]
+				},
+				{
+					"title": "Functions",
+					"kind": 64,
+					"children": [
+						249,
+						253,
+						259
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "src/functions/functions.module.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 265,
+			"name": "\"functions.spec\"",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/Users/nicholasgerard/Documents/GitHub/angularfire/src/functions/functions.spec.ts",
+			"sources": [
+				{
+					"fileName": "src/functions/functions.spec.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 268,
+			"name": "\"public_api\"",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/Users/nicholasgerard/Documents/GitHub/angularfire/src/functions/public_api.ts",
+			"children": [
+				{
+					"id": 271,
+					"name": "Functions",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 6
+				},
+				{
+					"id": 272,
+					"name": "FunctionsInstances",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 13
+				},
+				{
+					"id": 270,
+					"name": "FunctionsModule",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 245
+				},
+				{
+					"id": 275,
+					"name": "connectFunctionsEmulator",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 2
+				},
+				{
+					"id": 273,
+					"name": "functionInstance$",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 243
+				},
+				{
+					"id": 276,
+					"name": "getFunctions",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 3
+				},
+				{
+					"id": 277,
+					"name": "httpsCallable",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 4
+				},
+				{
+					"id": 274,
+					"name": "httpsCallableData",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 267
+				},
+				{
+					"id": 269,
+					"name": "provideFunctions",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 259
+				}
+			],
+			"groups": [
+				{
+					"title": "References",
+					"kind": 16777216,
+					"children": [
+						271,
+						272,
+						270,
+						275,
+						273,
+						276,
+						277,
+						274,
+						269
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "src/functions/public_api.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 266,
+			"name": "\"rxfire\"",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/Users/nicholasgerard/Documents/GitHub/angularfire/src/functions/rxfire.ts",
+			"children": [
+				{
+					"id": 267,
+					"name": "httpsCallableData",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/functions/rxfire.ts",
+							"line": 7,
+							"character": 30
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "ɵzoneWrap(_httpsCallable, true)"
+				}
+			],
+			"groups": [
+				{
+					"title": "Variables",
+					"kind": 32,
+					"children": [
+						267
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "src/functions/rxfire.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		}
+	],
+	"groups": [
+		{
+			"title": "External modules",
+			"kind": 1,
+			"children": [
+				1,
+				5,
+				244,
+				265,
+				268,
+				266
+			]
+		}
+	]
+}

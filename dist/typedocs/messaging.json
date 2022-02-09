@@ -1,0 +1,5276 @@
+{
+	"id": 0,
+	"name": "undefined",
+	"kind": 0,
+	"flags": {},
+	"originalName": "",
+	"children": [
+		{
+			"id": 3,
+			"name": "\"firebase\"",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/Users/nicholasgerard/Documents/GitHub/angularfire/src/messaging/firebase.ts",
+			"children": [
+				{
+					"id": 4,
+					"name": "isSupported",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 2
+				},
+				{
+					"id": 5,
+					"name": "deleteToken",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/messaging/firebase.ts",
+							"line": 15,
+							"character": 24
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "ɵzoneWrap(_deleteToken, true)"
+				},
+				{
+					"id": 6,
+					"name": "getMessaging",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/messaging/firebase.ts",
+							"line": 16,
+							"character": 25
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "ɵzoneWrap(_getMessaging, true)"
+				},
+				{
+					"id": 7,
+					"name": "getToken",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/messaging/firebase.ts",
+							"line": 17,
+							"character": 21
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "ɵzoneWrap(_getToken, true)"
+				},
+				{
+					"id": 8,
+					"name": "onMessage",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/messaging/firebase.ts",
+							"line": 18,
+							"character": 22
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "ɵzoneWrap(_onMessage, false)"
+				}
+			],
+			"groups": [
+				{
+					"title": "References",
+					"kind": 16777216,
+					"children": [
+						4
+					]
+				},
+				{
+					"title": "Variables",
+					"kind": 32,
+					"children": [
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "src/messaging/firebase.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 9,
+			"name": "\"messaging\"",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/Users/nicholasgerard/Documents/GitHub/angularfire/src/messaging/messaging.ts",
+			"children": [
+				{
+					"id": 10,
+					"name": "Messaging",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {
+						"isExported": true
+					},
+					"children": [
+						{
+							"id": 12,
+							"name": "constructor",
+							"kind": 512,
+							"kindString": "Constructor",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 13,
+									"name": "new Messaging",
+									"kind": 16384,
+									"kindString": "Constructor signature",
+									"flags": {
+										"isExported": true
+									},
+									"parameters": [
+										{
+											"id": 14,
+											"name": "messaging",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "FirebaseMessaging"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"id": 10,
+										"name": "Messaging"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "src/messaging/messaging.ts",
+									"line": 10,
+									"character": 24
+								}
+							]
+						},
+						{
+							"id": 11,
+							"name": "app",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "The {@link @firebase/app#FirebaseApp} this `Messaging` instance is associated with."
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/@firebase/messaging/dist/index-public.d.ts",
+									"line": 159,
+									"character": 7
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "FirebaseApp"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 11,
+								"name": "Messaging.app"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"kind": 512,
+							"children": [
+								12
+							]
+						},
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								11
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "src/messaging/messaging.ts",
+							"line": 8,
+							"character": 26
+						},
+						{
+							"fileName": "src/messaging/messaging.ts",
+							"line": 10,
+							"character": 22
+						}
+					],
+					"extendedTypes": [
+						{
+							"type": "reference",
+							"name": "Messaging"
+						}
+					]
+				},
+				{
+					"id": 15,
+					"name": "MessagingInstances",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {
+						"isExported": true
+					},
+					"indexSignature": [
+						{
+							"id": 179,
+							"name": "__index",
+							"kind": 8192,
+							"kindString": "Index signature",
+							"flags": {
+								"isExported": true
+							},
+							"parameters": [
+								{
+									"id": 180,
+									"name": "n",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "FirebaseMessaging"
+							}
+						}
+					],
+					"children": [
+						{
+							"id": 242,
+							"name": "constructor",
+							"kind": 512,
+							"kindString": "Constructor",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 243,
+									"name": "new MessagingInstances",
+									"kind": 16384,
+									"kindString": "Constructor signature",
+									"flags": {
+										"isExported": true
+									},
+									"type": {
+										"type": "reference",
+										"id": 15,
+										"name": "MessagingInstances"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "src/messaging/messaging.ts",
+									"line": 21,
+									"character": 33
+								}
+							]
+						},
+						{
+							"id": 181,
+							"name": "Array",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1385,
+									"character": 17
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "ArrayConstructor"
+							},
+							"extendedBy": [
+								{
+									"type": "reference",
+									"id": 15,
+									"name": "MessagingInstances"
+								}
+							]
+						},
+						{
+							"id": 16,
+							"name": "length",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "Gets or sets the length of the array. This is a number one higher than the highest element defined in an array."
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1215,
+									"character": 10
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 16,
+								"name": "Array.length"
+							}
+						},
+						{
+							"id": 220,
+							"name": "[Symbol.iterator]",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 221,
+									"name": "[Symbol.iterator]",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Iterator"
+									},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "FirebaseMessaging"
+											}
+										],
+										"name": "IterableIterator"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 220,
+										"name": "Array.[Symbol.iterator]"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+									"line": 60,
+									"character": 21
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 220,
+								"name": "Array.[Symbol.iterator]"
+							}
+						},
+						{
+							"id": 228,
+							"name": "[Symbol.unscopables]",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 229,
+									"name": "[Symbol.unscopables]",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Returns an object whose properties have the value 'true'\nwhen they will be absent when used in a 'with' statement."
+									},
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 230,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {
+												"isExported": true
+											},
+											"children": [
+												{
+													"id": 231,
+													"name": "copyWithin",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"isExported": true
+													},
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+															"line": 95,
+															"character": 18
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "boolean"
+													}
+												},
+												{
+													"id": 232,
+													"name": "entries",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"isExported": true
+													},
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+															"line": 96,
+															"character": 15
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "boolean"
+													}
+												},
+												{
+													"id": 233,
+													"name": "fill",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"isExported": true
+													},
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+															"line": 97,
+															"character": 12
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "boolean"
+													}
+												},
+												{
+													"id": 234,
+													"name": "find",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"isExported": true
+													},
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+															"line": 98,
+															"character": 12
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "boolean"
+													}
+												},
+												{
+													"id": 235,
+													"name": "findIndex",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"isExported": true
+													},
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+															"line": 99,
+															"character": 17
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "boolean"
+													}
+												},
+												{
+													"id": 236,
+													"name": "keys",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"isExported": true
+													},
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+															"line": 100,
+															"character": 12
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "boolean"
+													}
+												},
+												{
+													"id": 237,
+													"name": "values",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"isExported": true
+													},
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+															"line": 101,
+															"character": 14
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "boolean"
+													}
+												}
+											],
+											"groups": [
+												{
+													"title": "Variables",
+													"kind": 32,
+													"children": [
+														231,
+														232,
+														233,
+														234,
+														235,
+														236,
+														237
+													]
+												}
+											],
+											"sources": [
+												{
+													"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+													"line": 94,
+													"character": 27
+												}
+											]
+										}
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 228,
+										"name": "Array.[Symbol.unscopables]"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+									"line": 94,
+									"character": 24
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 228,
+								"name": "Array.[Symbol.unscopables]"
+							}
+						},
+						{
+							"id": 26,
+							"name": "concat",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 27,
+									"name": "concat",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Combines two or more arrays."
+									},
+									"parameters": [
+										{
+											"id": 28,
+											"name": "items",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isRest": true
+											},
+											"comment": {
+												"text": "Additional items to add to the end of array1.\n"
+											},
+											"type": {
+												"type": "array",
+												"elementType": {
+													"type": "reference",
+													"typeArguments": [
+														{
+															"type": "reference",
+															"name": "FirebaseMessaging"
+														}
+													],
+													"name": "ConcatArray"
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "reference",
+											"name": "FirebaseMessaging"
+										}
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 26,
+										"name": "Array.concat"
+									}
+								},
+								{
+									"id": 29,
+									"name": "concat",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Combines two or more arrays."
+									},
+									"parameters": [
+										{
+											"id": 30,
+											"name": "items",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isRest": true
+											},
+											"comment": {
+												"text": "Additional items to add to the end of array1.\n"
+											},
+											"type": {
+												"type": "array",
+												"elementType": {
+													"type": "union",
+													"types": [
+														{
+															"type": "unknown",
+															"name": "T"
+														},
+														{
+															"type": "reference",
+															"typeArguments": [
+																{
+																	"type": "unknown",
+																	"name": "T"
+																}
+															],
+															"name": "ConcatArray"
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "reference",
+											"name": "FirebaseMessaging"
+										}
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 26,
+										"name": "Array.concat"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1237,
+									"character": 10
+								},
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1242,
+									"character": 10
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 26,
+								"name": "Array.concat"
+							}
+						},
+						{
+							"id": 215,
+							"name": "copyWithin",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 216,
+									"name": "copyWithin",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Returns the this object after copying a section of the array identified by start and end\nto the same array starting at position target"
+									},
+									"parameters": [
+										{
+											"id": 217,
+											"name": "target",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "If target is negative, it is treated as length+target where length is the\nlength of the array."
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										},
+										{
+											"id": 218,
+											"name": "start",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "If start is negative, it is treated as length+start. If end is negative, it\nis treated as length+end."
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										},
+										{
+											"id": 219,
+											"name": "end",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "If not specified, length of the this object is used as its default value.\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 215,
+										"name": "Array.copyWithin"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.core.d.ts",
+									"line": 64,
+									"character": 14
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 215,
+								"name": "Array.copyWithin"
+							}
+						},
+						{
+							"id": 222,
+							"name": "entries",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 223,
+									"name": "entries",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Returns an iterable of key, value pairs for every entry in the array"
+									},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "tuple",
+												"elements": [
+													{
+														"type": "intrinsic",
+														"name": "number"
+													},
+													{
+														"type": "reference",
+														"name": "FirebaseMessaging"
+													}
+												]
+											}
+										],
+										"name": "IterableIterator"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 222,
+										"name": "Array.entries"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+									"line": 65,
+									"character": 11
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 222,
+								"name": "Array.entries"
+							}
+						},
+						{
+							"id": 68,
+							"name": "every",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 69,
+									"name": "every",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Determines whether all the members of an array satisfy the specified test."
+									},
+									"parameters": [
+										{
+											"id": 70,
+											"name": "callbackfn",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "A function that accepts up to three arguments. The every method calls\nthe callbackfn function for each element in the array until the callbackfn returns a value\nwhich is coercible to the Boolean value false, or until the end of the array."
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 71,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"signatures": [
+														{
+															"id": 72,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"isExported": true
+															},
+															"parameters": [
+																{
+																	"id": 73,
+																	"name": "value",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseMessaging"
+																	}
+																},
+																{
+																	"id": 74,
+																	"name": "index",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "number"
+																	}
+																},
+																{
+																	"id": 75,
+																	"name": "array",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "reference",
+																			"name": "FirebaseMessaging"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "unknown"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+															"line": 1310,
+															"character": 21
+														}
+													]
+												}
+											}
+										},
+										{
+											"id": 76,
+											"name": "thisArg",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "An object to which the this keyword can refer in the callbackfn function.\nIf thisArg is omitted, undefined is used as the this value.\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 68,
+										"name": "Array.every"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1310,
+									"character": 9
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 68,
+								"name": "Array.every"
+							}
+						},
+						{
+							"id": 210,
+							"name": "fill",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 211,
+									"name": "fill",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Returns the this object after filling the section identified by start and end with value"
+									},
+									"parameters": [
+										{
+											"id": 212,
+											"name": "value",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "value to fill array section with"
+											},
+											"type": {
+												"type": "reference",
+												"name": "FirebaseMessaging"
+											}
+										},
+										{
+											"id": 213,
+											"name": "start",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "index to start filling the array at. If start is negative, it is treated as\nlength+start where length is the length of the array."
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										},
+										{
+											"id": 214,
+											"name": "end",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "index to stop filling the array at. If end is negative, it is treated as\nlength+end.\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 210,
+										"name": "Array.fill"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.core.d.ts",
+									"line": 53,
+									"character": 8
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 210,
+								"name": "Array.fill"
+							}
+						},
+						{
+							"id": 105,
+							"name": "filter",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 106,
+									"name": "filter",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Returns the elements of an array that meet the condition specified in a callback function."
+									},
+									"typeParameter": [
+										{
+											"id": 107,
+											"name": "S",
+											"kind": 131072,
+											"kindString": "Type parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "FirebaseMessaging"
+											}
+										}
+									],
+									"parameters": [
+										{
+											"id": 108,
+											"name": "callbackfn",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "A function that accepts up to three arguments. The filter method calls the callbackfn function one time for each element in the array."
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 109,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"signatures": [
+														{
+															"id": 110,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"isExported": true
+															},
+															"parameters": [
+																{
+																	"id": 111,
+																	"name": "value",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseMessaging"
+																	}
+																},
+																{
+																	"id": 112,
+																	"name": "index",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "number"
+																	}
+																},
+																{
+																	"id": 113,
+																	"name": "array",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "reference",
+																			"name": "FirebaseMessaging"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "predicate",
+																"name": "value",
+																"asserts": false,
+																"targetType": {
+																	"type": "typeParameter",
+																	"name": "S",
+																	"constraint": {
+																		"type": "reference",
+																		"name": "FirebaseMessaging"
+																	}
+																}
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+															"line": 1337,
+															"character": 35
+														}
+													]
+												}
+											}
+										},
+										{
+											"id": 114,
+											"name": "thisArg",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "An object to which the this keyword can refer in the callbackfn function. If thisArg is omitted, undefined is used as the this value.\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "typeParameter",
+											"name": "S",
+											"constraint": {
+												"type": "reference",
+												"name": "FirebaseMessaging"
+											}
+										}
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 105,
+										"name": "Array.filter"
+									}
+								},
+								{
+									"id": 115,
+									"name": "filter",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Returns the elements of an array that meet the condition specified in a callback function."
+									},
+									"parameters": [
+										{
+											"id": 116,
+											"name": "callbackfn",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "A function that accepts up to three arguments. The filter method calls the callbackfn function one time for each element in the array."
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 117,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"signatures": [
+														{
+															"id": 118,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"isExported": true
+															},
+															"parameters": [
+																{
+																	"id": 119,
+																	"name": "value",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseMessaging"
+																	}
+																},
+																{
+																	"id": 120,
+																	"name": "index",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "number"
+																	}
+																},
+																{
+																	"id": 121,
+																	"name": "array",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "reference",
+																			"name": "FirebaseMessaging"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "unknown"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+															"line": 1343,
+															"character": 22
+														}
+													]
+												}
+											}
+										},
+										{
+											"id": 122,
+											"name": "thisArg",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "An object to which the this keyword can refer in the callbackfn function. If thisArg is omitted, undefined is used as the this value.\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "reference",
+											"name": "FirebaseMessaging"
+										}
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 105,
+										"name": "Array.filter"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1337,
+									"character": 10
+								},
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1343,
+									"character": 10
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 105,
+								"name": "Array.filter"
+							}
+						},
+						{
+							"id": 182,
+							"name": "find",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 183,
+									"name": "find",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Returns the value of the first element in the array where predicate is true, and undefined\notherwise."
+									},
+									"typeParameter": [
+										{
+											"id": 184,
+											"name": "S",
+											"kind": 131072,
+											"kindString": "Type parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "FirebaseMessaging"
+											}
+										}
+									],
+									"parameters": [
+										{
+											"id": 185,
+											"name": "predicate",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "find calls predicate once for each element of the array, in ascending\norder, until it finds one where predicate returns true. If such an element is found, find\nimmediately returns that element value. Otherwise, find returns undefined."
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 186,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"signatures": [
+														{
+															"id": 187,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"isExported": true
+															},
+															"parameters": [
+																{
+																	"id": 188,
+																	"name": "this",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "void"
+																	}
+																},
+																{
+																	"id": 189,
+																	"name": "value",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseMessaging"
+																	}
+																},
+																{
+																	"id": 190,
+																	"name": "index",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "number"
+																	}
+																},
+																{
+																	"id": 191,
+																	"name": "obj",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "reference",
+																			"name": "FirebaseMessaging"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "predicate",
+																"name": "value",
+																"asserts": false,
+																"targetType": {
+																	"type": "typeParameter",
+																	"name": "S",
+																	"constraint": {
+																		"type": "reference",
+																		"name": "FirebaseMessaging"
+																	}
+																}
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.core.d.ts",
+															"line": 31,
+															"character": 32
+														}
+													]
+												}
+											}
+										},
+										{
+											"id": 192,
+											"name": "thisArg",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "If provided, it will be used as the this value for each invocation of\npredicate. If it is not provided, undefined is used instead.\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "typeParameter",
+												"name": "S",
+												"constraint": {
+													"type": "reference",
+													"name": "FirebaseMessaging"
+												}
+											},
+											{
+												"type": "intrinsic",
+												"name": "undefined"
+											}
+										]
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 182,
+										"name": "Array.find"
+									}
+								},
+								{
+									"id": 193,
+									"name": "find",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"parameters": [
+										{
+											"id": 194,
+											"name": "predicate",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 195,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"signatures": [
+														{
+															"id": 196,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"isExported": true
+															},
+															"parameters": [
+																{
+																	"id": 197,
+																	"name": "value",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseMessaging"
+																	}
+																},
+																{
+																	"id": 198,
+																	"name": "index",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "number"
+																	}
+																},
+																{
+																	"id": 199,
+																	"name": "obj",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "reference",
+																			"name": "FirebaseMessaging"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "unknown"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.core.d.ts",
+															"line": 32,
+															"character": 19
+														}
+													]
+												}
+											}
+										},
+										{
+											"id": 200,
+											"name": "thisArg",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "reference",
+												"name": "FirebaseMessaging"
+											},
+											{
+												"type": "intrinsic",
+												"name": "undefined"
+											}
+										]
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 182,
+										"name": "Array.find"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.core.d.ts",
+									"line": 31,
+									"character": 8
+								},
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.core.d.ts",
+									"line": 32,
+									"character": 8
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 182,
+								"name": "Array.find"
+							}
+						},
+						{
+							"id": 201,
+							"name": "findIndex",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 202,
+									"name": "findIndex",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Returns the index of the first element in the array where predicate is true, and -1\notherwise."
+									},
+									"parameters": [
+										{
+											"id": 203,
+											"name": "predicate",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "find calls predicate once for each element of the array, in ascending\norder, until it finds one where predicate returns true. If such an element is found,\nfindIndex immediately returns that element index. Otherwise, findIndex returns -1."
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 204,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"signatures": [
+														{
+															"id": 205,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"isExported": true
+															},
+															"parameters": [
+																{
+																	"id": 206,
+																	"name": "value",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseMessaging"
+																	}
+																},
+																{
+																	"id": 207,
+																	"name": "index",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "number"
+																	}
+																},
+																{
+																	"id": 208,
+																	"name": "obj",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "reference",
+																			"name": "FirebaseMessaging"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "unknown"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.core.d.ts",
+															"line": 43,
+															"character": 24
+														}
+													]
+												}
+											}
+										},
+										{
+											"id": 209,
+											"name": "thisArg",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "If provided, it will be used as the this value for each invocation of\npredicate. If it is not provided, undefined is used instead.\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 201,
+										"name": "Array.findIndex"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.core.d.ts",
+									"line": 43,
+									"character": 13
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 201,
+								"name": "Array.findIndex"
+							}
+						},
+						{
+							"id": 86,
+							"name": "forEach",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 87,
+									"name": "forEach",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Performs the specified action for each element in an array."
+									},
+									"parameters": [
+										{
+											"id": 88,
+											"name": "callbackfn",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "A function that accepts up to three arguments. forEach calls the callbackfn function one time for each element in the array."
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 89,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"signatures": [
+														{
+															"id": 90,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"isExported": true
+															},
+															"parameters": [
+																{
+																	"id": 91,
+																	"name": "value",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseMessaging"
+																	}
+																},
+																{
+																	"id": 92,
+																	"name": "index",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "number"
+																	}
+																},
+																{
+																	"id": 93,
+																	"name": "array",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "reference",
+																			"name": "FirebaseMessaging"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+															"line": 1325,
+															"character": 23
+														}
+													]
+												}
+											}
+										},
+										{
+											"id": 94,
+											"name": "thisArg",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "An object to which the this keyword can refer in the callbackfn function. If thisArg is omitted, undefined is used as the this value.\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 86,
+										"name": "Array.forEach"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1325,
+									"character": 11
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 86,
+								"name": "Array.forEach"
+							}
+						},
+						{
+							"id": 238,
+							"name": "includes",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 239,
+									"name": "includes",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Determines whether an array includes a certain element, returning true or false as appropriate."
+									},
+									"parameters": [
+										{
+											"id": 240,
+											"name": "searchElement",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "The element to search for."
+											},
+											"type": {
+												"type": "reference",
+												"name": "FirebaseMessaging"
+											}
+										},
+										{
+											"id": 241,
+											"name": "fromIndex",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "The position in this array at which to begin searching for searchElement.\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 238,
+										"name": "Array.includes"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2016.array.include.d.ts",
+									"line": 27,
+									"character": 12
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 238,
+								"name": "Array.includes"
+							}
+						},
+						{
+							"id": 60,
+							"name": "indexOf",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 61,
+									"name": "indexOf",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Returns the index of the first occurrence of a value in an array."
+									},
+									"parameters": [
+										{
+											"id": 62,
+											"name": "searchElement",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "The value to locate in the array."
+											},
+											"type": {
+												"type": "reference",
+												"name": "FirebaseMessaging"
+											}
+										},
+										{
+											"id": 63,
+											"name": "fromIndex",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "The array index at which to begin the search. If fromIndex is omitted, the search starts at index 0.\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 60,
+										"name": "Array.indexOf"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1295,
+									"character": 11
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 60,
+								"name": "Array.indexOf"
+							}
+						},
+						{
+							"id": 31,
+							"name": "join",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 32,
+									"name": "join",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Adds all the elements of an array separated by the specified separator string."
+									},
+									"parameters": [
+										{
+											"id": 33,
+											"name": "separator",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "A string used to separate one element of an array from the next in the resulting String. If omitted, the array elements are separated with a comma.\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 31,
+										"name": "Array.join"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1247,
+									"character": 8
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 31,
+								"name": "Array.join"
+							}
+						},
+						{
+							"id": 224,
+							"name": "keys",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 225,
+									"name": "keys",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Returns an iterable of keys in the array"
+									},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "number"
+											}
+										],
+										"name": "IterableIterator"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 224,
+										"name": "Array.keys"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+									"line": 70,
+									"character": 8
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 224,
+								"name": "Array.keys"
+							}
+						},
+						{
+							"id": 64,
+							"name": "lastIndexOf",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 65,
+									"name": "lastIndexOf",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Returns the index of the last occurrence of a specified value in an array."
+									},
+									"parameters": [
+										{
+											"id": 66,
+											"name": "searchElement",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "The value to locate in the array."
+											},
+											"type": {
+												"type": "reference",
+												"name": "FirebaseMessaging"
+											}
+										},
+										{
+											"id": 67,
+											"name": "fromIndex",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "The array index at which to begin the search. If fromIndex is omitted, the search starts at the last index in the array.\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 64,
+										"name": "Array.lastIndexOf"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1301,
+									"character": 15
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 64,
+								"name": "Array.lastIndexOf"
+							}
+						},
+						{
+							"id": 95,
+							"name": "map",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 96,
+									"name": "map",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Calls a defined callback function on each element of an array, and returns an array that contains the results."
+									},
+									"typeParameter": [
+										{
+											"id": 97,
+											"name": "U",
+											"kind": 131072,
+											"kindString": "Type parameter",
+											"flags": {
+												"isExported": true
+											}
+										}
+									],
+									"parameters": [
+										{
+											"id": 98,
+											"name": "callbackfn",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "A function that accepts up to three arguments. The map method calls the callbackfn function one time for each element in the array."
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 99,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"signatures": [
+														{
+															"id": 100,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"isExported": true
+															},
+															"parameters": [
+																{
+																	"id": 101,
+																	"name": "value",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseMessaging"
+																	}
+																},
+																{
+																	"id": 102,
+																	"name": "index",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "number"
+																	}
+																},
+																{
+																	"id": 103,
+																	"name": "array",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "reference",
+																			"name": "FirebaseMessaging"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "typeParameter",
+																"name": "U"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+															"line": 1331,
+															"character": 22
+														}
+													]
+												}
+											}
+										},
+										{
+											"id": 104,
+											"name": "thisArg",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "An object to which the this keyword can refer in the callbackfn function. If thisArg is omitted, undefined is used as the this value.\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "typeParameter",
+											"name": "U"
+										}
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 95,
+										"name": "Array.map"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1331,
+									"character": 7
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 95,
+								"name": "Array.map"
+							}
+						},
+						{
+							"id": 21,
+							"name": "pop",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 22,
+									"name": "pop",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Removes the last element from an array and returns it."
+									},
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "reference",
+												"name": "FirebaseMessaging"
+											},
+											{
+												"type": "intrinsic",
+												"name": "undefined"
+											}
+										]
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 21,
+										"name": "Array.pop"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1227,
+									"character": 7
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 21,
+								"name": "Array.pop"
+							}
+						},
+						{
+							"id": 23,
+							"name": "push",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 24,
+									"name": "push",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Appends new elements to an array, and returns the new length of the array."
+									},
+									"parameters": [
+										{
+											"id": 25,
+											"name": "items",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isRest": true
+											},
+											"comment": {
+												"text": "New elements of the Array.\n"
+											},
+											"type": {
+												"type": "array",
+												"elementType": {
+													"type": "reference",
+													"name": "FirebaseMessaging"
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 23,
+										"name": "Array.push"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1232,
+									"character": 8
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 23,
+								"name": "Array.push"
+							}
+						},
+						{
+							"id": 123,
+							"name": "reduce",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 124,
+									"name": "reduce",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Calls the specified callback function for all the elements in an array. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function."
+									},
+									"parameters": [
+										{
+											"id": 125,
+											"name": "callbackfn",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "A function that accepts up to four arguments. The reduce method calls the callbackfn function one time for each element in the array."
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 126,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"signatures": [
+														{
+															"id": 127,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"isExported": true
+															},
+															"parameters": [
+																{
+																	"id": 128,
+																	"name": "previousValue",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseMessaging"
+																	}
+																},
+																{
+																	"id": 129,
+																	"name": "currentValue",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseMessaging"
+																	}
+																},
+																{
+																	"id": 130,
+																	"name": "currentIndex",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "number"
+																	}
+																},
+																{
+																	"id": 131,
+																	"name": "array",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "reference",
+																			"name": "FirebaseMessaging"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "reference",
+																"name": "FirebaseMessaging"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+															"line": 1349,
+															"character": 22
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "FirebaseMessaging"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 123,
+										"name": "Array.reduce"
+									}
+								},
+								{
+									"id": 132,
+									"name": "reduce",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"parameters": [
+										{
+											"id": 133,
+											"name": "callbackfn",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 134,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"signatures": [
+														{
+															"id": 135,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"isExported": true
+															},
+															"parameters": [
+																{
+																	"id": 136,
+																	"name": "previousValue",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseMessaging"
+																	}
+																},
+																{
+																	"id": 137,
+																	"name": "currentValue",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseMessaging"
+																	}
+																},
+																{
+																	"id": 138,
+																	"name": "currentIndex",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "number"
+																	}
+																},
+																{
+																	"id": 139,
+																	"name": "array",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "reference",
+																			"name": "FirebaseMessaging"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "reference",
+																"name": "FirebaseMessaging"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+															"line": 1350,
+															"character": 22
+														}
+													]
+												}
+											}
+										},
+										{
+											"id": 140,
+											"name": "initialValue",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "FirebaseMessaging"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "FirebaseMessaging"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 123,
+										"name": "Array.reduce"
+									}
+								},
+								{
+									"id": 141,
+									"name": "reduce",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Calls the specified callback function for all the elements in an array. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function."
+									},
+									"typeParameter": [
+										{
+											"id": 142,
+											"name": "U",
+											"kind": 131072,
+											"kindString": "Type parameter",
+											"flags": {
+												"isExported": true
+											}
+										}
+									],
+									"parameters": [
+										{
+											"id": 143,
+											"name": "callbackfn",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "A function that accepts up to four arguments. The reduce method calls the callbackfn function one time for each element in the array."
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 144,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"signatures": [
+														{
+															"id": 145,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"isExported": true
+															},
+															"parameters": [
+																{
+																	"id": 146,
+																	"name": "previousValue",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "typeParameter",
+																		"name": "U"
+																	}
+																},
+																{
+																	"id": 147,
+																	"name": "currentValue",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseMessaging"
+																	}
+																},
+																{
+																	"id": 148,
+																	"name": "currentIndex",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "number"
+																	}
+																},
+																{
+																	"id": 149,
+																	"name": "array",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "reference",
+																			"name": "FirebaseMessaging"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "typeParameter",
+																"name": "U"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+															"line": 1356,
+															"character": 25
+														}
+													]
+												}
+											}
+										},
+										{
+											"id": 150,
+											"name": "initialValue",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "If initialValue is specified, it is used as the initial value to start the accumulation. The first call to the callbackfn function provides this value as an argument instead of an array value.\n"
+											},
+											"type": {
+												"type": "typeParameter",
+												"name": "U"
+											}
+										}
+									],
+									"type": {
+										"type": "typeParameter",
+										"name": "U"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 123,
+										"name": "Array.reduce"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1349,
+									"character": 10
+								},
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1350,
+									"character": 10
+								},
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1356,
+									"character": 10
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 123,
+								"name": "Array.reduce"
+							}
+						},
+						{
+							"id": 151,
+							"name": "reduceRight",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 152,
+									"name": "reduceRight",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Calls the specified callback function for all the elements in an array, in descending order. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function."
+									},
+									"parameters": [
+										{
+											"id": 153,
+											"name": "callbackfn",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "A function that accepts up to four arguments. The reduceRight method calls the callbackfn function one time for each element in the array."
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 154,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"signatures": [
+														{
+															"id": 155,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"isExported": true
+															},
+															"parameters": [
+																{
+																	"id": 156,
+																	"name": "previousValue",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseMessaging"
+																	}
+																},
+																{
+																	"id": 157,
+																	"name": "currentValue",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseMessaging"
+																	}
+																},
+																{
+																	"id": 158,
+																	"name": "currentIndex",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "number"
+																	}
+																},
+																{
+																	"id": 159,
+																	"name": "array",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "reference",
+																			"name": "FirebaseMessaging"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "reference",
+																"name": "FirebaseMessaging"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+															"line": 1362,
+															"character": 27
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "FirebaseMessaging"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 151,
+										"name": "Array.reduceRight"
+									}
+								},
+								{
+									"id": 160,
+									"name": "reduceRight",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"parameters": [
+										{
+											"id": 161,
+											"name": "callbackfn",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 162,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"signatures": [
+														{
+															"id": 163,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"isExported": true
+															},
+															"parameters": [
+																{
+																	"id": 164,
+																	"name": "previousValue",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseMessaging"
+																	}
+																},
+																{
+																	"id": 165,
+																	"name": "currentValue",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseMessaging"
+																	}
+																},
+																{
+																	"id": 166,
+																	"name": "currentIndex",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "number"
+																	}
+																},
+																{
+																	"id": 167,
+																	"name": "array",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "reference",
+																			"name": "FirebaseMessaging"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "reference",
+																"name": "FirebaseMessaging"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+															"line": 1363,
+															"character": 27
+														}
+													]
+												}
+											}
+										},
+										{
+											"id": 168,
+											"name": "initialValue",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "FirebaseMessaging"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "FirebaseMessaging"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 151,
+										"name": "Array.reduceRight"
+									}
+								},
+								{
+									"id": 169,
+									"name": "reduceRight",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Calls the specified callback function for all the elements in an array, in descending order. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function."
+									},
+									"typeParameter": [
+										{
+											"id": 170,
+											"name": "U",
+											"kind": 131072,
+											"kindString": "Type parameter",
+											"flags": {
+												"isExported": true
+											}
+										}
+									],
+									"parameters": [
+										{
+											"id": 171,
+											"name": "callbackfn",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "A function that accepts up to four arguments. The reduceRight method calls the callbackfn function one time for each element in the array."
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 172,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"signatures": [
+														{
+															"id": 173,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"isExported": true
+															},
+															"parameters": [
+																{
+																	"id": 174,
+																	"name": "previousValue",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "typeParameter",
+																		"name": "U"
+																	}
+																},
+																{
+																	"id": 175,
+																	"name": "currentValue",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseMessaging"
+																	}
+																},
+																{
+																	"id": 176,
+																	"name": "currentIndex",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "number"
+																	}
+																},
+																{
+																	"id": 177,
+																	"name": "array",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "reference",
+																			"name": "FirebaseMessaging"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "typeParameter",
+																"name": "U"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+															"line": 1369,
+															"character": 30
+														}
+													]
+												}
+											}
+										},
+										{
+											"id": 178,
+											"name": "initialValue",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "If initialValue is specified, it is used as the initial value to start the accumulation. The first call to the callbackfn function provides this value as an argument instead of an array value.\n"
+											},
+											"type": {
+												"type": "typeParameter",
+												"name": "U"
+											}
+										}
+									],
+									"type": {
+										"type": "typeParameter",
+										"name": "U"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 151,
+										"name": "Array.reduceRight"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1362,
+									"character": 15
+								},
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1363,
+									"character": 15
+								},
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1369,
+									"character": 15
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 151,
+								"name": "Array.reduceRight"
+							}
+						},
+						{
+							"id": 34,
+							"name": "reverse",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 35,
+									"name": "reverse",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Reverses the elements in an Array."
+									},
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "reference",
+											"name": "FirebaseMessaging"
+										}
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 34,
+										"name": "Array.reverse"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1251,
+									"character": 11
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 34,
+								"name": "Array.reverse"
+							}
+						},
+						{
+							"id": 36,
+							"name": "shift",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 37,
+									"name": "shift",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Removes the first element from an array and returns it."
+									},
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "reference",
+												"name": "FirebaseMessaging"
+											},
+											{
+												"type": "intrinsic",
+												"name": "undefined"
+											}
+										]
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 36,
+										"name": "Array.shift"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1255,
+									"character": 9
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 36,
+								"name": "Array.shift"
+							}
+						},
+						{
+							"id": 38,
+							"name": "slice",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 39,
+									"name": "slice",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Returns a section of an array."
+									},
+									"parameters": [
+										{
+											"id": 40,
+											"name": "start",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "The beginning of the specified portion of the array."
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										},
+										{
+											"id": 41,
+											"name": "end",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "The end of the specified portion of the array. This is exclusive of the element at the index 'end'.\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										}
+									],
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "reference",
+											"name": "FirebaseMessaging"
+										}
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 38,
+										"name": "Array.slice"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1261,
+									"character": 9
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 38,
+								"name": "Array.slice"
+							}
+						},
+						{
+							"id": 77,
+							"name": "some",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 78,
+									"name": "some",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Determines whether the specified callback function returns true for any element of an array."
+									},
+									"parameters": [
+										{
+											"id": 79,
+											"name": "callbackfn",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "A function that accepts up to three arguments. The some method calls\nthe callbackfn function for each element in the array until the callbackfn returns a value\nwhich is coercible to the Boolean value true, or until the end of the array."
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 80,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"signatures": [
+														{
+															"id": 81,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"isExported": true
+															},
+															"parameters": [
+																{
+																	"id": 82,
+																	"name": "value",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseMessaging"
+																	}
+																},
+																{
+																	"id": 83,
+																	"name": "index",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "number"
+																	}
+																},
+																{
+																	"id": 84,
+																	"name": "array",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "reference",
+																			"name": "FirebaseMessaging"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "unknown"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+															"line": 1319,
+															"character": 20
+														}
+													]
+												}
+											}
+										},
+										{
+											"id": 85,
+											"name": "thisArg",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "An object to which the this keyword can refer in the callbackfn function.\nIf thisArg is omitted, undefined is used as the this value.\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 77,
+										"name": "Array.some"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1319,
+									"character": 8
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 77,
+								"name": "Array.some"
+							}
+						},
+						{
+							"id": 42,
+							"name": "sort",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 43,
+									"name": "sort",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Sorts an array."
+									},
+									"parameters": [
+										{
+											"id": 44,
+											"name": "compareFn",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "Function used to determine the order of the elements. It is expected to return\na negative value if first argument is less than second argument, zero if they're equal and a positive\nvalue otherwise. If omitted, the elements are sorted in ascending, ASCII character order.\n```ts\n[11,2,22,1].sort((a, b) => a - b)\n```\n"
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 45,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"signatures": [
+														{
+															"id": 46,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"isExported": true
+															},
+															"parameters": [
+																{
+																	"id": 47,
+																	"name": "a",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseMessaging"
+																	}
+																},
+																{
+																	"id": 48,
+																	"name": "b",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseMessaging"
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "number"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+															"line": 1271,
+															"character": 20
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 42,
+										"name": "Array.sort"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1271,
+									"character": 8
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 42,
+								"name": "Array.sort"
+							}
+						},
+						{
+							"id": 49,
+							"name": "splice",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 50,
+									"name": "splice",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Removes elements from an array and, if necessary, inserts new elements in their place, returning the deleted elements."
+									},
+									"parameters": [
+										{
+											"id": 51,
+											"name": "start",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "The zero-based location in the array from which to start removing elements."
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										},
+										{
+											"id": 52,
+											"name": "deleteCount",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "The number of elements to remove.\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										}
+									],
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "reference",
+											"name": "FirebaseMessaging"
+										}
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 49,
+										"name": "Array.splice"
+									}
+								},
+								{
+									"id": 53,
+									"name": "splice",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Removes elements from an array and, if necessary, inserts new elements in their place, returning the deleted elements."
+									},
+									"parameters": [
+										{
+											"id": 54,
+											"name": "start",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "The zero-based location in the array from which to start removing elements."
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										},
+										{
+											"id": 55,
+											"name": "deleteCount",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "The number of elements to remove."
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										},
+										{
+											"id": 56,
+											"name": "items",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isRest": true
+											},
+											"comment": {
+												"text": "Elements to insert into the array in place of the deleted elements.\n"
+											},
+											"type": {
+												"type": "array",
+												"elementType": {
+													"type": "reference",
+													"name": "FirebaseMessaging"
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "reference",
+											"name": "FirebaseMessaging"
+										}
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 49,
+										"name": "Array.splice"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1277,
+									"character": 10
+								},
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1284,
+									"character": 10
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 49,
+								"name": "Array.splice"
+							}
+						},
+						{
+							"id": 19,
+							"name": "toLocaleString",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 20,
+									"name": "toLocaleString",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Returns a string representation of an array. The elements are converted to string using their toLocalString methods."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 19,
+										"name": "Array.toLocaleString"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1223,
+									"character": 18
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 19,
+								"name": "Array.toLocaleString"
+							}
+						},
+						{
+							"id": 17,
+							"name": "toString",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 18,
+									"name": "toString",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Returns a string representation of an array."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 17,
+										"name": "Array.toString"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1219,
+									"character": 12
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 17,
+								"name": "Array.toString"
+							}
+						},
+						{
+							"id": 57,
+							"name": "unshift",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 58,
+									"name": "unshift",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Inserts new elements at the start of an array."
+									},
+									"parameters": [
+										{
+											"id": 59,
+											"name": "items",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isRest": true
+											},
+											"comment": {
+												"text": "Elements to insert at the start of the Array.\n"
+											},
+											"type": {
+												"type": "array",
+												"elementType": {
+													"type": "reference",
+													"name": "FirebaseMessaging"
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 57,
+										"name": "Array.unshift"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1289,
+									"character": 11
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 57,
+								"name": "Array.unshift"
+							}
+						},
+						{
+							"id": 226,
+							"name": "values",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 227,
+									"name": "values",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Returns an iterable of values in the array"
+									},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "FirebaseMessaging"
+											}
+										],
+										"name": "IterableIterator"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 226,
+										"name": "Array.values"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+									"line": 75,
+									"character": 10
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 226,
+								"name": "Array.values"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"kind": 512,
+							"children": [
+								242
+							]
+						},
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								181,
+								16
+							]
+						},
+						{
+							"title": "Methods",
+							"kind": 2048,
+							"children": [
+								220,
+								228,
+								26,
+								215,
+								222,
+								68,
+								210,
+								105,
+								182,
+								201,
+								86,
+								238,
+								60,
+								31,
+								224,
+								64,
+								95,
+								21,
+								23,
+								123,
+								151,
+								34,
+								36,
+								38,
+								77,
+								42,
+								49,
+								19,
+								17,
+								57,
+								226
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "src/messaging/messaging.ts",
+							"line": 19,
+							"character": 35
+						},
+						{
+							"fileName": "src/messaging/messaging.ts",
+							"line": 21,
+							"character": 31
+						}
+					],
+					"extendedTypes": [
+						{
+							"type": "reference",
+							"id": 181,
+							"typeArguments": [
+								{
+									"type": "reference",
+									"name": "FirebaseMessaging"
+								}
+							],
+							"name": "Array"
+						}
+					]
+				},
+				{
+					"id": 244,
+					"name": "MESSAGING_PROVIDER_NAME",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/messaging/messaging.ts",
+							"line": 16,
+							"character": 36
+						}
+					],
+					"type": {
+						"type": "stringLiteral",
+						"value": "messaging"
+					},
+					"defaultValue": "\"messaging\""
+				},
+				{
+					"id": 245,
+					"name": "messagingInstance$",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/messaging/messaging.ts",
+							"line": 27,
+							"character": 31
+						}
+					],
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "unknown"
+							}
+						],
+						"name": "Observable"
+					},
+					"defaultValue": "timer(0, 300).pipe(\n  concatMap(() => from(ɵgetAllInstancesOf<FirebaseMessaging>(MESSAGING_PROVIDER_NAME))),\n  distinct(),\n)"
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"kind": 128,
+					"children": [
+						10,
+						15
+					]
+				},
+				{
+					"title": "Variables",
+					"kind": 32,
+					"children": [
+						244,
+						245
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "src/messaging/messaging.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 246,
+			"name": "\"messaging.module\"",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/Users/nicholasgerard/Documents/GitHub/angularfire/src/messaging/messaging.module.ts",
+			"children": [
+				{
+					"id": 247,
+					"name": "MessagingModule",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {
+						"isExported": true
+					},
+					"decorators": [
+						{
+							"name": "NgModule",
+							"type": {
+								"type": "reference",
+								"name": "NgModule"
+							},
+							"arguments": {
+								"obj": "{\n  providers: [\n    DEFAULT_MESSAGING_INSTANCE_PROVIDER,\n    MESSAGING_INSTANCES_PROVIDER,\n    {\n      provide: APP_INITIALIZER,\n      useValue: ɵisMessagingSupportedFactory.async,\n      multi: true,\n    },\n  ]\n}"
+							}
+						}
+					],
+					"children": [
+						{
+							"id": 248,
+							"name": "constructor",
+							"kind": 512,
+							"kindString": "Constructor",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 249,
+									"name": "new MessagingModule",
+									"kind": 16384,
+									"kindString": "Constructor signature",
+									"flags": {
+										"isExported": true
+									},
+									"type": {
+										"type": "reference",
+										"id": 247,
+										"name": "MessagingModule"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "src/messaging/messaging.module.ts",
+									"line": 51,
+									"character": 30
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"kind": 512,
+							"children": [
+								248
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "src/messaging/messaging.module.ts",
+							"line": 51,
+							"character": 28
+						}
+					]
+				},
+				{
+					"id": 250,
+					"name": "defaultMessagingInstanceFactory",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 251,
+							"name": "defaultMessagingInstanceFactory",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"isExported": true
+							},
+							"parameters": [
+								{
+									"id": 252,
+									"name": "provided",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "array",
+												"elementType": {
+													"type": "reference",
+													"name": "FirebaseMessaging"
+												}
+											},
+											{
+												"type": "intrinsic",
+												"name": "undefined"
+											}
+										]
+									}
+								},
+								{
+									"id": 253,
+									"name": "defaultApp",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"type": {
+										"type": "reference",
+										"name": "FirebaseApp"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"id": 10,
+								"name": "Messaging"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "src/messaging/messaging.module.ts",
+							"line": 10,
+							"character": 47
+						}
+					]
+				},
+				{
+					"id": 254,
+					"name": "messagingInstanceFactory",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 255,
+							"name": "messagingInstanceFactory",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"isExported": true
+							},
+							"parameters": [
+								{
+									"id": 256,
+									"name": "fn",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 257,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {
+												"isExported": true
+											},
+											"signatures": [
+												{
+													"id": 258,
+													"name": "__call",
+													"kind": 4096,
+													"kindString": "Call signature",
+													"flags": {
+														"isExported": true
+													},
+													"parameters": [
+														{
+															"id": 259,
+															"name": "injector",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {
+																"isExported": true
+															},
+															"type": {
+																"type": "reference",
+																"name": "Injector"
+															}
+														}
+													],
+													"type": {
+														"type": "reference",
+														"name": "FirebaseMessaging"
+													}
+												}
+											],
+											"sources": [
+												{
+													"fileName": "src/messaging/messaging.module.ts",
+													"line": 16,
+													"character": 44
+												}
+											]
+										}
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "(Anonymous function)"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "src/messaging/messaging.module.ts",
+							"line": 16,
+							"character": 40
+						}
+					]
+				},
+				{
+					"id": 260,
+					"name": "provideMessaging",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 261,
+							"name": "provideMessaging",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"isExported": true
+							},
+							"parameters": [
+								{
+									"id": 262,
+									"name": "fn",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 263,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {
+												"isExported": true
+											},
+											"signatures": [
+												{
+													"id": 264,
+													"name": "__call",
+													"kind": 4096,
+													"kindString": "Call signature",
+													"flags": {
+														"isExported": true
+													},
+													"type": {
+														"type": "reference",
+														"name": "FirebaseMessaging"
+													}
+												}
+											],
+											"sources": [
+												{
+													"fileName": "src/messaging/messaging.module.ts",
+													"line": 57,
+													"character": 36
+												}
+											]
+										}
+									}
+								},
+								{
+									"id": 265,
+									"name": "deps",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true,
+										"isRest": true
+									},
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "intrinsic",
+											"name": "any"
+										}
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"typeArguments": [
+									{
+										"type": "reference",
+										"id": 247,
+										"name": "MessagingModule"
+									}
+								],
+								"name": "ModuleWithProviders"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "src/messaging/messaging.module.ts",
+							"line": 57,
+							"character": 32
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"kind": 128,
+					"children": [
+						247
+					]
+				},
+				{
+					"title": "Functions",
+					"kind": 64,
+					"children": [
+						250,
+						254,
+						260
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "src/messaging/messaging.module.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 266,
+			"name": "\"messaging.spec\"",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/Users/nicholasgerard/Documents/GitHub/angularfire/src/messaging/messaging.spec.ts",
+			"sources": [
+				{
+					"fileName": "src/messaging/messaging.spec.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 1,
+			"name": "\"overrides\"",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/Users/nicholasgerard/Documents/GitHub/angularfire/src/messaging/overrides.ts",
+			"children": [
+				{
+					"id": 2,
+					"name": "isSupported",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/messaging/overrides.ts",
+							"line": 3,
+							"character": 24
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "ɵisMessagingSupportedFactory.async"
+				}
+			],
+			"groups": [
+				{
+					"title": "Variables",
+					"kind": 32,
+					"children": [
+						2
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "src/messaging/overrides.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 267,
+			"name": "\"public_api\"",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/Users/nicholasgerard/Documents/GitHub/angularfire/src/messaging/public_api.ts",
+			"children": [
+				{
+					"id": 269,
+					"name": "Messaging",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 10
+				},
+				{
+					"id": 268,
+					"name": "MessagingInstances",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 15
+				},
+				{
+					"id": 272,
+					"name": "MessagingModule",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 247
+				},
+				{
+					"id": 274,
+					"name": "deleteToken",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 5
+				},
+				{
+					"id": 275,
+					"name": "getMessaging",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 6
+				},
+				{
+					"id": 276,
+					"name": "getToken",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 7
+				},
+				{
+					"id": 273,
+					"name": "isSupported",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 2
+				},
+				{
+					"id": 270,
+					"name": "messagingInstance$",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 245
+				},
+				{
+					"id": 277,
+					"name": "onMessage",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 8
+				},
+				{
+					"id": 271,
+					"name": "provideMessaging",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 260
+				}
+			],
+			"groups": [
+				{
+					"title": "References",
+					"kind": 16777216,
+					"children": [
+						269,
+						268,
+						272,
+						274,
+						275,
+						276,
+						273,
+						270,
+						277,
+						271
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "src/messaging/public_api.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		}
+	],
+	"groups": [
+		{
+			"title": "External modules",
+			"kind": 1,
+			"children": [
+				3,
+				9,
+				246,
+				266,
+				1,
+				267
+			]
+		}
+	]
+}

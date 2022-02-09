@@ -1,0 +1,5925 @@
+{
+	"id": 0,
+	"name": "undefined",
+	"kind": 0,
+	"flags": {},
+	"originalName": "",
+	"children": [
+		{
+			"id": 3,
+			"name": "\"firebase\"",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/Users/nicholasgerard/Documents/GitHub/angularfire/src/remote-config/firebase.ts",
+			"children": [
+				{
+					"id": 4,
+					"name": "isSupported",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 2
+				},
+				{
+					"id": 5,
+					"name": "activate",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/remote-config/firebase.ts",
+							"line": 22,
+							"character": 21
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "ɵzoneWrap(_activate, true)"
+				},
+				{
+					"id": 6,
+					"name": "ensureInitialized",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/remote-config/firebase.ts",
+							"line": 23,
+							"character": 30
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "ɵzoneWrap(_ensureInitialized, true)"
+				},
+				{
+					"id": 7,
+					"name": "fetchAndActivate",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/remote-config/firebase.ts",
+							"line": 24,
+							"character": 29
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "ɵzoneWrap(_fetchAndActivate, true)"
+				},
+				{
+					"id": 8,
+					"name": "fetchConfig",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/remote-config/firebase.ts",
+							"line": 25,
+							"character": 24
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "ɵzoneWrap(_fetchConfig, true)"
+				},
+				{
+					"id": 9,
+					"name": "getAll",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/remote-config/firebase.ts",
+							"line": 26,
+							"character": 19
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "ɵzoneWrap(_getAll, true)"
+				},
+				{
+					"id": 10,
+					"name": "getBoolean",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/remote-config/firebase.ts",
+							"line": 27,
+							"character": 23
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "ɵzoneWrap(_getBoolean, true)"
+				},
+				{
+					"id": 11,
+					"name": "getNumber",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/remote-config/firebase.ts",
+							"line": 28,
+							"character": 22
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "ɵzoneWrap(_getNumber, true)"
+				},
+				{
+					"id": 12,
+					"name": "getRemoteConfig",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/remote-config/firebase.ts",
+							"line": 29,
+							"character": 28
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "ɵzoneWrap(_getRemoteConfig, true)"
+				},
+				{
+					"id": 13,
+					"name": "getString",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/remote-config/firebase.ts",
+							"line": 30,
+							"character": 22
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "ɵzoneWrap(_getString, true)"
+				},
+				{
+					"id": 14,
+					"name": "getValue",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/remote-config/firebase.ts",
+							"line": 31,
+							"character": 21
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "ɵzoneWrap(_getValue, true)"
+				},
+				{
+					"id": 15,
+					"name": "setLogLevel",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/remote-config/firebase.ts",
+							"line": 32,
+							"character": 24
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "ɵzoneWrap(_setLogLevel, true)"
+				}
+			],
+			"groups": [
+				{
+					"title": "References",
+					"kind": 16777216,
+					"children": [
+						4
+					]
+				},
+				{
+					"title": "Variables",
+					"kind": 32,
+					"children": [
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "src/remote-config/firebase.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 1,
+			"name": "\"overrides\"",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/Users/nicholasgerard/Documents/GitHub/angularfire/src/remote-config/overrides.ts",
+			"children": [
+				{
+					"id": 2,
+					"name": "isSupported",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/remote-config/overrides.ts",
+							"line": 3,
+							"character": 24
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "ɵisRemoteConfigSupportedFactory.async"
+				}
+			],
+			"groups": [
+				{
+					"title": "Variables",
+					"kind": 32,
+					"children": [
+						2
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "src/remote-config/overrides.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 287,
+			"name": "\"public_api\"",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/Users/nicholasgerard/Documents/GitHub/angularfire/src/remote-config/public_api.ts",
+			"children": [
+				{
+					"id": 289,
+					"name": "RemoteConfig",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 17
+				},
+				{
+					"id": 288,
+					"name": "RemoteConfigInstances",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 29
+				},
+				{
+					"id": 292,
+					"name": "RemoteConfigModule",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 261
+				},
+				{
+					"id": 299,
+					"name": "activate",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 5
+				},
+				{
+					"id": 300,
+					"name": "ensureInitialized",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 6
+				},
+				{
+					"id": 301,
+					"name": "fetchAndActivate",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 7
+				},
+				{
+					"id": 302,
+					"name": "fetchConfig",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 8
+				},
+				{
+					"id": 303,
+					"name": "getAll",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 9
+				},
+				{
+					"id": 297,
+					"name": "getAllChanges",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 286
+				},
+				{
+					"id": 304,
+					"name": "getBoolean",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 10
+				},
+				{
+					"id": 296,
+					"name": "getBooleanChanges",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 285
+				},
+				{
+					"id": 305,
+					"name": "getNumber",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 11
+				},
+				{
+					"id": 295,
+					"name": "getNumberChanges",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 284
+				},
+				{
+					"id": 306,
+					"name": "getRemoteConfig",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 12
+				},
+				{
+					"id": 307,
+					"name": "getString",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 13
+				},
+				{
+					"id": 294,
+					"name": "getStringChanges",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 283
+				},
+				{
+					"id": 308,
+					"name": "getValue",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 14
+				},
+				{
+					"id": 293,
+					"name": "getValueChanges",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 282
+				},
+				{
+					"id": 298,
+					"name": "isSupported",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 2
+				},
+				{
+					"id": 291,
+					"name": "provideRemoteConfig",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 275
+				},
+				{
+					"id": 290,
+					"name": "remoteConfigInstance$",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 259
+				},
+				{
+					"id": 309,
+					"name": "setLogLevel",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 15
+				}
+			],
+			"groups": [
+				{
+					"title": "References",
+					"kind": 16777216,
+					"children": [
+						289,
+						288,
+						292,
+						299,
+						300,
+						301,
+						302,
+						303,
+						297,
+						304,
+						296,
+						305,
+						295,
+						306,
+						307,
+						294,
+						308,
+						293,
+						298,
+						291,
+						290,
+						309
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "src/remote-config/public_api.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 16,
+			"name": "\"remote-config\"",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/Users/nicholasgerard/Documents/GitHub/angularfire/src/remote-config/remote-config.ts",
+			"children": [
+				{
+					"id": 17,
+					"name": "RemoteConfig",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {
+						"isExported": true
+					},
+					"children": [
+						{
+							"id": 26,
+							"name": "constructor",
+							"kind": 512,
+							"kindString": "Constructor",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 27,
+									"name": "new RemoteConfig",
+									"kind": 16384,
+									"kindString": "Constructor signature",
+									"flags": {
+										"isExported": true
+									},
+									"parameters": [
+										{
+											"id": 28,
+											"name": "remoteConfig",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "FirebaseRemoteConfig"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"id": 17,
+										"name": "RemoteConfig"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "src/remote-config/remote-config.ts",
+									"line": 10,
+									"character": 27
+								}
+							]
+						},
+						{
+							"id": 18,
+							"name": "app",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "The {@link @firebase/app#FirebaseApp} this `RemoteConfig` instance is associated with."
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/@firebase/remote-config/dist/remote-config-public.d.ts",
+									"line": 162,
+									"character": 7
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "FirebaseApp"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 18,
+								"name": "RemoteConfig.app"
+							}
+						},
+						{
+							"id": 20,
+							"name": "defaultConfig",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "Object containing default values for configs."
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/@firebase/remote-config/dist/remote-config-public.d.ts",
+									"line": 170,
+									"character": 17
+								}
+							],
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 21,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {
+										"isExported": true
+									},
+									"indexSignature": [
+										{
+											"id": 22,
+											"name": "__index",
+											"kind": 8192,
+											"kindString": "Index signature",
+											"flags": {
+												"isExported": true
+											},
+											"parameters": [
+												{
+													"id": 23,
+													"name": "key",
+													"kind": 32768,
+													"kindString": "Parameter",
+													"flags": {
+														"isExported": true
+													},
+													"type": {
+														"type": "intrinsic",
+														"name": "string"
+													}
+												}
+											],
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "string"
+													},
+													{
+														"type": "intrinsic",
+														"name": "number"
+													},
+													{
+														"type": "intrinsic",
+														"name": "boolean"
+													}
+												]
+											}
+										}
+									],
+									"sources": [
+										{
+											"fileName": "node_modules/@firebase/remote-config/dist/remote-config-public.d.ts",
+											"line": 170,
+											"character": 18
+										}
+									]
+								}
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 20,
+								"name": "RemoteConfig.defaultConfig"
+							}
+						},
+						{
+							"id": 24,
+							"name": "fetchTimeMillis",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "The Unix timestamp in milliseconds of the last <i>successful</i> fetch, or negative one if\nthe {@link RemoteConfig} instance either hasn't fetched or initialization\nis incomplete."
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/@firebase/remote-config/dist/remote-config-public.d.ts",
+									"line": 178,
+									"character": 19
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 24,
+								"name": "RemoteConfig.fetchTimeMillis"
+							}
+						},
+						{
+							"id": 25,
+							"name": "lastFetchStatus",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "The status of the last fetch <i>attempt</i>."
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/@firebase/remote-config/dist/remote-config-public.d.ts",
+									"line": 182,
+									"character": 19
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "FetchStatus"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 25,
+								"name": "RemoteConfig.lastFetchStatus"
+							}
+						},
+						{
+							"id": 19,
+							"name": "settings",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "Defines configuration for the Remote Config SDK."
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/@firebase/remote-config/dist/remote-config-public.d.ts",
+									"line": 166,
+									"character": 12
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "RemoteConfigSettings"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 19,
+								"name": "RemoteConfig.settings"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"kind": 512,
+							"children": [
+								26
+							]
+						},
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								18,
+								20,
+								24,
+								25,
+								19
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "src/remote-config/remote-config.ts",
+							"line": 8,
+							"character": 29
+						},
+						{
+							"fileName": "src/remote-config/remote-config.ts",
+							"line": 10,
+							"character": 25
+						}
+					],
+					"extendedTypes": [
+						{
+							"type": "reference",
+							"name": "RemoteConfig"
+						}
+					]
+				},
+				{
+					"id": 29,
+					"name": "RemoteConfigInstances",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {
+						"isExported": true
+					},
+					"indexSignature": [
+						{
+							"id": 193,
+							"name": "__index",
+							"kind": 8192,
+							"kindString": "Index signature",
+							"flags": {
+								"isExported": true
+							},
+							"parameters": [
+								{
+									"id": 194,
+									"name": "n",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "FirebaseRemoteConfig"
+							}
+						}
+					],
+					"children": [
+						{
+							"id": 256,
+							"name": "constructor",
+							"kind": 512,
+							"kindString": "Constructor",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 257,
+									"name": "new RemoteConfigInstances",
+									"kind": 16384,
+									"kindString": "Constructor signature",
+									"flags": {
+										"isExported": true
+									},
+									"type": {
+										"type": "reference",
+										"id": 29,
+										"name": "RemoteConfigInstances"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "src/remote-config/remote-config.ts",
+									"line": 21,
+									"character": 36
+								}
+							]
+						},
+						{
+							"id": 195,
+							"name": "Array",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1385,
+									"character": 17
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "ArrayConstructor"
+							},
+							"extendedBy": [
+								{
+									"type": "reference",
+									"id": 29,
+									"name": "RemoteConfigInstances"
+								}
+							]
+						},
+						{
+							"id": 30,
+							"name": "length",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "Gets or sets the length of the array. This is a number one higher than the highest element defined in an array."
+							},
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1215,
+									"character": 10
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 30,
+								"name": "Array.length"
+							}
+						},
+						{
+							"id": 234,
+							"name": "[Symbol.iterator]",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 235,
+									"name": "[Symbol.iterator]",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Iterator"
+									},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "FirebaseRemoteConfig"
+											}
+										],
+										"name": "IterableIterator"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 234,
+										"name": "Array.[Symbol.iterator]"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+									"line": 60,
+									"character": 21
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 234,
+								"name": "Array.[Symbol.iterator]"
+							}
+						},
+						{
+							"id": 242,
+							"name": "[Symbol.unscopables]",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 243,
+									"name": "[Symbol.unscopables]",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Returns an object whose properties have the value 'true'\nwhen they will be absent when used in a 'with' statement."
+									},
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 244,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {
+												"isExported": true
+											},
+											"children": [
+												{
+													"id": 245,
+													"name": "copyWithin",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"isExported": true
+													},
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+															"line": 95,
+															"character": 18
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "boolean"
+													}
+												},
+												{
+													"id": 246,
+													"name": "entries",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"isExported": true
+													},
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+															"line": 96,
+															"character": 15
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "boolean"
+													}
+												},
+												{
+													"id": 247,
+													"name": "fill",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"isExported": true
+													},
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+															"line": 97,
+															"character": 12
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "boolean"
+													}
+												},
+												{
+													"id": 248,
+													"name": "find",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"isExported": true
+													},
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+															"line": 98,
+															"character": 12
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "boolean"
+													}
+												},
+												{
+													"id": 249,
+													"name": "findIndex",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"isExported": true
+													},
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+															"line": 99,
+															"character": 17
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "boolean"
+													}
+												},
+												{
+													"id": 250,
+													"name": "keys",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"isExported": true
+													},
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+															"line": 100,
+															"character": 12
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "boolean"
+													}
+												},
+												{
+													"id": 251,
+													"name": "values",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"isExported": true
+													},
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+															"line": 101,
+															"character": 14
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "boolean"
+													}
+												}
+											],
+											"groups": [
+												{
+													"title": "Variables",
+													"kind": 32,
+													"children": [
+														245,
+														246,
+														247,
+														248,
+														249,
+														250,
+														251
+													]
+												}
+											],
+											"sources": [
+												{
+													"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+													"line": 94,
+													"character": 27
+												}
+											]
+										}
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 242,
+										"name": "Array.[Symbol.unscopables]"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+									"line": 94,
+									"character": 24
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 242,
+								"name": "Array.[Symbol.unscopables]"
+							}
+						},
+						{
+							"id": 40,
+							"name": "concat",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 41,
+									"name": "concat",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Combines two or more arrays."
+									},
+									"parameters": [
+										{
+											"id": 42,
+											"name": "items",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isRest": true
+											},
+											"comment": {
+												"text": "Additional items to add to the end of array1.\n"
+											},
+											"type": {
+												"type": "array",
+												"elementType": {
+													"type": "reference",
+													"typeArguments": [
+														{
+															"type": "reference",
+															"name": "FirebaseRemoteConfig"
+														}
+													],
+													"name": "ConcatArray"
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "reference",
+											"name": "FirebaseRemoteConfig"
+										}
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 40,
+										"name": "Array.concat"
+									}
+								},
+								{
+									"id": 43,
+									"name": "concat",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Combines two or more arrays."
+									},
+									"parameters": [
+										{
+											"id": 44,
+											"name": "items",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isRest": true
+											},
+											"comment": {
+												"text": "Additional items to add to the end of array1.\n"
+											},
+											"type": {
+												"type": "array",
+												"elementType": {
+													"type": "union",
+													"types": [
+														{
+															"type": "unknown",
+															"name": "T"
+														},
+														{
+															"type": "reference",
+															"typeArguments": [
+																{
+																	"type": "unknown",
+																	"name": "T"
+																}
+															],
+															"name": "ConcatArray"
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "reference",
+											"name": "FirebaseRemoteConfig"
+										}
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 40,
+										"name": "Array.concat"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1237,
+									"character": 10
+								},
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1242,
+									"character": 10
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 40,
+								"name": "Array.concat"
+							}
+						},
+						{
+							"id": 229,
+							"name": "copyWithin",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 230,
+									"name": "copyWithin",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Returns the this object after copying a section of the array identified by start and end\nto the same array starting at position target"
+									},
+									"parameters": [
+										{
+											"id": 231,
+											"name": "target",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "If target is negative, it is treated as length+target where length is the\nlength of the array."
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										},
+										{
+											"id": 232,
+											"name": "start",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "If start is negative, it is treated as length+start. If end is negative, it\nis treated as length+end."
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										},
+										{
+											"id": 233,
+											"name": "end",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "If not specified, length of the this object is used as its default value.\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 229,
+										"name": "Array.copyWithin"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.core.d.ts",
+									"line": 64,
+									"character": 14
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 229,
+								"name": "Array.copyWithin"
+							}
+						},
+						{
+							"id": 236,
+							"name": "entries",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 237,
+									"name": "entries",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Returns an iterable of key, value pairs for every entry in the array"
+									},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "tuple",
+												"elements": [
+													{
+														"type": "intrinsic",
+														"name": "number"
+													},
+													{
+														"type": "reference",
+														"name": "FirebaseRemoteConfig"
+													}
+												]
+											}
+										],
+										"name": "IterableIterator"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 236,
+										"name": "Array.entries"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+									"line": 65,
+									"character": 11
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 236,
+								"name": "Array.entries"
+							}
+						},
+						{
+							"id": 82,
+							"name": "every",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 83,
+									"name": "every",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Determines whether all the members of an array satisfy the specified test."
+									},
+									"parameters": [
+										{
+											"id": 84,
+											"name": "callbackfn",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "A function that accepts up to three arguments. The every method calls\nthe callbackfn function for each element in the array until the callbackfn returns a value\nwhich is coercible to the Boolean value false, or until the end of the array."
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 85,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"signatures": [
+														{
+															"id": 86,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"isExported": true
+															},
+															"parameters": [
+																{
+																	"id": 87,
+																	"name": "value",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseRemoteConfig"
+																	}
+																},
+																{
+																	"id": 88,
+																	"name": "index",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "number"
+																	}
+																},
+																{
+																	"id": 89,
+																	"name": "array",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "reference",
+																			"name": "FirebaseRemoteConfig"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "unknown"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+															"line": 1310,
+															"character": 21
+														}
+													]
+												}
+											}
+										},
+										{
+											"id": 90,
+											"name": "thisArg",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "An object to which the this keyword can refer in the callbackfn function.\nIf thisArg is omitted, undefined is used as the this value.\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 82,
+										"name": "Array.every"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1310,
+									"character": 9
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 82,
+								"name": "Array.every"
+							}
+						},
+						{
+							"id": 224,
+							"name": "fill",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 225,
+									"name": "fill",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Returns the this object after filling the section identified by start and end with value"
+									},
+									"parameters": [
+										{
+											"id": 226,
+											"name": "value",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "value to fill array section with"
+											},
+											"type": {
+												"type": "reference",
+												"name": "FirebaseRemoteConfig"
+											}
+										},
+										{
+											"id": 227,
+											"name": "start",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "index to start filling the array at. If start is negative, it is treated as\nlength+start where length is the length of the array."
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										},
+										{
+											"id": 228,
+											"name": "end",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "index to stop filling the array at. If end is negative, it is treated as\nlength+end.\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 224,
+										"name": "Array.fill"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.core.d.ts",
+									"line": 53,
+									"character": 8
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 224,
+								"name": "Array.fill"
+							}
+						},
+						{
+							"id": 119,
+							"name": "filter",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 120,
+									"name": "filter",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Returns the elements of an array that meet the condition specified in a callback function."
+									},
+									"typeParameter": [
+										{
+											"id": 121,
+											"name": "S",
+											"kind": 131072,
+											"kindString": "Type parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "FirebaseRemoteConfig"
+											}
+										}
+									],
+									"parameters": [
+										{
+											"id": 122,
+											"name": "callbackfn",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "A function that accepts up to three arguments. The filter method calls the callbackfn function one time for each element in the array."
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 123,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"signatures": [
+														{
+															"id": 124,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"isExported": true
+															},
+															"parameters": [
+																{
+																	"id": 125,
+																	"name": "value",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseRemoteConfig"
+																	}
+																},
+																{
+																	"id": 126,
+																	"name": "index",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "number"
+																	}
+																},
+																{
+																	"id": 127,
+																	"name": "array",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "reference",
+																			"name": "FirebaseRemoteConfig"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "predicate",
+																"name": "value",
+																"asserts": false,
+																"targetType": {
+																	"type": "typeParameter",
+																	"name": "S",
+																	"constraint": {
+																		"type": "reference",
+																		"name": "FirebaseRemoteConfig"
+																	}
+																}
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+															"line": 1337,
+															"character": 35
+														}
+													]
+												}
+											}
+										},
+										{
+											"id": 128,
+											"name": "thisArg",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "An object to which the this keyword can refer in the callbackfn function. If thisArg is omitted, undefined is used as the this value.\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "typeParameter",
+											"name": "S",
+											"constraint": {
+												"type": "reference",
+												"name": "FirebaseRemoteConfig"
+											}
+										}
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 119,
+										"name": "Array.filter"
+									}
+								},
+								{
+									"id": 129,
+									"name": "filter",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Returns the elements of an array that meet the condition specified in a callback function."
+									},
+									"parameters": [
+										{
+											"id": 130,
+											"name": "callbackfn",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "A function that accepts up to three arguments. The filter method calls the callbackfn function one time for each element in the array."
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 131,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"signatures": [
+														{
+															"id": 132,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"isExported": true
+															},
+															"parameters": [
+																{
+																	"id": 133,
+																	"name": "value",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseRemoteConfig"
+																	}
+																},
+																{
+																	"id": 134,
+																	"name": "index",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "number"
+																	}
+																},
+																{
+																	"id": 135,
+																	"name": "array",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "reference",
+																			"name": "FirebaseRemoteConfig"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "unknown"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+															"line": 1343,
+															"character": 22
+														}
+													]
+												}
+											}
+										},
+										{
+											"id": 136,
+											"name": "thisArg",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "An object to which the this keyword can refer in the callbackfn function. If thisArg is omitted, undefined is used as the this value.\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "reference",
+											"name": "FirebaseRemoteConfig"
+										}
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 119,
+										"name": "Array.filter"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1337,
+									"character": 10
+								},
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1343,
+									"character": 10
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 119,
+								"name": "Array.filter"
+							}
+						},
+						{
+							"id": 196,
+							"name": "find",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 197,
+									"name": "find",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Returns the value of the first element in the array where predicate is true, and undefined\notherwise."
+									},
+									"typeParameter": [
+										{
+											"id": 198,
+											"name": "S",
+											"kind": 131072,
+											"kindString": "Type parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "FirebaseRemoteConfig"
+											}
+										}
+									],
+									"parameters": [
+										{
+											"id": 199,
+											"name": "predicate",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "find calls predicate once for each element of the array, in ascending\norder, until it finds one where predicate returns true. If such an element is found, find\nimmediately returns that element value. Otherwise, find returns undefined."
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 200,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"signatures": [
+														{
+															"id": 201,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"isExported": true
+															},
+															"parameters": [
+																{
+																	"id": 202,
+																	"name": "this",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "void"
+																	}
+																},
+																{
+																	"id": 203,
+																	"name": "value",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseRemoteConfig"
+																	}
+																},
+																{
+																	"id": 204,
+																	"name": "index",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "number"
+																	}
+																},
+																{
+																	"id": 205,
+																	"name": "obj",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "reference",
+																			"name": "FirebaseRemoteConfig"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "predicate",
+																"name": "value",
+																"asserts": false,
+																"targetType": {
+																	"type": "typeParameter",
+																	"name": "S",
+																	"constraint": {
+																		"type": "reference",
+																		"name": "FirebaseRemoteConfig"
+																	}
+																}
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.core.d.ts",
+															"line": 31,
+															"character": 32
+														}
+													]
+												}
+											}
+										},
+										{
+											"id": 206,
+											"name": "thisArg",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "If provided, it will be used as the this value for each invocation of\npredicate. If it is not provided, undefined is used instead.\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "typeParameter",
+												"name": "S",
+												"constraint": {
+													"type": "reference",
+													"name": "FirebaseRemoteConfig"
+												}
+											},
+											{
+												"type": "intrinsic",
+												"name": "undefined"
+											}
+										]
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 196,
+										"name": "Array.find"
+									}
+								},
+								{
+									"id": 207,
+									"name": "find",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"parameters": [
+										{
+											"id": 208,
+											"name": "predicate",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 209,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"signatures": [
+														{
+															"id": 210,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"isExported": true
+															},
+															"parameters": [
+																{
+																	"id": 211,
+																	"name": "value",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseRemoteConfig"
+																	}
+																},
+																{
+																	"id": 212,
+																	"name": "index",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "number"
+																	}
+																},
+																{
+																	"id": 213,
+																	"name": "obj",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "reference",
+																			"name": "FirebaseRemoteConfig"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "unknown"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.core.d.ts",
+															"line": 32,
+															"character": 19
+														}
+													]
+												}
+											}
+										},
+										{
+											"id": 214,
+											"name": "thisArg",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "reference",
+												"name": "FirebaseRemoteConfig"
+											},
+											{
+												"type": "intrinsic",
+												"name": "undefined"
+											}
+										]
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 196,
+										"name": "Array.find"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.core.d.ts",
+									"line": 31,
+									"character": 8
+								},
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.core.d.ts",
+									"line": 32,
+									"character": 8
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 196,
+								"name": "Array.find"
+							}
+						},
+						{
+							"id": 215,
+							"name": "findIndex",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 216,
+									"name": "findIndex",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Returns the index of the first element in the array where predicate is true, and -1\notherwise."
+									},
+									"parameters": [
+										{
+											"id": 217,
+											"name": "predicate",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "find calls predicate once for each element of the array, in ascending\norder, until it finds one where predicate returns true. If such an element is found,\nfindIndex immediately returns that element index. Otherwise, findIndex returns -1."
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 218,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"signatures": [
+														{
+															"id": 219,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"isExported": true
+															},
+															"parameters": [
+																{
+																	"id": 220,
+																	"name": "value",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseRemoteConfig"
+																	}
+																},
+																{
+																	"id": 221,
+																	"name": "index",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "number"
+																	}
+																},
+																{
+																	"id": 222,
+																	"name": "obj",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "reference",
+																			"name": "FirebaseRemoteConfig"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "unknown"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.core.d.ts",
+															"line": 43,
+															"character": 24
+														}
+													]
+												}
+											}
+										},
+										{
+											"id": 223,
+											"name": "thisArg",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "If provided, it will be used as the this value for each invocation of\npredicate. If it is not provided, undefined is used instead.\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 215,
+										"name": "Array.findIndex"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.core.d.ts",
+									"line": 43,
+									"character": 13
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 215,
+								"name": "Array.findIndex"
+							}
+						},
+						{
+							"id": 100,
+							"name": "forEach",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 101,
+									"name": "forEach",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Performs the specified action for each element in an array."
+									},
+									"parameters": [
+										{
+											"id": 102,
+											"name": "callbackfn",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "A function that accepts up to three arguments. forEach calls the callbackfn function one time for each element in the array."
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 103,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"signatures": [
+														{
+															"id": 104,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"isExported": true
+															},
+															"parameters": [
+																{
+																	"id": 105,
+																	"name": "value",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseRemoteConfig"
+																	}
+																},
+																{
+																	"id": 106,
+																	"name": "index",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "number"
+																	}
+																},
+																{
+																	"id": 107,
+																	"name": "array",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "reference",
+																			"name": "FirebaseRemoteConfig"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "void"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+															"line": 1325,
+															"character": 23
+														}
+													]
+												}
+											}
+										},
+										{
+											"id": 108,
+											"name": "thisArg",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "An object to which the this keyword can refer in the callbackfn function. If thisArg is omitted, undefined is used as the this value.\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 100,
+										"name": "Array.forEach"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1325,
+									"character": 11
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 100,
+								"name": "Array.forEach"
+							}
+						},
+						{
+							"id": 252,
+							"name": "includes",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 253,
+									"name": "includes",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Determines whether an array includes a certain element, returning true or false as appropriate."
+									},
+									"parameters": [
+										{
+											"id": 254,
+											"name": "searchElement",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "The element to search for."
+											},
+											"type": {
+												"type": "reference",
+												"name": "FirebaseRemoteConfig"
+											}
+										},
+										{
+											"id": 255,
+											"name": "fromIndex",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "The position in this array at which to begin searching for searchElement.\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 252,
+										"name": "Array.includes"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2016.array.include.d.ts",
+									"line": 27,
+									"character": 12
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 252,
+								"name": "Array.includes"
+							}
+						},
+						{
+							"id": 74,
+							"name": "indexOf",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 75,
+									"name": "indexOf",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Returns the index of the first occurrence of a value in an array."
+									},
+									"parameters": [
+										{
+											"id": 76,
+											"name": "searchElement",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "The value to locate in the array."
+											},
+											"type": {
+												"type": "reference",
+												"name": "FirebaseRemoteConfig"
+											}
+										},
+										{
+											"id": 77,
+											"name": "fromIndex",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "The array index at which to begin the search. If fromIndex is omitted, the search starts at index 0.\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 74,
+										"name": "Array.indexOf"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1295,
+									"character": 11
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 74,
+								"name": "Array.indexOf"
+							}
+						},
+						{
+							"id": 45,
+							"name": "join",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 46,
+									"name": "join",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Adds all the elements of an array separated by the specified separator string."
+									},
+									"parameters": [
+										{
+											"id": 47,
+											"name": "separator",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "A string used to separate one element of an array from the next in the resulting String. If omitted, the array elements are separated with a comma.\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 45,
+										"name": "Array.join"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1247,
+									"character": 8
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 45,
+								"name": "Array.join"
+							}
+						},
+						{
+							"id": 238,
+							"name": "keys",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 239,
+									"name": "keys",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Returns an iterable of keys in the array"
+									},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "number"
+											}
+										],
+										"name": "IterableIterator"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 238,
+										"name": "Array.keys"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+									"line": 70,
+									"character": 8
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 238,
+								"name": "Array.keys"
+							}
+						},
+						{
+							"id": 78,
+							"name": "lastIndexOf",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 79,
+									"name": "lastIndexOf",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Returns the index of the last occurrence of a specified value in an array."
+									},
+									"parameters": [
+										{
+											"id": 80,
+											"name": "searchElement",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "The value to locate in the array."
+											},
+											"type": {
+												"type": "reference",
+												"name": "FirebaseRemoteConfig"
+											}
+										},
+										{
+											"id": 81,
+											"name": "fromIndex",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "The array index at which to begin the search. If fromIndex is omitted, the search starts at the last index in the array.\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 78,
+										"name": "Array.lastIndexOf"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1301,
+									"character": 15
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 78,
+								"name": "Array.lastIndexOf"
+							}
+						},
+						{
+							"id": 109,
+							"name": "map",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 110,
+									"name": "map",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Calls a defined callback function on each element of an array, and returns an array that contains the results."
+									},
+									"typeParameter": [
+										{
+											"id": 111,
+											"name": "U",
+											"kind": 131072,
+											"kindString": "Type parameter",
+											"flags": {
+												"isExported": true
+											}
+										}
+									],
+									"parameters": [
+										{
+											"id": 112,
+											"name": "callbackfn",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "A function that accepts up to three arguments. The map method calls the callbackfn function one time for each element in the array."
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 113,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"signatures": [
+														{
+															"id": 114,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"isExported": true
+															},
+															"parameters": [
+																{
+																	"id": 115,
+																	"name": "value",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseRemoteConfig"
+																	}
+																},
+																{
+																	"id": 116,
+																	"name": "index",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "number"
+																	}
+																},
+																{
+																	"id": 117,
+																	"name": "array",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "reference",
+																			"name": "FirebaseRemoteConfig"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "typeParameter",
+																"name": "U"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+															"line": 1331,
+															"character": 22
+														}
+													]
+												}
+											}
+										},
+										{
+											"id": 118,
+											"name": "thisArg",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "An object to which the this keyword can refer in the callbackfn function. If thisArg is omitted, undefined is used as the this value.\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "typeParameter",
+											"name": "U"
+										}
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 109,
+										"name": "Array.map"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1331,
+									"character": 7
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 109,
+								"name": "Array.map"
+							}
+						},
+						{
+							"id": 35,
+							"name": "pop",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 36,
+									"name": "pop",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Removes the last element from an array and returns it."
+									},
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "reference",
+												"name": "FirebaseRemoteConfig"
+											},
+											{
+												"type": "intrinsic",
+												"name": "undefined"
+											}
+										]
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 35,
+										"name": "Array.pop"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1227,
+									"character": 7
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 35,
+								"name": "Array.pop"
+							}
+						},
+						{
+							"id": 37,
+							"name": "push",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 38,
+									"name": "push",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Appends new elements to an array, and returns the new length of the array."
+									},
+									"parameters": [
+										{
+											"id": 39,
+											"name": "items",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isRest": true
+											},
+											"comment": {
+												"text": "New elements of the Array.\n"
+											},
+											"type": {
+												"type": "array",
+												"elementType": {
+													"type": "reference",
+													"name": "FirebaseRemoteConfig"
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 37,
+										"name": "Array.push"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1232,
+									"character": 8
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 37,
+								"name": "Array.push"
+							}
+						},
+						{
+							"id": 137,
+							"name": "reduce",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 138,
+									"name": "reduce",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Calls the specified callback function for all the elements in an array. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function."
+									},
+									"parameters": [
+										{
+											"id": 139,
+											"name": "callbackfn",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "A function that accepts up to four arguments. The reduce method calls the callbackfn function one time for each element in the array."
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 140,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"signatures": [
+														{
+															"id": 141,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"isExported": true
+															},
+															"parameters": [
+																{
+																	"id": 142,
+																	"name": "previousValue",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseRemoteConfig"
+																	}
+																},
+																{
+																	"id": 143,
+																	"name": "currentValue",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseRemoteConfig"
+																	}
+																},
+																{
+																	"id": 144,
+																	"name": "currentIndex",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "number"
+																	}
+																},
+																{
+																	"id": 145,
+																	"name": "array",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "reference",
+																			"name": "FirebaseRemoteConfig"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "reference",
+																"name": "FirebaseRemoteConfig"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+															"line": 1349,
+															"character": 22
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "FirebaseRemoteConfig"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 137,
+										"name": "Array.reduce"
+									}
+								},
+								{
+									"id": 146,
+									"name": "reduce",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"parameters": [
+										{
+											"id": 147,
+											"name": "callbackfn",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 148,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"signatures": [
+														{
+															"id": 149,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"isExported": true
+															},
+															"parameters": [
+																{
+																	"id": 150,
+																	"name": "previousValue",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseRemoteConfig"
+																	}
+																},
+																{
+																	"id": 151,
+																	"name": "currentValue",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseRemoteConfig"
+																	}
+																},
+																{
+																	"id": 152,
+																	"name": "currentIndex",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "number"
+																	}
+																},
+																{
+																	"id": 153,
+																	"name": "array",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "reference",
+																			"name": "FirebaseRemoteConfig"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "reference",
+																"name": "FirebaseRemoteConfig"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+															"line": 1350,
+															"character": 22
+														}
+													]
+												}
+											}
+										},
+										{
+											"id": 154,
+											"name": "initialValue",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "FirebaseRemoteConfig"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "FirebaseRemoteConfig"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 137,
+										"name": "Array.reduce"
+									}
+								},
+								{
+									"id": 155,
+									"name": "reduce",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Calls the specified callback function for all the elements in an array. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function."
+									},
+									"typeParameter": [
+										{
+											"id": 156,
+											"name": "U",
+											"kind": 131072,
+											"kindString": "Type parameter",
+											"flags": {
+												"isExported": true
+											}
+										}
+									],
+									"parameters": [
+										{
+											"id": 157,
+											"name": "callbackfn",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "A function that accepts up to four arguments. The reduce method calls the callbackfn function one time for each element in the array."
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 158,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"signatures": [
+														{
+															"id": 159,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"isExported": true
+															},
+															"parameters": [
+																{
+																	"id": 160,
+																	"name": "previousValue",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "typeParameter",
+																		"name": "U"
+																	}
+																},
+																{
+																	"id": 161,
+																	"name": "currentValue",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseRemoteConfig"
+																	}
+																},
+																{
+																	"id": 162,
+																	"name": "currentIndex",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "number"
+																	}
+																},
+																{
+																	"id": 163,
+																	"name": "array",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "reference",
+																			"name": "FirebaseRemoteConfig"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "typeParameter",
+																"name": "U"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+															"line": 1356,
+															"character": 25
+														}
+													]
+												}
+											}
+										},
+										{
+											"id": 164,
+											"name": "initialValue",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "If initialValue is specified, it is used as the initial value to start the accumulation. The first call to the callbackfn function provides this value as an argument instead of an array value.\n"
+											},
+											"type": {
+												"type": "typeParameter",
+												"name": "U"
+											}
+										}
+									],
+									"type": {
+										"type": "typeParameter",
+										"name": "U"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 137,
+										"name": "Array.reduce"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1349,
+									"character": 10
+								},
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1350,
+									"character": 10
+								},
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1356,
+									"character": 10
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 137,
+								"name": "Array.reduce"
+							}
+						},
+						{
+							"id": 165,
+							"name": "reduceRight",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 166,
+									"name": "reduceRight",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Calls the specified callback function for all the elements in an array, in descending order. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function."
+									},
+									"parameters": [
+										{
+											"id": 167,
+											"name": "callbackfn",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "A function that accepts up to four arguments. The reduceRight method calls the callbackfn function one time for each element in the array."
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 168,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"signatures": [
+														{
+															"id": 169,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"isExported": true
+															},
+															"parameters": [
+																{
+																	"id": 170,
+																	"name": "previousValue",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseRemoteConfig"
+																	}
+																},
+																{
+																	"id": 171,
+																	"name": "currentValue",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseRemoteConfig"
+																	}
+																},
+																{
+																	"id": 172,
+																	"name": "currentIndex",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "number"
+																	}
+																},
+																{
+																	"id": 173,
+																	"name": "array",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "reference",
+																			"name": "FirebaseRemoteConfig"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "reference",
+																"name": "FirebaseRemoteConfig"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+															"line": 1362,
+															"character": 27
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "FirebaseRemoteConfig"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 165,
+										"name": "Array.reduceRight"
+									}
+								},
+								{
+									"id": 174,
+									"name": "reduceRight",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"parameters": [
+										{
+											"id": 175,
+											"name": "callbackfn",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 176,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"signatures": [
+														{
+															"id": 177,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"isExported": true
+															},
+															"parameters": [
+																{
+																	"id": 178,
+																	"name": "previousValue",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseRemoteConfig"
+																	}
+																},
+																{
+																	"id": 179,
+																	"name": "currentValue",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseRemoteConfig"
+																	}
+																},
+																{
+																	"id": 180,
+																	"name": "currentIndex",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "number"
+																	}
+																},
+																{
+																	"id": 181,
+																	"name": "array",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "reference",
+																			"name": "FirebaseRemoteConfig"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "reference",
+																"name": "FirebaseRemoteConfig"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+															"line": 1363,
+															"character": 27
+														}
+													]
+												}
+											}
+										},
+										{
+											"id": 182,
+											"name": "initialValue",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "FirebaseRemoteConfig"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "FirebaseRemoteConfig"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 165,
+										"name": "Array.reduceRight"
+									}
+								},
+								{
+									"id": 183,
+									"name": "reduceRight",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Calls the specified callback function for all the elements in an array, in descending order. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function."
+									},
+									"typeParameter": [
+										{
+											"id": 184,
+											"name": "U",
+											"kind": 131072,
+											"kindString": "Type parameter",
+											"flags": {
+												"isExported": true
+											}
+										}
+									],
+									"parameters": [
+										{
+											"id": 185,
+											"name": "callbackfn",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "A function that accepts up to four arguments. The reduceRight method calls the callbackfn function one time for each element in the array."
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 186,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"signatures": [
+														{
+															"id": 187,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"isExported": true
+															},
+															"parameters": [
+																{
+																	"id": 188,
+																	"name": "previousValue",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "typeParameter",
+																		"name": "U"
+																	}
+																},
+																{
+																	"id": 189,
+																	"name": "currentValue",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseRemoteConfig"
+																	}
+																},
+																{
+																	"id": 190,
+																	"name": "currentIndex",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "number"
+																	}
+																},
+																{
+																	"id": 191,
+																	"name": "array",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "reference",
+																			"name": "FirebaseRemoteConfig"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "typeParameter",
+																"name": "U"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+															"line": 1369,
+															"character": 30
+														}
+													]
+												}
+											}
+										},
+										{
+											"id": 192,
+											"name": "initialValue",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "If initialValue is specified, it is used as the initial value to start the accumulation. The first call to the callbackfn function provides this value as an argument instead of an array value.\n"
+											},
+											"type": {
+												"type": "typeParameter",
+												"name": "U"
+											}
+										}
+									],
+									"type": {
+										"type": "typeParameter",
+										"name": "U"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 165,
+										"name": "Array.reduceRight"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1362,
+									"character": 15
+								},
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1363,
+									"character": 15
+								},
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1369,
+									"character": 15
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 165,
+								"name": "Array.reduceRight"
+							}
+						},
+						{
+							"id": 48,
+							"name": "reverse",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 49,
+									"name": "reverse",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Reverses the elements in an Array."
+									},
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "reference",
+											"name": "FirebaseRemoteConfig"
+										}
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 48,
+										"name": "Array.reverse"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1251,
+									"character": 11
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 48,
+								"name": "Array.reverse"
+							}
+						},
+						{
+							"id": 50,
+							"name": "shift",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 51,
+									"name": "shift",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Removes the first element from an array and returns it."
+									},
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "reference",
+												"name": "FirebaseRemoteConfig"
+											},
+											{
+												"type": "intrinsic",
+												"name": "undefined"
+											}
+										]
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 50,
+										"name": "Array.shift"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1255,
+									"character": 9
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 50,
+								"name": "Array.shift"
+							}
+						},
+						{
+							"id": 52,
+							"name": "slice",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 53,
+									"name": "slice",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Returns a section of an array."
+									},
+									"parameters": [
+										{
+											"id": 54,
+											"name": "start",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "The beginning of the specified portion of the array."
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										},
+										{
+											"id": 55,
+											"name": "end",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "The end of the specified portion of the array. This is exclusive of the element at the index 'end'.\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										}
+									],
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "reference",
+											"name": "FirebaseRemoteConfig"
+										}
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 52,
+										"name": "Array.slice"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1261,
+									"character": 9
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 52,
+								"name": "Array.slice"
+							}
+						},
+						{
+							"id": 91,
+							"name": "some",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 92,
+									"name": "some",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Determines whether the specified callback function returns true for any element of an array."
+									},
+									"parameters": [
+										{
+											"id": 93,
+											"name": "callbackfn",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "A function that accepts up to three arguments. The some method calls\nthe callbackfn function for each element in the array until the callbackfn returns a value\nwhich is coercible to the Boolean value true, or until the end of the array."
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 94,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"signatures": [
+														{
+															"id": 95,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"isExported": true
+															},
+															"parameters": [
+																{
+																	"id": 96,
+																	"name": "value",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseRemoteConfig"
+																	}
+																},
+																{
+																	"id": 97,
+																	"name": "index",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "number"
+																	}
+																},
+																{
+																	"id": 98,
+																	"name": "array",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "array",
+																		"elementType": {
+																			"type": "reference",
+																			"name": "FirebaseRemoteConfig"
+																		}
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "unknown"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+															"line": 1319,
+															"character": 20
+														}
+													]
+												}
+											}
+										},
+										{
+											"id": 99,
+											"name": "thisArg",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "An object to which the this keyword can refer in the callbackfn function.\nIf thisArg is omitted, undefined is used as the this value.\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 91,
+										"name": "Array.some"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1319,
+									"character": 8
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 91,
+								"name": "Array.some"
+							}
+						},
+						{
+							"id": 56,
+							"name": "sort",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 57,
+									"name": "sort",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Sorts an array."
+									},
+									"parameters": [
+										{
+											"id": 58,
+											"name": "compareFn",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "Function used to determine the order of the elements. It is expected to return\na negative value if first argument is less than second argument, zero if they're equal and a positive\nvalue otherwise. If omitted, the elements are sorted in ascending, ASCII character order.\n```ts\n[11,2,22,1].sort((a, b) => a - b)\n```\n"
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 59,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {
+														"isExported": true
+													},
+													"signatures": [
+														{
+															"id": 60,
+															"name": "__call",
+															"kind": 4096,
+															"kindString": "Call signature",
+															"flags": {
+																"isExported": true
+															},
+															"parameters": [
+																{
+																	"id": 61,
+																	"name": "a",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseRemoteConfig"
+																	}
+																},
+																{
+																	"id": 62,
+																	"name": "b",
+																	"kind": 32768,
+																	"kindString": "Parameter",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "reference",
+																		"name": "FirebaseRemoteConfig"
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "number"
+															}
+														}
+													],
+													"sources": [
+														{
+															"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+															"line": 1271,
+															"character": 20
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "this"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 56,
+										"name": "Array.sort"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1271,
+									"character": 8
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 56,
+								"name": "Array.sort"
+							}
+						},
+						{
+							"id": 63,
+							"name": "splice",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 64,
+									"name": "splice",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Removes elements from an array and, if necessary, inserts new elements in their place, returning the deleted elements."
+									},
+									"parameters": [
+										{
+											"id": 65,
+											"name": "start",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "The zero-based location in the array from which to start removing elements."
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										},
+										{
+											"id": 66,
+											"name": "deleteCount",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "The number of elements to remove.\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										}
+									],
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "reference",
+											"name": "FirebaseRemoteConfig"
+										}
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 63,
+										"name": "Array.splice"
+									}
+								},
+								{
+									"id": 67,
+									"name": "splice",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Removes elements from an array and, if necessary, inserts new elements in their place, returning the deleted elements."
+									},
+									"parameters": [
+										{
+											"id": 68,
+											"name": "start",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "The zero-based location in the array from which to start removing elements."
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										},
+										{
+											"id": 69,
+											"name": "deleteCount",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "The number of elements to remove."
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										},
+										{
+											"id": 70,
+											"name": "items",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isRest": true
+											},
+											"comment": {
+												"text": "Elements to insert into the array in place of the deleted elements.\n"
+											},
+											"type": {
+												"type": "array",
+												"elementType": {
+													"type": "reference",
+													"name": "FirebaseRemoteConfig"
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "reference",
+											"name": "FirebaseRemoteConfig"
+										}
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 63,
+										"name": "Array.splice"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1277,
+									"character": 10
+								},
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1284,
+									"character": 10
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 63,
+								"name": "Array.splice"
+							}
+						},
+						{
+							"id": 33,
+							"name": "toLocaleString",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 34,
+									"name": "toLocaleString",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Returns a string representation of an array. The elements are converted to string using their toLocalString methods."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 33,
+										"name": "Array.toLocaleString"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1223,
+									"character": 18
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 33,
+								"name": "Array.toLocaleString"
+							}
+						},
+						{
+							"id": 31,
+							"name": "toString",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 32,
+									"name": "toString",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Returns a string representation of an array."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 31,
+										"name": "Array.toString"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1219,
+									"character": 12
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 31,
+								"name": "Array.toString"
+							}
+						},
+						{
+							"id": 71,
+							"name": "unshift",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 72,
+									"name": "unshift",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Inserts new elements at the start of an array."
+									},
+									"parameters": [
+										{
+											"id": 73,
+											"name": "items",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isRest": true
+											},
+											"comment": {
+												"text": "Elements to insert at the start of the Array.\n"
+											},
+											"type": {
+												"type": "array",
+												"elementType": {
+													"type": "reference",
+													"name": "FirebaseRemoteConfig"
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 71,
+										"name": "Array.unshift"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts",
+									"line": 1289,
+									"character": 11
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 71,
+								"name": "Array.unshift"
+							}
+						},
+						{
+							"id": 240,
+							"name": "values",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 241,
+									"name": "values",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Returns an iterable of values in the array"
+									},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"name": "FirebaseRemoteConfig"
+											}
+										],
+										"name": "IterableIterator"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 240,
+										"name": "Array.values"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "node_modules/typedoc/node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+									"line": 75,
+									"character": 10
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 240,
+								"name": "Array.values"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"kind": 512,
+							"children": [
+								256
+							]
+						},
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								195,
+								30
+							]
+						},
+						{
+							"title": "Methods",
+							"kind": 2048,
+							"children": [
+								234,
+								242,
+								40,
+								229,
+								236,
+								82,
+								224,
+								119,
+								196,
+								215,
+								100,
+								252,
+								74,
+								45,
+								238,
+								78,
+								109,
+								35,
+								37,
+								137,
+								165,
+								48,
+								50,
+								52,
+								91,
+								56,
+								63,
+								33,
+								31,
+								71,
+								240
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "src/remote-config/remote-config.ts",
+							"line": 19,
+							"character": 38
+						},
+						{
+							"fileName": "src/remote-config/remote-config.ts",
+							"line": 21,
+							"character": 34
+						}
+					],
+					"extendedTypes": [
+						{
+							"type": "reference",
+							"id": 195,
+							"typeArguments": [
+								{
+									"type": "reference",
+									"name": "FirebaseRemoteConfig"
+								}
+							],
+							"name": "Array"
+						}
+					]
+				},
+				{
+					"id": 258,
+					"name": "REMOTE_CONFIG_PROVIDER_NAME",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/remote-config/remote-config.ts",
+							"line": 16,
+							"character": 40
+						}
+					],
+					"type": {
+						"type": "stringLiteral",
+						"value": "remote-config"
+					},
+					"defaultValue": "\"remote-config\""
+				},
+				{
+					"id": 259,
+					"name": "remoteConfigInstance$",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/remote-config/remote-config.ts",
+							"line": 27,
+							"character": 34
+						}
+					],
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "unknown"
+							}
+						],
+						"name": "Observable"
+					},
+					"defaultValue": "timer(0, 300).pipe(\n  concatMap(() => from(ɵgetAllInstancesOf<FirebaseRemoteConfig>(REMOTE_CONFIG_PROVIDER_NAME))),\n  distinct(),\n)"
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"kind": 128,
+					"children": [
+						17,
+						29
+					]
+				},
+				{
+					"title": "Variables",
+					"kind": 32,
+					"children": [
+						258,
+						259
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "src/remote-config/remote-config.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 260,
+			"name": "\"remote-config.module\"",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/Users/nicholasgerard/Documents/GitHub/angularfire/src/remote-config/remote-config.module.ts",
+			"children": [
+				{
+					"id": 261,
+					"name": "RemoteConfigModule",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {
+						"isExported": true
+					},
+					"decorators": [
+						{
+							"name": "NgModule",
+							"type": {
+								"type": "reference",
+								"name": "NgModule"
+							},
+							"arguments": {
+								"obj": "{\n  providers: [\n    DEFAULT_REMOTE_CONFIG_INSTANCE_PROVIDER,\n    REMOTE_CONFIG_INSTANCES_PROVIDER,\n    {\n      provide: APP_INITIALIZER,\n      useValue: ɵisRemoteConfigSupportedFactory.async,\n      multi: true,\n    },\n  ]\n}"
+							}
+						}
+					],
+					"children": [
+						{
+							"id": 262,
+							"name": "constructor",
+							"kind": 512,
+							"kindString": "Constructor",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 263,
+									"name": "new RemoteConfigModule",
+									"kind": 16384,
+									"kindString": "Constructor signature",
+									"flags": {
+										"isExported": true
+									},
+									"type": {
+										"type": "reference",
+										"id": 261,
+										"name": "RemoteConfigModule"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "src/remote-config/remote-config.module.ts",
+									"line": 54,
+									"character": 33
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"kind": 512,
+							"children": [
+								262
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "src/remote-config/remote-config.module.ts",
+							"line": 54,
+							"character": 31
+						}
+					]
+				},
+				{
+					"id": 264,
+					"name": "PROVIDED_REMOTE_CONFIG_INSTANCES",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/remote-config/remote-config.module.ts",
+							"line": 8,
+							"character": 45
+						}
+					],
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "array",
+								"elementType": {
+									"type": "reference",
+									"id": 17,
+									"name": "RemoteConfig"
+								}
+							}
+						],
+						"name": "InjectionToken"
+					},
+					"defaultValue": "new InjectionToken<RemoteConfig[]>('angularfire2.remote-config-instances')"
+				},
+				{
+					"id": 265,
+					"name": "defaultRemoteConfigInstanceFactory",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 266,
+							"name": "defaultRemoteConfigInstanceFactory",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"isExported": true
+							},
+							"parameters": [
+								{
+									"id": 267,
+									"name": "provided",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "array",
+												"elementType": {
+													"type": "reference",
+													"name": "FirebaseRemoteConfig"
+												}
+											},
+											{
+												"type": "intrinsic",
+												"name": "undefined"
+											}
+										]
+									}
+								},
+								{
+									"id": 268,
+									"name": "defaultApp",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"type": {
+										"type": "reference",
+										"name": "FirebaseApp"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"id": 17,
+								"name": "RemoteConfig"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "src/remote-config/remote-config.module.ts",
+							"line": 10,
+							"character": 50
+						}
+					]
+				},
+				{
+					"id": 275,
+					"name": "provideRemoteConfig",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 276,
+							"name": "provideRemoteConfig",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"isExported": true
+							},
+							"parameters": [
+								{
+									"id": 277,
+									"name": "fn",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 278,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {
+												"isExported": true
+											},
+											"signatures": [
+												{
+													"id": 279,
+													"name": "__call",
+													"kind": 4096,
+													"kindString": "Call signature",
+													"flags": {
+														"isExported": true
+													},
+													"type": {
+														"type": "reference",
+														"name": "FirebaseRemoteConfig"
+													}
+												}
+											],
+											"sources": [
+												{
+													"fileName": "src/remote-config/remote-config.module.ts",
+													"line": 60,
+													"character": 39
+												}
+											]
+										}
+									}
+								},
+								{
+									"id": 280,
+									"name": "deps",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true,
+										"isRest": true
+									},
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "intrinsic",
+											"name": "any"
+										}
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"typeArguments": [
+									{
+										"type": "reference",
+										"id": 261,
+										"name": "RemoteConfigModule"
+									}
+								],
+								"name": "ModuleWithProviders"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "src/remote-config/remote-config.module.ts",
+							"line": 60,
+							"character": 35
+						}
+					]
+				},
+				{
+					"id": 269,
+					"name": "remoteConfigInstanceFactory",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 270,
+							"name": "remoteConfigInstanceFactory",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"isExported": true
+							},
+							"parameters": [
+								{
+									"id": 271,
+									"name": "fn",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 272,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {
+												"isExported": true
+											},
+											"signatures": [
+												{
+													"id": 273,
+													"name": "__call",
+													"kind": 4096,
+													"kindString": "Call signature",
+													"flags": {
+														"isExported": true
+													},
+													"parameters": [
+														{
+															"id": 274,
+															"name": "injector",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {
+																"isExported": true
+															},
+															"type": {
+																"type": "reference",
+																"name": "Injector"
+															}
+														}
+													],
+													"type": {
+														"type": "reference",
+														"name": "FirebaseRemoteConfig"
+													}
+												}
+											],
+											"sources": [
+												{
+													"fileName": "src/remote-config/remote-config.module.ts",
+													"line": 19,
+													"character": 47
+												}
+											]
+										}
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "(Anonymous function)"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "src/remote-config/remote-config.module.ts",
+							"line": 19,
+							"character": 43
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"kind": 128,
+					"children": [
+						261
+					]
+				},
+				{
+					"title": "Variables",
+					"kind": 32,
+					"children": [
+						264
+					]
+				},
+				{
+					"title": "Functions",
+					"kind": 64,
+					"children": [
+						265,
+						275,
+						269
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "src/remote-config/remote-config.module.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 310,
+			"name": "\"remote-config.spec\"",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/Users/nicholasgerard/Documents/GitHub/angularfire/src/remote-config/remote-config.spec.ts",
+			"sources": [
+				{
+					"fileName": "src/remote-config/remote-config.spec.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 281,
+			"name": "\"rxfire\"",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/Users/nicholasgerard/Documents/GitHub/angularfire/src/remote-config/rxfire.ts",
+			"children": [
+				{
+					"id": 286,
+					"name": "getAllChanges",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/remote-config/rxfire.ts",
+							"line": 15,
+							"character": 26
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "ɵzoneWrap(_getAll, true)"
+				},
+				{
+					"id": 285,
+					"name": "getBooleanChanges",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/remote-config/rxfire.ts",
+							"line": 14,
+							"character": 30
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "ɵzoneWrap(_getBoolean, true)"
+				},
+				{
+					"id": 284,
+					"name": "getNumberChanges",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/remote-config/rxfire.ts",
+							"line": 13,
+							"character": 29
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "ɵzoneWrap(_getNumber, true)"
+				},
+				{
+					"id": 283,
+					"name": "getStringChanges",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/remote-config/rxfire.ts",
+							"line": 12,
+							"character": 29
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "ɵzoneWrap(_getString, true)"
+				},
+				{
+					"id": 282,
+					"name": "getValueChanges",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "src/remote-config/rxfire.ts",
+							"line": 11,
+							"character": 28
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "any"
+					},
+					"defaultValue": "ɵzoneWrap(_getValue, true)"
+				}
+			],
+			"groups": [
+				{
+					"title": "Variables",
+					"kind": 32,
+					"children": [
+						286,
+						285,
+						284,
+						283,
+						282
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "src/remote-config/rxfire.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		}
+	],
+	"groups": [
+		{
+			"title": "External modules",
+			"kind": 1,
+			"children": [
+				3,
+				1,
+				287,
+				16,
+				260,
+				310,
+				281
+			]
+		}
+	]
+}

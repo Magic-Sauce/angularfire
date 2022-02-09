@@ -1,0 +1,1469 @@
+{
+	"id": 0,
+	"name": "undefined",
+	"kind": 0,
+	"flags": {},
+	"originalName": "",
+	"children": [
+		{
+			"id": 1,
+			"name": "\"base\"",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/Users/nicholasgerard/Documents/GitHub/angularfire/src/compat/performance/base.ts",
+			"children": [
+				{
+					"id": 2,
+					"name": "proxyPolyfillCompat",
+					"kind": 2097152,
+					"kindString": "Object literal",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"children": [
+						{
+							"id": 3,
+							"name": "app",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "base.ts",
+									"line": 4,
+									"character": 5
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "null"
+							},
+							"defaultValue": "null"
+						},
+						{
+							"id": 6,
+							"name": "dataCollectionEnabled",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "base.ts",
+									"line": 7,
+									"character": 23
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "null"
+							},
+							"defaultValue": "null"
+						},
+						{
+							"id": 5,
+							"name": "instrumentationEnabled",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "base.ts",
+									"line": 6,
+									"character": 24
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "null"
+							},
+							"defaultValue": "null"
+						},
+						{
+							"id": 4,
+							"name": "trace",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "base.ts",
+									"line": 5,
+									"character": 7
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "null"
+							},
+							"defaultValue": "null"
+						}
+					],
+					"groups": [
+						{
+							"title": "Variables",
+							"kind": 32,
+							"children": [
+								3,
+								6,
+								5,
+								4
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "base.ts",
+							"line": 3,
+							"character": 32
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "object"
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Object literals",
+					"kind": 2097152,
+					"children": [
+						2
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "base.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 7,
+			"name": "\"performance\"",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/Users/nicholasgerard/Documents/GitHub/angularfire/src/compat/performance/performance.ts",
+			"children": [
+				{
+					"id": 8,
+					"name": "AngularFirePerformance",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {
+						"isExported": true
+					},
+					"decorators": [
+						{
+							"name": "Injectable",
+							"type": {
+								"type": "reference",
+								"name": "Injectable"
+							},
+							"arguments": {
+								"options": "{\n  providedIn: 'any'\n}"
+							}
+						}
+					],
+					"children": [
+						{
+							"id": 9,
+							"name": "constructor",
+							"kind": 512,
+							"kindString": "Constructor",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 10,
+									"name": "new AngularFirePerformance",
+									"kind": 16384,
+									"kindString": "Constructor signature",
+									"flags": {
+										"isExported": true
+									},
+									"parameters": [
+										{
+											"id": 11,
+											"name": "app",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "FirebaseApp"
+											}
+										},
+										{
+											"id": 12,
+											"name": "instrumentationEnabled",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"decorators": [
+												{
+													"name": "Optional",
+													"type": {
+														"type": "reference",
+														"name": "Optional"
+													},
+													"arguments": {}
+												},
+												{
+													"name": "Inject",
+													"type": {
+														"type": "reference",
+														"name": "Inject"
+													},
+													"arguments": {
+														"token": "INSTRUMENTATION_ENABLED"
+													}
+												}
+											],
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "boolean"
+													},
+													{
+														"type": "intrinsic",
+														"name": "null"
+													}
+												]
+											}
+										},
+										{
+											"id": 13,
+											"name": "dataCollectionEnabled",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"decorators": [
+												{
+													"name": "Optional",
+													"type": {
+														"type": "reference",
+														"name": "Optional"
+													},
+													"arguments": {}
+												},
+												{
+													"name": "Inject",
+													"type": {
+														"type": "reference",
+														"name": "Inject"
+													},
+													"arguments": {
+														"token": "DATA_COLLECTION_ENABLED"
+													}
+												}
+											],
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "boolean"
+													},
+													{
+														"type": "intrinsic",
+														"name": "null"
+													}
+												]
+											}
+										},
+										{
+											"id": 14,
+											"name": "zone",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "NgZone"
+											}
+										},
+										{
+											"id": 15,
+											"name": "platformId",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"decorators": [
+												{
+													"name": "Inject",
+													"type": {
+														"type": "reference",
+														"name": "Inject"
+													},
+													"arguments": {
+														"token": "PLATFORM_ID"
+													}
+												}
+											],
+											"type": {
+												"type": "reference",
+												"name": "Object"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"id": 8,
+										"name": "AngularFirePerformance"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "performance.ts",
+									"line": 21,
+									"character": 77
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"kind": 512,
+							"children": [
+								9
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "performance.ts",
+							"line": 13,
+							"character": 39
+						},
+						{
+							"fileName": "performance.ts",
+							"line": 19,
+							"character": 35
+						}
+					],
+					"extendedTypes": [
+						{
+							"type": "intrinsic",
+							"name": "any"
+						}
+					]
+				},
+				{
+					"id": 17,
+					"name": "DATA_COLLECTION_ENABLED",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "performance.ts",
+							"line": 11,
+							"character": 36
+						}
+					],
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "boolean"
+							}
+						],
+						"name": "InjectionToken"
+					},
+					"defaultValue": "new InjectionToken<boolean>('angularfire2.performance.dataCollectionEnabled')"
+				},
+				{
+					"id": 16,
+					"name": "INSTRUMENTATION_ENABLED",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"sources": [
+						{
+							"fileName": "performance.ts",
+							"line": 10,
+							"character": 36
+						}
+					],
+					"type": {
+						"type": "reference",
+						"typeArguments": [
+							{
+								"type": "intrinsic",
+								"name": "boolean"
+							}
+						],
+						"name": "InjectionToken"
+					},
+					"defaultValue": "new InjectionToken<boolean>('angularfire2.performance.instrumentationEnabled')"
+				},
+				{
+					"id": 48,
+					"name": "trace",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"signatures": [
+						{
+							"id": 49,
+							"name": "trace",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"isExported": true
+							},
+							"typeParameter": [
+								{
+									"id": 50,
+									"name": "T",
+									"kind": 131072,
+									"kindString": "Type parameter",
+									"flags": {
+										"isExported": true
+									}
+								}
+							],
+							"parameters": [
+								{
+									"id": 51,
+									"name": "name",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "(Anonymous function)"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "performance.ts",
+							"line": 141,
+							"character": 18
+						}
+					]
+				},
+				{
+					"id": 18,
+					"name": "traceUntil",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"signatures": [
+						{
+							"id": 19,
+							"name": "traceUntil",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"isExported": true
+							},
+							"typeParameter": [
+								{
+									"id": 20,
+									"name": "T",
+									"kind": 131072,
+									"kindString": "Type parameter",
+									"flags": {
+										"isExported": true
+									}
+								}
+							],
+							"parameters": [
+								{
+									"id": 21,
+									"name": "name",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 22,
+									"name": "test",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 23,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {
+												"isExported": true
+											},
+											"signatures": [
+												{
+													"id": 24,
+													"name": "__call",
+													"kind": 4096,
+													"kindString": "Call signature",
+													"flags": {
+														"isExported": true
+													},
+													"parameters": [
+														{
+															"id": 25,
+															"name": "a",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {
+																"isExported": true
+															},
+															"type": {
+																"type": "typeParameter",
+																"name": "T"
+															}
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "boolean"
+													}
+												}
+											],
+											"sources": [
+												{
+													"fileName": "performance.ts",
+													"line": 75,
+													"character": 7
+												}
+											]
+										}
+									}
+								},
+								{
+									"id": 26,
+									"name": "options",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true,
+										"isOptional": true
+									},
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 27,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {
+												"isExported": true
+											},
+											"children": [
+												{
+													"id": 28,
+													"name": "orComplete",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"isExported": true,
+														"isOptional": true
+													},
+													"sources": [
+														{
+															"fileName": "performance.ts",
+															"line": 76,
+															"character": 24
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "boolean"
+													}
+												}
+											],
+											"groups": [
+												{
+													"title": "Variables",
+													"kind": 32,
+													"children": [
+														28
+													]
+												}
+											],
+											"sources": [
+												{
+													"fileName": "performance.ts",
+													"line": 76,
+													"character": 11
+												}
+											]
+										}
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "(Anonymous function)"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "performance.ts",
+							"line": 73,
+							"character": 23
+						}
+					]
+				},
+				{
+					"id": 40,
+					"name": "traceUntilComplete",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"signatures": [
+						{
+							"id": 41,
+							"name": "traceUntilComplete",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"isExported": true
+							},
+							"typeParameter": [
+								{
+									"id": 42,
+									"name": "T",
+									"kind": 131072,
+									"kindString": "Type parameter",
+									"flags": {
+										"isExported": true
+									}
+								}
+							],
+							"parameters": [
+								{
+									"id": 43,
+									"name": "name",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "(Anonymous function)"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "performance.ts",
+							"line": 115,
+							"character": 31
+						}
+					]
+				},
+				{
+					"id": 44,
+					"name": "traceUntilFirst",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"signatures": [
+						{
+							"id": 45,
+							"name": "traceUntilFirst",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"isExported": true
+							},
+							"typeParameter": [
+								{
+									"id": 46,
+									"name": "T",
+									"kind": 131072,
+									"kindString": "Type parameter",
+									"flags": {
+										"isExported": true
+									}
+								}
+							],
+							"parameters": [
+								{
+									"id": 47,
+									"name": "name",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "(Anonymous function)"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "performance.ts",
+							"line": 128,
+							"character": 28
+						}
+					]
+				},
+				{
+					"id": 29,
+					"name": "traceWhile",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"signatures": [
+						{
+							"id": 30,
+							"name": "traceWhile",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"isExported": true
+							},
+							"typeParameter": [
+								{
+									"id": 31,
+									"name": "T",
+									"kind": 131072,
+									"kindString": "Type parameter",
+									"flags": {
+										"isExported": true
+									}
+								}
+							],
+							"parameters": [
+								{
+									"id": 32,
+									"name": "name",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 33,
+									"name": "test",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 34,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {
+												"isExported": true
+											},
+											"signatures": [
+												{
+													"id": 35,
+													"name": "__call",
+													"kind": 4096,
+													"kindString": "Call signature",
+													"flags": {
+														"isExported": true
+													},
+													"parameters": [
+														{
+															"id": 36,
+															"name": "a",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {
+																"isExported": true
+															},
+															"type": {
+																"type": "typeParameter",
+																"name": "T"
+															}
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "boolean"
+													}
+												}
+											],
+											"sources": [
+												{
+													"fileName": "performance.ts",
+													"line": 91,
+													"character": 7
+												}
+											]
+										}
+									}
+								},
+								{
+									"id": 37,
+									"name": "options",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true,
+										"isOptional": true
+									},
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 38,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {
+												"isExported": true
+											},
+											"children": [
+												{
+													"id": 39,
+													"name": "orComplete",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"isExported": true,
+														"isOptional": true
+													},
+													"sources": [
+														{
+															"fileName": "performance.ts",
+															"line": 92,
+															"character": 24
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "boolean"
+													}
+												}
+											],
+											"groups": [
+												{
+													"title": "Variables",
+													"kind": 32,
+													"children": [
+														39
+													]
+												}
+											],
+											"sources": [
+												{
+													"fileName": "performance.ts",
+													"line": 92,
+													"character": 11
+												}
+											]
+										}
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "(Anonymous function)"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "performance.ts",
+							"line": 89,
+							"character": 23
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"kind": 128,
+					"children": [
+						8
+					]
+				},
+				{
+					"title": "Variables",
+					"kind": 32,
+					"children": [
+						17,
+						16
+					]
+				},
+				{
+					"title": "Functions",
+					"kind": 64,
+					"children": [
+						48,
+						18,
+						40,
+						44,
+						29
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "performance.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 59,
+			"name": "\"performance.module\"",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/Users/nicholasgerard/Documents/GitHub/angularfire/src/compat/performance/performance.module.ts",
+			"children": [
+				{
+					"id": 60,
+					"name": "AngularFirePerformanceModule",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {
+						"isExported": true
+					},
+					"decorators": [
+						{
+							"name": "NgModule",
+							"type": {
+								"type": "reference",
+								"name": "NgModule"
+							},
+							"arguments": {
+								"obj": "{\n  providers: [ AngularFirePerformance ]\n}"
+							}
+						}
+					],
+					"children": [
+						{
+							"id": 61,
+							"name": "constructor",
+							"kind": 512,
+							"kindString": "Constructor",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 62,
+									"name": "new AngularFirePerformanceModule",
+									"kind": 16384,
+									"kindString": "Constructor signature",
+									"flags": {
+										"isExported": true
+									},
+									"parameters": [
+										{
+											"id": 63,
+											"name": "perf",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"id": 8,
+												"name": "AngularFirePerformance"
+											}
+										},
+										{
+											"id": 64,
+											"name": "_",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"decorators": [
+												{
+													"name": "Optional",
+													"type": {
+														"type": "reference",
+														"name": "Optional"
+													},
+													"arguments": {}
+												}
+											],
+											"type": {
+												"type": "reference",
+												"id": 53,
+												"name": "PerformanceMonitoringService"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"id": 60,
+										"name": "AngularFirePerformanceModule"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "performance.module.ts",
+									"line": 10,
+									"character": 43
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"kind": 512,
+							"children": [
+								61
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "performance.module.ts",
+							"line": 10,
+							"character": 41
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"kind": 128,
+					"children": [
+						60
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "performance.module.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 52,
+			"name": "\"performance.service\"",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/Users/nicholasgerard/Documents/GitHub/angularfire/src/compat/performance/performance.service.ts",
+			"children": [
+				{
+					"id": 53,
+					"name": "PerformanceMonitoringService",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {
+						"isExported": true
+					},
+					"decorators": [
+						{
+							"name": "Injectable",
+							"type": {
+								"type": "reference",
+								"name": "Injectable"
+							},
+							"arguments": {}
+						}
+					],
+					"children": [
+						{
+							"id": 54,
+							"name": "constructor",
+							"kind": 512,
+							"kindString": "Constructor",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 55,
+									"name": "new PerformanceMonitoringService",
+									"kind": 16384,
+									"kindString": "Constructor signature",
+									"flags": {
+										"isExported": true
+									},
+									"parameters": [
+										{
+											"id": 56,
+											"name": "appRef",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"name": "ApplicationRef"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"id": 53,
+										"name": "PerformanceMonitoringService"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "performance.service.ts",
+									"line": 11,
+									"character": 47
+								}
+							]
+						},
+						{
+							"id": 57,
+							"name": "ngOnDestroy",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 58,
+									"name": "ngOnDestroy",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "performance.service.ts",
+									"line": 25,
+									"character": 15
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"kind": 512,
+							"children": [
+								54
+							]
+						},
+						{
+							"title": "Methods",
+							"kind": 2048,
+							"children": [
+								57
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "performance.service.ts",
+							"line": 9,
+							"character": 41
+						}
+					],
+					"implementedTypes": [
+						{
+							"type": "reference",
+							"name": "OnDestroy"
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"kind": 128,
+					"children": [
+						53
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "performance.service.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 65,
+			"name": "\"performance.spec\"",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/Users/nicholasgerard/Documents/GitHub/angularfire/src/compat/performance/performance.spec.ts",
+			"sources": [
+				{
+					"fileName": "performance.spec.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 66,
+			"name": "\"public_api\"",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/Users/nicholasgerard/Documents/GitHub/angularfire/src/compat/performance/public_api.ts",
+			"children": [
+				{
+					"id": 69,
+					"name": "AngularFirePerformance",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 8
+				},
+				{
+					"id": 75,
+					"name": "AngularFirePerformanceModule",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 60
+				},
+				{
+					"id": 68,
+					"name": "DATA_COLLECTION_ENABLED",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 17
+				},
+				{
+					"id": 67,
+					"name": "INSTRUMENTATION_ENABLED",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 16
+				},
+				{
+					"id": 76,
+					"name": "PerformanceMonitoringService",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 53
+				},
+				{
+					"id": 74,
+					"name": "trace",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 48
+				},
+				{
+					"id": 70,
+					"name": "traceUntil",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 18
+				},
+				{
+					"id": 72,
+					"name": "traceUntilComplete",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 40
+				},
+				{
+					"id": 73,
+					"name": "traceUntilFirst",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 44
+				},
+				{
+					"id": 71,
+					"name": "traceWhile",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {
+						"isExported": true
+					},
+					"target": 29
+				}
+			],
+			"groups": [
+				{
+					"title": "References",
+					"kind": 16777216,
+					"children": [
+						69,
+						75,
+						68,
+						67,
+						76,
+						74,
+						70,
+						72,
+						73,
+						71
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "public_api.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		}
+	],
+	"groups": [
+		{
+			"title": "External modules",
+			"kind": 1,
+			"children": [
+				1,
+				7,
+				59,
+				52,
+				65,
+				66
+			]
+		}
+	]
+}
